@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Microsoft 365 Copilot Resources</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Microsoft 365 Copilot Resources" />
+    <meta
+      name="description"
+      property="og:description"
+      content="Curated resources to help you adopt, deploy, and extend Microsoft 365 Copilot — for users, admins, and developers."
+    />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://microsoft.github.io/agent-resources/m365-copilot/images/og-image.png?v2"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="author" content="Robert Standefer" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Microsoft 365 Copilot Resources" />
+    <meta
+      name="twitter:description"
+      content="Curated resources to help you adopt, deploy, and extend Microsoft 365 Copilot — for users, admins, and developers."
+    />
+    <meta
+      name="twitter:image"
+      content="https://microsoft.github.io/agent-resources/m365-copilot/images/og-image.png"
+    />
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vwf3oir2iq");
+</script>
+  </head>
+  <body>
+    <!-- ── Hero ── -->
+    <section class="hero">
+      <h1>Microsoft 365 Copilot Resources</h1>
+      <p>
+        Curated resources to help you adopt, deploy, and extend<br />
+        Microsoft 365 Copilot across your organization
+      </p>
+      <div class="search-bar">
+        <svg
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search resources..."
+          autocomplete="off"
+        />
+      </div>
+    </section>
+
+    <!-- ── Sticky Nav ── -->
+    <nav class="nav-strip" id="navStrip">
+      <a href="#get-started">Get Started</a>
+      <a href="#agents">Agents</a>
+      <a href="#agent-builder">Agent Builder</a>
+      <a href="#news">News</a>
+      <a href="#adoption">Adoption</a>
+      <a href="#training">Training</a>
+      <a href="#admin">Administration</a>
+      <a href="#extensibility">Extensibility</a>
+      <a href="#samples">Samples</a>
+      <a href="#security">Security</a>
+      <a href="#community">Community</a>
+    </nav>
+
+    <!-- ── Content ── -->
+    <main class="content-wrap">
+
+      <!-- GET STARTED -->
+      <div class="section-card" id="get-started">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-start">&#x1F680;</span>
+          <span class="section-title">Get started with Microsoft 365 Copilot</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">What is Microsoft 365 Copilot?</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-overview" target="_blank" rel="noopener">What is Microsoft 365 Copilot?</a>
+              &mdash; overview and core capabilities
+            </li>
+            <li>
+              <a href="https://www.microsoft.com/microsoft-365/copilot/microsoft-365-copilot" target="_blank" rel="noopener">Microsoft 365 Copilot product page</a>
+              &mdash; features, plans, and pricing
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/" target="_blank" rel="noopener">Microsoft Copilot Adoption Hub</a>
+              &mdash; resources for every stage of your Copilot journey
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/" target="_blank" rel="noopener">Microsoft 365 Copilot documentation</a>
+              &mdash; complete documentation hub on Microsoft Learn
+            </li>
+          </ul>
+          <h3 class="sub-heading">Quickstarts</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup" target="_blank" rel="noopener">Set up Microsoft 365 Copilot</a>
+              &mdash; step-by-step setup guide for IT admins
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/user-enablement/" target="_blank" rel="noopener">User enablement resources</a>
+              &mdash; getting started resources and training materials for everyday users
+            </li>
+            <li>
+              <a href="https://support.microsoft.com/copilot" target="_blank" rel="noopener">Copilot help &amp; support</a>
+              &mdash; how-to articles and troubleshooting
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MICROSOFT 365 COPILOT AGENTS -->
+      <div class="section-card" id="agents">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-agents">&#x1F916;</span>
+          <span class="section-title">Explore Microsoft 365 Copilot agents</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Overview</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://adoption.microsoft.com/en-us/ai-agents/agents-in-microsoft-365/" target="_blank" rel="noopener">Agents in Microsoft 365</a>
+              &mdash; full catalog of Microsoft-built agents with availability status, documentation, and demos
+            </li>
+          </ul>
+          <h3 class="sub-heading">Generally available</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/researcher-agent" target="_blank" rel="noopener">Researcher</a>
+              &mdash; tackles complex, multi-step research tasks and delivers comprehensive, cited reports in hours instead of days
+              <span class="link-sep">|</span>
+              <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/faq-researcher" target="_blank" rel="noopener">FAQ</a>
+            </li>
+            <li>
+              <a href="https://support.microsoft.com/en-us/topic/get-started-with-analyst-in-microsoft-365-copilot-ff505b9c-a06c-4be9-b855-69d89b1d25d2" target="_blank" rel="noopener">Analyst</a>
+              &mdash; turns raw data into insights and visualizations; works with spreadsheets and data files without requiring any coding knowledge
+            </li>
+            <li>
+              <a href="https://aka.ms/agents/FacilitatorMeetingsHelp" target="_blank" rel="noopener">Facilitator</a>
+              &mdash; keeps everyone aligned during Teams meetings with shared live notes, captured decisions, and action items
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/microsoftteams/interpreter-agent-teams" target="_blank" rel="noopener">Interpreter</a>
+              &mdash; lets meeting participants speak and hear in their own language, breaking down language barriers across global teams
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/employee-self-service/overview" target="_blank" rel="noopener">Employee Self-Service</a>
+              &mdash; helps employees instantly answer HR and IT questions, resolve issues, and complete common requests on their own
+            </li>
+          </ul>
+          <h3 class="sub-heading">Public preview</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://aka.ms/agents/ProjectManagerHelp" target="_blank" rel="noopener">Project Manager</a>
+              &mdash; automates project planning in Planner, from creating plans and assigning tasks to generating status reports
+            </li>
+            <li>
+              <a href="https://support.microsoft.com/office/get-started-with-channel-agent-for-teams-channels-b85945cf-deef-4f1e-9db1-66e1a23b6a65" target="_blank" rel="noopener">Agents in Channels</a>
+              &mdash; Teams channel experts grounded in your team's conversations and meetings, helping everyone stay on top of tasks
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/viva/engage/ai-technology-with-viva-engage/agents-community-network-deployment-config" target="_blank" rel="noopener">Agents in Communities</a>
+              &mdash; accelerates knowledge sharing in Viva Engage communities by making expertise readily available across your organization
+            </li>
+          </ul>
+          <h3 class="sub-heading">Frontier</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://support.microsoft.com/topic/get-started-with-people-in-microsoft-365-copilot-frontier-3fffc8db-e8ec-4c5f-8276-1609463e9288" target="_blank" rel="noopener">People</a>
+              &mdash; helps you prepare for upcoming meetings, draws on past interactions, and finds colleagues with specific skills
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/workforce-insights-agent" target="_blank" rel="noopener">Workforce Insights</a>
+              &mdash; helps leaders understand how their organization is managed, structured, and staffed to inform workforce decisions
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/viva/learning/learning-agent-overview-deployment-steps" target="_blank" rel="noopener">Learning</a>
+              &mdash; offers personalized Copilot tips based on your current work and surfaces curated learning paths to build new skills
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- AGENT BUILDER -->
+      <div class="section-card" id="agent-builder">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-agent-builder">&#x1F9F1;</span>
+          <span class="section-title">Create agents with Agent Builder</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Get started</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder" target="_blank" rel="noopener">Agent Builder in Microsoft 365 Copilot</a>
+              &mdash; create agents without code directly in the Copilot experience
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agent-builder-build-agents" target="_blank" rel="noopener">Build agents with Agent Builder</a>
+              &mdash; step-by-step guide to creating, configuring, and publishing an agent from a template or from scratch
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started" target="_blank" rel="noopener">Get started with Copilot Studio</a>
+              &mdash; build and publish agents with full low-code tooling
+            </li>
+          </ul>
+          <h3 class="sub-heading">Templates</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agent-templates-overview" target="_blank" rel="noopener">Agent Builder templates overview</a>
+              &mdash; start from a pre-built template to accelerate agent creation; templates apply design guidelines and industry best practices
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/en-us/ai-agents/templates-and-examples/" target="_blank" rel="noopener">Agent templates and examples</a>
+              &mdash; browse the full template gallery including Customer Insights Assistant, Interview Question Assistant, Quiz Tutor, Scrum Assistant, RFP Proposal Generator, and more
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NEWS & ANNOUNCEMENTS -->
+      <div class="section-card" id="news">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-news">&#x1F4F0;</span>
+          <span class="section-title">News and announcements</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a href="https://techcommunity.microsoft.com/category/microsoft365/blog/microsoft365copilotblog" target="_blank" rel="noopener">Microsoft 365 Copilot blog</a>
+              &mdash; official announcements on Microsoft Tech Community
+            </li>
+            <li>
+              <a href="https://www.microsoft.com/microsoft-365/blog/" target="_blank" rel="noopener">Microsoft 365 Blog</a>
+              &mdash; product news and updates
+            </li>
+            <li>
+              <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20365%20Copilot" target="_blank" rel="noopener">Microsoft 365 Copilot roadmap</a>
+              &mdash; upcoming features and recent releases
+            </li>
+            <li>
+              <a href="https://news.microsoft.com/ignite-2025-book-of-news/" target="_blank" rel="noopener">Ignite 2025 Book of News</a>
+              &mdash; all announcements from Microsoft Ignite 2025
+            </li>
+            <li>
+              <a href="https://www.microsoft.com/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/" target="_blank" rel="noopener">Copilot and agents built to power the Frontier Firm</a>
+              &mdash; Ignite 2025 announcement blog (Nov 2025)
+            </li>
+          </ul>
+          <h3 class="sub-heading">Ignite 2025 sessions</h3>
+          <ul class="session-grid">
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/KEY01" target="_blank" rel="noopener">
+                <span class="session-badge">KEY01</span>
+                Opening Keynote
+              </a>
+            </li>
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK306" target="_blank" rel="noopener">
+                <span class="session-badge">BRK306</span>
+                Introducing Microsoft Agent 365: The Control Plane for AI Agents
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ADOPTION -->
+      <div class="section-card" id="adoption">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-adopt">&#x1F4C8;</span>
+          <span class="section-title">Adoption and change management</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Adoption resources</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/" target="_blank" rel="noopener">Microsoft Copilot Adoption Hub</a>
+              &mdash; the primary destination for your Copilot rollout
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot-scenario-library/" target="_blank" rel="noopener">Copilot Scenario Library</a>
+              &mdash; real-world use cases across roles and industries
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/success-kit/" target="_blank" rel="noopener">Microsoft 365 Copilot Success Kit</a>
+              &mdash; templates, guides, and resources for a successful rollout
+            </li>
+          </ul>
+          <h3 class="sub-heading">Change management</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-enablement-resources" target="_blank" rel="noopener">Copilot adoption and onboarding guide</a>
+              &mdash; end-to-end IT admin guide for enabling Copilot in your organization
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/training/paths/prepare-your-organization-microsoft-365-copilot/" target="_blank" rel="noopener">Prepare your organization for Copilot</a>
+              &mdash; phased adoption learning path from pilot to scale
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/user-enablement/" target="_blank" rel="noopener">User enablement resources</a>
+              &mdash; training materials and communication templates for end users
+            </li>
+          </ul>
+          <h3 class="sub-heading">Deployment</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-requirements" target="_blank" rel="noopener">Requirements and prerequisites</a>
+              &mdash; licenses, tenant configuration, and connectivity requirements
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup" target="_blank" rel="noopener">Set up Microsoft 365 Copilot</a>
+              &mdash; step-by-step deployment guide for IT admins
+            </li>
+          </ul>
+          <h3 class="sub-heading">Ignite 2025 sessions</h3>
+          <ul class="session-grid">
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK311" target="_blank" rel="noopener">
+                <span class="session-badge">BRK311</span>
+                Drive agent adoption with Microsoft 365 Copilot and the Agent Store
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TRAINING -->
+      <div class="section-card" id="training">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-train">&#x1F393;</span>
+          <span class="section-title">Training and learning</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Microsoft Learn</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/training/paths/get-started-with-microsoft-365-copilot/" target="_blank" rel="noopener">Get started with Microsoft 365 Copilot</a>
+              &mdash; learning path for new users
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/training/paths/prepare-your-organization-microsoft-365-copilot/" target="_blank" rel="noopener">Prepare your organization for Microsoft 365 Copilot</a>
+              &mdash; IT admin learning path
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/training/browse/?terms=microsoft+365+copilot" target="_blank" rel="noopener">Browse all Microsoft 365 Copilot training modules</a>
+              &mdash; full catalog on Microsoft Learn
+            </li>
+          </ul>
+          <h3 class="sub-heading">Copilot Academy</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/academy/" target="_blank" rel="noopener">Microsoft Copilot Academy</a>
+              &mdash; self-paced training for users and champions
+            </li>
+          </ul>
+          <h3 class="sub-heading">Certifications</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/credentials/certifications/microsoft-365-fundamentals/" target="_blank" rel="noopener">MS-900: Microsoft 365 Fundamentals</a>
+              &mdash; foundational certification covering M365 including Copilot
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/credentials/certifications/copilot-and-agent-administration-fundamentals/" target="_blank" rel="noopener">MS-4006: Copilot and Agent Administration Fundamentals</a>
+              &mdash; certification for IT admins deploying and managing Copilot
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/credentials/certifications/m365-enterprise-administrator/" target="_blank" rel="noopener">MS-102: Microsoft 365 Administrator Expert</a>
+              &mdash; advanced admin certification for M365 environments
+            </li>
+          </ul>
+          <h3 class="sub-heading">Videos</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://www.youtube.com/watch?v=0_mqsU7yh5Q" target="_blank" rel="noopener">Microsoft 365 Copilot: Complete Tutorial for Beginners (2026)</a>
+              &mdash; Lisa Crosbie
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@Microsoft365/search?query=copilot" target="_blank" rel="noopener">Microsoft 365 YouTube channel</a>
+              &mdash; Copilot how-to videos and demos
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ADMINISTRATION -->
+      <div class="section-card" id="admin">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-admin">&#x1F6E0;&#xFE0F;</span>
+          <span class="section-title">Administration and governance</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Setup and management</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup" target="_blank" rel="noopener">Set up Microsoft 365 Copilot</a>
+              &mdash; step-by-step guide for admins
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-page" target="_blank" rel="noopener">Manage Microsoft 365 Copilot in the Admin Center</a>
+              &mdash; configure Copilot features, user access, and data controls
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing" target="_blank" rel="noopener">Licensing guidance</a>
+              &mdash; license requirements and assignment
+            </li>
+          </ul>
+          <h3 class="sub-heading">Governance and privacy</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-privacy" target="_blank" rel="noopener">Privacy and data security in Microsoft 365 Copilot</a>
+              &mdash; how Copilot handles your organization's data
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing" target="_blank" rel="noopener">Data protection architecture</a>
+              &mdash; sensitivity labels, oversharing controls, and auditing architecture
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide" target="_blank" rel="noopener">Microsoft 365 Copilot agents admin guide</a>
+              &mdash; manage agents deployed in your organization
+            </li>
+          </ul>
+          <h3 class="sub-heading">Copilot Dashboard and usage reports</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard" target="_blank" rel="noopener">Microsoft Copilot Dashboard</a>
+              &mdash; measure Copilot adoption and impact with Viva Insights
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage" target="_blank" rel="noopener">Microsoft 365 Copilot usage reports</a>
+              &mdash; track usage across apps in the Admin Center
+            </li>
+          </ul>
+          <h3 class="sub-heading">Ignite 2025 sessions</h3>
+          <ul class="session-grid">
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK294" target="_blank" rel="noopener">
+                <span class="session-badge">BRK294</span>
+                IT Excellence in the AI era: Copilot and agents, impact and control
+              </a>
+            </li>
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK293" target="_blank" rel="noopener">
+                <span class="session-badge">BRK293</span>
+                From oversharing to oversight: Managing risks in the AI era
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EXTENSIBILITY & DEVELOPMENT -->
+      <div class="section-card" id="extensibility">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-dev">&#x2728;</span>
+          <span class="section-title">Extensibility and development</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Get started extending Copilot</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/" target="_blank" rel="noopener">Extend Microsoft 365 Copilot</a>
+              &mdash; overview of all extensibility options
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank" rel="noopener">Declarative agents overview</a>
+              &mdash; build focused, role-specific agents grounded in your data
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-plugins" target="_blank" rel="noopener">Plugins overview</a>
+              &mdash; extend Copilot with custom actions and API integrations
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=4yQDmJ1n-dU" target="_blank" rel="noopener">Build and Use Agents in Microsoft 365 Copilot: Complete Tutorial (2026)</a>
+              &mdash; Lisa Crosbie (YouTube)
+            </li>
+          </ul>
+          <h3 class="sub-heading">Connectors</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-graph-connector" target="_blank" rel="noopener">Microsoft Graph connectors for Copilot</a>
+              &mdash; bring external content into Microsoft 365 for Copilot to reason over
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/graph/connecting-external-content-connectors-overview" target="_blank" rel="noopener">Build your own Graph connector</a>
+              &mdash; index external data sources with the Microsoft Graph API
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-api-plugins" target="_blank" rel="noopener">API plugins</a>
+              &mdash; connect Copilot to live data and actions via REST APIs
+            </li>
+          </ul>
+          <h3 class="sub-heading">SDK and Toolkit</h3>
+          <ul class="link-list">
+            <li>
+              Microsoft 365 Agents SDK &mdash;
+              <a href="https://learn.microsoft.com/microsoft-365/agents-sdk/" target="_blank" rel="noopener">documentation</a>
+              <span class="link-sep">|</span>
+              <a href="https://github.com/microsoft/Agents" target="_blank" rel="noopener">GitHub</a>
+            </li>
+            <li>
+              Microsoft 365 Agents Toolkit &mdash;
+              <a href="https://learn.microsoft.com/microsoftteams/platform/toolkit/teams-toolkit-fundamentals" target="_blank" rel="noopener">overview</a>
+              <span class="link-sep">|</span>
+              <a href="https://github.com/OfficeDev/microsoft-365-agents-toolkit" target="_blank" rel="noopener">GitHub</a>
+            </li>
+          </ul>
+          <h3 class="sub-heading">Ignite 2025 sessions</h3>
+          <ul class="session-grid">
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK313" target="_blank" rel="noopener">
+                <span class="session-badge">BRK313</span>
+                What's new in Copilot Studio and roadmap
+              </a>
+            </li>
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK312" target="_blank" rel="noopener">
+                <span class="session-badge">BRK312</span>
+                How to build and publish your agent to the Agent Store
+              </a>
+            </li>
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK314" target="_blank" rel="noopener">
+                <span class="session-badge">BRK314</span>
+                Building agents with Copilot Studio and Microsoft Foundry
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SAMPLES & TEMPLATES -->
+      <div class="section-card" id="samples">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-sessions">&#x1F4CB;</span>
+          <span class="section-title">Samples and templates</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a href="https://github.com/OfficeDev/Copilot-for-M365-Samples" target="_blank" rel="noopener">OfficeDev/Copilot-for-M365-Samples</a>
+              &mdash; official Microsoft 365 Copilot extensibility samples on GitHub
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/sample-solution-gallery/?keyword=copilot" target="_blank" rel="noopener">Sample Solution Gallery</a>
+              &mdash; community and Microsoft samples for Copilot scenarios
+            </li>
+            <li>
+              <a href="https://github.com/pnp/copilot-prompts" target="_blank" rel="noopener">pnp/copilot-prompts</a>
+              &mdash; community-curated prompt library for Microsoft 365 Copilot
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SECURITY & COMPLIANCE -->
+      <div class="section-card" id="security">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-security">&#x1F512;</span>
+          <span class="section-title">Security, compliance, and data protection</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Data protection</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-privacy" target="_blank" rel="noopener">Privacy and data security in Microsoft 365 Copilot</a>
+              &mdash; how Copilot processes and protects your data
+            </li>
+            <li>
+              <a href="https://www.microsoft.com/trust-center/privacy" target="_blank" rel="noopener">Microsoft Trust Center</a>
+              &mdash; privacy, compliance, and security commitments
+            </li>
+          </ul>
+          <h3 class="sub-heading">Microsoft Purview</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/purview/ai-microsoft-purview" target="_blank" rel="noopener">Microsoft Purview for AI and Copilot</a>
+              &mdash; data security posture management, auditing, DLP, and eDiscovery for Copilot
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/purview/information-protection" target="_blank" rel="noopener">Sensitivity labels and information protection</a>
+              &mdash; ensure Copilot respects your data classification
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/purview/audit-solutions-overview" target="_blank" rel="noopener">Audit logs for Copilot interactions</a>
+              &mdash; track and investigate Copilot activity in your tenant
+            </li>
+          </ul>
+          <h3 class="sub-heading">Zero Trust</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://learn.microsoft.com/security/zero-trust/copilots/zero-trust-microsoft-365-copilot" target="_blank" rel="noopener">Apply Zero Trust principles to Microsoft 365 Copilot</a>
+              &mdash; identity, access, and data protection guidance
+            </li>
+            <li>
+              <a href="https://learn.microsoft.com/security/zero-trust/" target="_blank" rel="noopener">Zero Trust guidance hub</a>
+              &mdash; comprehensive Zero Trust framework and deployment guidance
+            </li>
+          </ul>
+          <h3 class="sub-heading">Responsible AI</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://www.microsoft.com/ai/responsible-ai" target="_blank" rel="noopener">Microsoft Responsible AI</a>
+              &mdash; principles, practices, and tools for responsible AI development
+            </li>
+          </ul>
+          <h3 class="sub-heading">Ignite 2025 sessions</h3>
+          <ul class="session-grid">
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK251" target="_blank" rel="noopener">
+                <span class="session-badge">BRK251</span>
+                Data security and governance in the age of AI with Microsoft Purview
+              </a>
+            </li>
+            <li>
+              <a href="https://ignite.microsoft.com/sessions/BRK265" target="_blank" rel="noopener">
+                <span class="session-badge">BRK265</span>
+                Secure access for AI agents with Microsoft Entra
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- COMMUNITY -->
+      <div class="section-card" id="community">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-comm">&#x1F4AC;</span>
+          <span class="section-title">Community and support</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a href="https://techcommunity.microsoft.com/category/microsoft365/blog/microsoft365copilotblog" target="_blank" rel="noopener">Microsoft 365 Copilot Tech Community Blog</a>
+              &mdash; announcements and deep dives from the product team
+            </li>
+            <li>
+              <a href="https://techcommunity.microsoft.com/forums/microsoft-365-copilot" target="_blank" rel="noopener">Microsoft 365 Copilot community forum</a>
+              &mdash; ask questions and share knowledge with the community
+            </li>
+            <li>
+              <a href="https://adoption.microsoft.com/copilot/" target="_blank" rel="noopener">Microsoft Copilot Adoption community</a>
+              &mdash; champions network, events, and adoption resources
+            </li>
+            <li>
+              <a href="https://insider.microsoft365.com/" target="_blank" rel="noopener">Microsoft 365 Insider Program</a>
+              &mdash; try new Copilot features before they release broadly
+            </li>
+            <li>
+              <a href="https://www.reddit.com/r/MicrosoftCopilot/" target="_blank" rel="noopener">r/MicrosoftCopilot on Reddit</a>
+              &mdash; community discussions and tips
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- ── Footer ── -->
+    <footer>
+      <h2>Have something to add?</h2>
+      <p>Let us know if there are resources we should add or corrections to make.</p>
+      <a href="mailto:robert.standefer@microsoft.com?subject=M365%20Copilot%20Resources" class="btn">Contact Us</a>
+      <p class="copyright">&copy; 2026 Microsoft. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

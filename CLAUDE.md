@@ -4,39 +4,36 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a static front-door website that links to three Microsoft AI resource hubs:
+This repo contains four separate static sites, all published via GitHub Pages from `main` with no build step — edit files and push to deploy:
 
-- **Microsoft 365 Copilot** → `https://aka.ms/m365copilot/resources`
-- **Copilot Studio** → `https://aka.ms/copilotstudio/resources`
-- **Agent 365** → `https://aka.ms/agent365/resources`
+| Site | Directory | Short URL |
+|---|---|---|
+| Front-door hub | `/` (root) | `https://aka.ms/airesources` |
+| Microsoft 365 Copilot Resources | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
+| Copilot Studio Resources | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
+| Agent 365 Resources | `agent365/` | `https://aka.ms/agent365/resources` |
 
-The site is published via GitHub Pages from the `main` branch. There is no build step — editing files and pushing to `main` is all that's needed to deploy.
+Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`.
 
-## File Structure
+## Child Site Architecture
 
-- `index.html` — the entire page (hero, three cards, footer)
-- `assets/css/styles.css` — all styles; uses CSS custom properties defined in `:root`
-- `images/` — product icons (`copilot-icon.png`, `copilot-studio-icon.png`, `agent365-icon.png`)
-- `favicon.ico` — multi-size (16/32/48px) robot face icon generated with Pillow
+Each resource hub (`agent365/`, `copilot-studio/`, `m365-copilot/`) follows the same pattern:
+
+- **Sections** are collapsible `div.section-card` elements toggled by `button.section-header` (accordion); state is tracked via the `open` CSS class and `aria-expanded`.
+- **Navigation** is a sticky `nav.nav-strip` with fragment links (`#section-id`) that scroll to and open the matching card via `hashchange` listener in `main.js`.
+- **Search** filters `li` elements inside `.link-list` and `.session-grid` across all cards in real time, auto-expanding sections that have matches.
+- **Analytics** uses Microsoft Clarity; each site has its own tag ID in an inline `<script>` in `<head>`.
+- Content uses two list styles: `.link-list` for resource links and `.session-grid` for conference session badges.
+
+## Root Front-Door Site
+
+- `index.html` — hero + three product cards + footer; all content in one file
+- `assets/css/styles.css` — CSS custom properties in `:root`; hero and footer share a dark star-field background with an animated aurora overlay (`auroraShift` keyframes on `::before`)
+- Per-card color identities: blue (#0078d4) for M365 Copilot, purple for Copilot Studio, indigo for Agent 365
 
 ## Design System
 
-The visual design mirrors the three child resource sites. Key tokens in `:root`:
+Shared across all four sites:
 
 - Primary brand blues: `--brand-deep` (#003d73), `--brand-mid` (#0061a4), `--brand-accent` (#0078d4)
 - Font stack: `'Aptos', 'Segoe UI', system-ui`
-- Each card has a per-product color identity (blue for M365 Copilot, purple for Copilot Studio, indigo for Agent 365)
-
-The hero uses a dark star-field pattern (`#0d1b35` base + 1px dot grid) with an animated CSS aurora overlay (`::before` with `auroraShift` keyframes). The footer uses the same background treatment.
-
-## Regenerating the Favicon
-
-```bash
-python3 -c "
-from PIL import Image, ImageDraw
-# ... draw robot face at 16/32/48px sizes
-frames[0].save('favicon.ico', format='ICO', sizes=[(s,s) for s in [16,32,48]], append_images=frames[1:])
-"
-```
-
-Pillow is required (`pip install Pillow`).

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#e85d9a"/>
+      <stop offset="15%"  stop-color="#f47a5b"/>
+      <stop offset="28%"  stop-color="#f5a623"/>
+      <stop offset="45%"  stop-color="#44d7b6"/>
+      <stop offset="60%"  stop-color="#00b4d8"/>
+      <stop offset="75%"  stop-color="#4f6de8"/>
+      <stop offset="88%"  stop-color="#7b4fc8"/>
+      <stop offset="100%" stop-color="#a855c8"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1e1e2e" stop-opacity="0.88"/>
+      <stop offset="58%"  stop-color="#1e1e2e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1e1e2e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative blurred circles -->
+  <circle cx="950" cy="120" r="160" fill="#7b4fc8" opacity="0.25" filter="url(#glow)"/>
+  <circle cx="1100" cy="480" r="120" fill="#00b4d8" opacity="0.2"  filter="url(#glow)"/>
+  <circle cx="200"  cy="540" r="90"  fill="#f5a623" opacity="0.15" filter="url(#glow)"/>
+
+  <!-- Dark text-area overlay -->
+  <rect width="1200" height="630" fill="url(#overlay)"/>
+
+  <!-- Copilot Studio logo -->
+  <image href="banner.png" x="730" y="105" width="360" height="360"/>
+
+  <!-- Title lines -->
+  <text x="80" y="200"
+        font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Microsoft</text>
+  <text x="80" y="283"
+        font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Copilot Studio</text>
+  <text x="80" y="366"
+        font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Resources</text>
+
+  <!-- Divider -->
+  <rect x="80" y="393" width="420" height="3" rx="2" fill="#ffffff" opacity="0.35"/>
+
+  <!-- Subtitle -->
+  <text x="80" y="435"
+        font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
+        font-size="26" fill="#ffffff" opacity="0.82">Curated by CAT · Updated regularly</text>
+
+</svg>
