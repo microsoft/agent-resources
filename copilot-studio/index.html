@@ -34,6 +34,10 @@
 
 <!-- ── Hero ── -->
 <section class="hero">
+	<a href="../" class="hero-back">
+		<svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+		Agent Resources
+	</a>
 	<h1>Microsoft Copilot Studio Resources</h1>
 	<p>Resources to help you achieve agentic transformation with Copilot Studio <br>
 		curated by <a href="https://aka.ms/wearecat">Copilot Acceleration Team</a>
@@ -319,7 +323,7 @@
 		</button>
 		<div class="section-body">
 			<ul class="link-list">
-				<li>Samples &mdash; <a href="https://aka.ms/CopilotStudioSamples" target="_blank" rel="noopener">GitHub repository</a></li>
+				<li>Samples &mdash; <a href="https://microsoft.github.io/CopilotStudioSamples/" target="_blank" rel="noopener">CopilotStudioSamples</a></li>
 				<li><a href="https://aka.ms/CopilotStudioSamples/DataverseIndexer" target="_blank" rel="noopener">Dataverse Indexer</a></li>
 				<li><a href="https://aka.ms/CopilotStudioSamples/3rdPartySSO" target="_blank" rel="noopener">3rd Party SSO</a></li>
 				<li><a href="https://aka.ms/CopilotStudioSamples/CustomAnalytics" target="_blank" rel="noopener">Custom analytics</a></li>
@@ -357,59 +361,11 @@
 
 <!-- ── Footer ── -->
 <footer>
-	<p>Created & managed by <a href="https://www.linkedin.com/in/rstandefer/">Robert Standefer</a> and the <a href="https://aka.ms/wearecat">Microsoft Copilot Acceleration Team (CAT)</p>
-    <p class="copyright">© Microsoft Corporation. All rights reserved.</p>
+	<p>Created & managed by <a href="https://www.linkedin.com/in/rstandefer/">Robert Standefer</a> and the <a href="https://aka.ms/wearecat">Microsoft Copilot Acceleration Team (CAT)</a></p>
+    <p class="copyright">© 2026 Microsoft. All rights reserved.</p>
 </footer>
 
-<script>
-	// Accordion toggle
-	document.querySelectorAll('.section-header').forEach(btn => {
-		btn.addEventListener('click', () => {
-			const card = btn.closest('.section-card');
-			const isOpen = card.classList.toggle('open');
-			btn.setAttribute('aria-expanded', isOpen);
-		});
-	});
-
-	// Hash-based open
-	function openTarget() {
-		const hash = location.hash.substring(1);
-		if (hash) {
-			const card = document.getElementById(hash);
-			if (card && card.classList.contains('section-card')) {
-				card.classList.add('open');
-				card.querySelector('.section-header').setAttribute('aria-expanded', 'true');
-				setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
-			}
-		}
-	}
-	window.addEventListener('hashchange', openTarget);
-	openTarget();
-
-	// Search / filter
-	const searchInput = document.getElementById('searchInput');
-	searchInput.addEventListener('input', () => {
-		const q = searchInput.value.toLowerCase().trim();
-		document.querySelectorAll('.section-card').forEach(card => {
-			if (!q) {
-				card.style.display = '';
-				card.querySelectorAll('.link-list li, .session-grid li').forEach(li => li.style.display = '');
-				return;
-			}
-			let hasMatch = false;
-			card.querySelectorAll('.link-list li, .session-grid li').forEach(li => {
-				const match = li.textContent.toLowerCase().includes(q);
-				li.style.display = match ? '' : 'none';
-				if (match) hasMatch = true;
-			});
-			card.style.display = hasMatch ? '' : 'none';
-			if (hasMatch && !card.classList.contains('open')) {
-				card.classList.add('open');
-				card.querySelector('.section-header').setAttribute('aria-expanded', 'true');
-			}
-		});
-	});
-</script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>

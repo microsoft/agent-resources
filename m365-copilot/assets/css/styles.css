@@ -79,6 +79,42 @@ a:hover { color: var(--brand-mid); }
 .hero a { color: #ffffff; font-weight: 700; text-decoration: underline; }
 .hero a:hover { color: #e2e8f0; }
 
+/* ── Back to Hub ── */
+.hero-back {
+	position: absolute;
+	top: 1rem;
+	left: 1.25rem;
+	display: inline-flex;
+	align-items: center;
+	gap: .4rem;
+	padding: .35rem .8rem;
+	background: rgba(255,255,255,.15);
+	border: 1px solid rgba(255,255,255,.3);
+	border-radius: 2rem;
+	color: #ffffff;
+	font-size: .78rem;
+	font-weight: 600;
+	text-decoration: none;
+	backdrop-filter: blur(4px);
+	transition: background var(--transition), transform var(--transition);
+	z-index: 1;
+}
+.hero-back:hover {
+	background: rgba(255,255,255,.28);
+	color: #ffffff;
+	transform: translateX(-2px);
+}
+.hero-back svg {
+	width: 14px;
+	height: 14px;
+	stroke: currentColor;
+	fill: none;
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	flex-shrink: 0;
+}
+
 /* ── Search ── */
 .search-bar {
 	max-width: 480px;
