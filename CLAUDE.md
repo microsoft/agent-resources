@@ -12,7 +12,7 @@ This repo contains five separate static sites, all published via GitHub Pages fr
 | Microsoft 365 Copilot Resources | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
 | Copilot Studio Resources | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
 | Agent 365 Resources | `agent365/` | `https://aka.ms/agent365/resources` |
-| Build AI Agents | `agent-developer/` | (no short URL yet; Clarity tag ID also still TODO) |
+| Build AI Agents | `develop-agents/` | (no short URL yet; Clarity tag ID also still TODO) |
 
 Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`. The `main.js` across all child sites is identical — keep them in sync when making logic changes.
 
