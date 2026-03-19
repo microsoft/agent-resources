@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Agent Developer Resources</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Microsoft Agent Developer Resources" />
+    <meta
+      property="og:description"
+      content="SDKs, frameworks, protocols, and samples for developers building AI agents on Microsoft platforms."
+    />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://microsoft.github.io/agent-resources/agent-developer/images/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="author" content="Robert Standefer" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Microsoft Agent Developer Resources" />
+    <meta
+      name="twitter:description"
+      content="SDKs, frameworks, protocols, and samples for developers building AI agents on Microsoft platforms."
+    />
+    <meta
+      name="twitter:image"
+      content="https://microsoft.github.io/agent-resources/agent-developer/images/og-image.png"
+    />
+    <!-- TODO: add Microsoft Clarity tag ID for this site -->
+  </head>
+  <body>
+    <!-- ── Hero ── -->
+    <section class="hero">
+      <a href="../" class="hero-back">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        Agent Resources
+      </a>
+      <h1>Microsoft Agent Developer Resources</h1>
+      <p>
+        SDKs, frameworks, protocols, tools, and samples for developers<br>building agents with Microsoft tools and the ecosystem around them
+      </p>
+      <div class="search-bar">
+        <svg
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search resources..."
+          autocomplete="off"
+        />
+      </div>
+    </section>
+
+    <!-- ── Sticky Nav ── -->
+    <nav class="nav-strip" id="navStrip">
+      <a href="#get-started">Get Started</a>
+      <a href="#extend-m365">Extend M365 Copilot</a>
+      <a href="#microsoft-sdks">Microsoft SDKs</a>
+      <a href="#protocols">Protocols &amp; Standards</a>
+      <a href="#oss">OSS &amp; Third-party</a>
+      <a href="#samples">Samples</a>
+      <a href="#community">Community</a>
+    </nav>
+
+    <!-- ── Content ── -->
+    <main class="content-wrap">
+
+      <!-- GET STARTED -->
+      <div class="section-card" id="get-started">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-start">&#x1F680;</span>
+          <span class="section-title">Get started building agents</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/azure/foundry/what-is-foundry"
+                target="_blank"
+                rel="noopener"
+                >What is Microsoft Foundry?</a
+              >
+              &mdash; overview of the platform for building and deploying AI agents
+            </li>
+            <li>
+              Microsoft Foundry &mdash;
+              <a
+                href="https://learn.microsoft.com/azure/foundry/"
+                target="_blank"
+                rel="noopener"
+                >documentation hub</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://ai.azure.com"
+                target="_blank"
+                rel="noopener"
+                >portal</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/azure/foundry/how-to/develop/sdk-overview"
+                target="_blank"
+                rel="noopener"
+                >Foundry SDK overview</a
+              >
+              &mdash; unified entry point for model inference, agents, and evaluation via <code>azure-ai-projects</code>
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/azure/ai-services/openai/overview"
+                target="_blank"
+                rel="noopener"
+                >Azure OpenAI Service</a
+              >
+              &mdash; foundation models powering most Microsoft agent scenarios
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EXTEND M365 COPILOT -->
+      <div class="section-card" id="extend-m365">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-dev">&#x2728;</span>
+          <span class="section-title">Extend Microsoft 365 Copilot</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Overview</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+                target="_blank"
+                rel="noopener"
+                >Extend Microsoft 365 Copilot</a
+              >
+              &mdash; overview of all extensibility options: declarative agents, plugins, and connectors
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/copilot-camp/"
+                target="_blank"
+                rel="noopener"
+                >Copilot Developer Camp</a
+              >
+              &mdash; hands-on labs for building Microsoft 365 Copilot extensibility solutions
+            </li>
+            <li>
+              <a
+                href="https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/"
+                target="_blank"
+                rel="noopener"
+                >Introducing the Agent Store</a
+              >
+              &mdash; build, publish, and discover agents in Microsoft 365 Copilot
+            </li>
+          </ul>
+          <h3 class="sub-heading">Declarative agents</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent"
+                target="_blank"
+                rel="noopener"
+                >Declarative agents overview</a
+              >
+              &mdash; build focused, role-specific agents grounded in your data using JSON manifests
+            </li>
+          </ul>
+          <h3 class="sub-heading">Plugins</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-plugins"
+                target="_blank"
+                rel="noopener"
+                >Plugins overview</a
+              >
+              &mdash; extend Copilot with custom actions and API integrations
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-api-plugins"
+                target="_blank"
+                rel="noopener"
+                >API plugins</a
+              >
+              &mdash; connect Copilot to live data and actions via REST APIs
+            </li>
+          </ul>
+          <h3 class="sub-heading">Graph connectors</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-graph-connector"
+                target="_blank"
+                rel="noopener"
+                >Microsoft Graph connectors for Copilot</a
+              >
+              &mdash; bring external content into Microsoft 365 for Copilot to reason over
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/graph/connecting-external-content-connectors-overview"
+                target="_blank"
+                rel="noopener"
+                >Build your own Graph connector</a
+              >
+              &mdash; index external data sources with the Microsoft Graph API
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MICROSOFT SDKs -->
+      <div class="section-card" id="microsoft-sdks">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-dev">&#x1F6E0;&#xFE0F;</span>
+          <span class="section-title">Microsoft SDKs</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Semantic Kernel</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/semantic-kernel/overview/"
+                target="_blank"
+                rel="noopener"
+                >Semantic Kernel documentation</a
+              >
+              &mdash; Microsoft's open-source SDK for integrating LLMs into .NET, Python, and Java apps
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/microsoft/semantic-kernel"
+                target="_blank"
+                rel="noopener"
+                >microsoft/semantic-kernel</a
+              >
+            </li>
+            <li>
+              Packages &mdash;
+              <a
+                href="https://www.nuget.org/packages/Microsoft.SemanticKernel"
+                target="_blank"
+                rel="noopener"
+                >NuGet</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://pypi.org/project/semantic-kernel/"
+                target="_blank"
+                rel="noopener"
+                >PyPI</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/semantic-kernel/agents/"
+                target="_blank"
+                rel="noopener"
+                >Semantic Kernel Agents</a
+              >
+              &mdash; building single and multi-agent systems with SK
+            </li>
+          </ul>
+          <h3 class="sub-heading">Foundry Agent Service</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/azure/foundry/agents/overview"
+                target="_blank"
+                rel="noopener"
+                >Foundry Agent Service documentation</a
+              >
+              &mdash; fully managed GA service for building, deploying, and scaling agents; built on the OpenAI Responses API
+            </li>
+            <li>
+              <a
+                href="https://devblogs.microsoft.com/foundry/foundry-agent-service-ga/"
+                target="_blank"
+                rel="noopener"
+                >Foundry Agent Service GA announcement</a
+              >
+              &mdash; what's new, private networking, 1,400+ tool catalog, A2A and MCP support
+            </li>
+          </ul>
+          <h3 class="sub-heading">Microsoft Agent Framework</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/agent-framework/"
+                target="_blank"
+                rel="noopener"
+                >Microsoft Agent Framework documentation</a
+              >
+              &mdash; the next generation of both Semantic Kernel and AutoGen, built by the same teams; graph-based workflows, multi-agent orchestration, human-in-the-loop (public preview)
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/agent-framework/get-started/your-first-agent"
+                target="_blank"
+                rel="noopener"
+                >Quickstart</a
+              >
+              &mdash; build your first agent in Python or .NET
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/microsoft/agent-framework"
+                target="_blank"
+                rel="noopener"
+                >microsoft/agent-framework</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/agent-framework/tree/main/python/samples"
+                target="_blank"
+                rel="noopener"
+                >Python samples</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/agent-framework/tree/main/dotnet/samples"
+                target="_blank"
+                rel="noopener"
+                >C# samples</a
+              >
+            </li>
+            <li>
+              Packages &mdash;
+              <code>pip install agent-framework --pre</code>
+              <span class="link-sep">|</span>
+              NuGet: <code>Microsoft.Agents.AI</code>
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/agent-framework/integrations/azure-functions"
+                target="_blank"
+                rel="noopener"
+                >Azure Durable Functions integration</a
+              >
+              &mdash; host long-running, reliable agents as durable functions
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/agent-framework/integrations/a2a"
+                target="_blank"
+                rel="noopener"
+                >A2A protocol integration</a
+              >
+              &mdash; cross-platform agent interoperability
+            </li>
+            <li>
+              Migration guides &mdash;
+              <a
+                href="https://learn.microsoft.com/agent-framework/migration-guide/from-semantic-kernel/"
+                target="_blank"
+                rel="noopener"
+                >from Semantic Kernel</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://learn.microsoft.com/agent-framework/migration-guide/from-autogen/"
+                target="_blank"
+                rel="noopener"
+                >from AutoGen</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://azure.microsoft.com/blog/introducing-microsoft-agent-framework/"
+                target="_blank"
+                rel="noopener"
+                >Introducing Microsoft Agent Framework</a
+              >
+              &mdash; announcement blog
+            </li>
+          </ul>
+          <h3 class="sub-heading">Microsoft 365 Agents SDK</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365/agents-sdk/"
+                target="_blank"
+                rel="noopener"
+                >M365 Agents SDK documentation</a
+              >
+              &mdash; successor to Bot Framework; deploy agents across Teams, Microsoft 365 Copilot, Copilot Studio, webchat, and more from a single codebase; AI-stack agnostic (.NET GA, JS v1.4, Python v0.7)
+            </li>
+            <li>
+              <a
+                href="https://devblogs.microsoft.com/microsoft365dev/introducing-the-microsoft-365-agents-sdk/"
+                target="_blank"
+                rel="noopener"
+                >Introducing the Microsoft 365 Agents SDK</a
+              >
+              &mdash; announcement blog post
+            </li>
+            <li>
+              Quickstarts &mdash;
+              <a
+                href="https://learn.microsoft.com/microsoft-365/agents-sdk/quickstart-dotnet"
+                target="_blank"
+                rel="noopener"
+                >C#</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://learn.microsoft.com/microsoft-365/agents-sdk/quickstart-nodejs"
+                target="_blank"
+                rel="noopener"
+                >JavaScript</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://learn.microsoft.com/microsoft-365/agents-sdk/quickstart-python"
+                target="_blank"
+                rel="noopener"
+                >Python</a
+              >
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/microsoft/Agents"
+                target="_blank"
+                rel="noopener"
+                >microsoft/Agents</a
+              >
+              (samples &amp; hub)
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/Agents-for-net"
+                target="_blank"
+                rel="noopener"
+                >.NET</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/Agents-for-js"
+                target="_blank"
+                rel="noopener"
+                >JavaScript</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/Agents-for-python"
+                target="_blank"
+                rel="noopener"
+                >Python</a
+              >
+            </li>
+            <li>
+              Microsoft 365 Agents Toolkit &mdash;
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension"
+                target="_blank"
+                rel="noopener"
+                >VS Code extension</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://learn.microsoft.com/microsoftteams/platform/toolkit/teams-toolkit-fundamentals"
+                target="_blank"
+                rel="noopener"
+                >documentation</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/OfficeDev/microsoft-365-agents-toolkit"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+              &mdash; scaffolding templates, local playground for debugging, and one-click Azure deployment
+            </li>
+          </ul>
+          <h3 class="sub-heading">Copilot Studio developer tools</h3>
+          <ul class="link-list">
+            <li>
+              VS Code extension for Copilot Studio &mdash;
+              <a
+                href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/visual-studio-code-extension-install-configure"
+                target="_blank"
+                rel="noopener"
+                >documentation</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=ms-CopilotStudio.vscode-copilotstudio"
+                target="_blank"
+                rel="noopener"
+                >VS Code Marketplace</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction"
+                target="_blank"
+                rel="noopener"
+                >Power Platform CLI</a
+              >
+              &mdash; command-line tooling for building and managing Power Platform and Copilot Studio solutions
+            </li>
+          </ul>
+          <h3 class="sub-heading">Agent 365 SDK</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-agent-365/developer/"
+                target="_blank"
+                rel="noopener"
+                >Agent 365 developer documentation</a
+              >
+              &mdash; register agents with Agent 365, manage identity, access control, and telemetry
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/microsoft/Agent365-nodejs"
+                target="_blank"
+                rel="noopener"
+                >Node.js</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/Agent365-python"
+                target="_blank"
+                rel="noopener"
+                >Python</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/Agent365-dotnet"
+                target="_blank"
+                rel="noopener"
+                >.NET</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PROTOCOLS & STANDARDS -->
+      <div class="section-card" id="protocols">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-proto">&#x1F4CB;</span>
+          <span class="section-title">Protocols and standards</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Agent-to-Agent (A2A)</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://google.github.io/A2A/"
+                target="_blank"
+                rel="noopener"
+                >A2A Protocol specification</a
+              >
+              &mdash; open protocol for interoperability between agents across vendors and frameworks
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/google-a2a/A2A"
+                target="_blank"
+                rel="noopener"
+                >google-a2a/A2A</a
+              >
+              &mdash; spec, samples, and SDKs
+            </li>
+          </ul>
+          <h3 class="sub-heading">Model Context Protocol (MCP)</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://modelcontextprotocol.io/introduction"
+                target="_blank"
+                rel="noopener"
+                >MCP documentation</a
+              >
+              &mdash; open standard for connecting AI models to tools, data sources, and services
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/modelcontextprotocol/python-sdk"
+                target="_blank"
+                rel="noopener"
+                >Python SDK</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/modelcontextprotocol/typescript-sdk"
+                target="_blank"
+                rel="noopener"
+                >TypeScript SDK</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/Azure/azure-mcp"
+                target="_blank"
+                rel="noopener"
+                >Azure MCP Server</a
+              >
+              &mdash; official MCP server for Azure services
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/semantic-kernel/concepts/plugins/adding-mcp-plugins"
+                target="_blank"
+                rel="noopener"
+                >MCP plugins in Semantic Kernel</a
+              >
+              &mdash; use MCP servers as SK plugins
+            </li>
+            <li>
+              Copilot Studio MCP &mdash;
+              <a
+                href="https://microsoft.github.io/pp-mcp/labs/mcs-mcp/"
+                target="_blank"
+                rel="noopener"
+                >labs &amp; samples</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/mcsmcp"
+                target="_blank"
+                rel="noopener"
+                >MCP Server lab (GitHub)</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/copilot-studio-mcp"
+                target="_blank"
+                rel="noopener"
+                >Power Platform MCP samples (GitHub)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- OSS & THIRD-PARTY -->
+      <div class="section-card" id="oss">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-oss">&#x1F9F0;</span>
+          <span class="section-title">Open source and third-party frameworks</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">LangChain</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://python.langchain.com/docs/integrations/providers/microsoft/"
+                target="_blank"
+                rel="noopener"
+                >LangChain + Microsoft integrations</a
+              >
+              &mdash; Azure OpenAI, Azure AI Search, Cosmos DB, and more
+            </li>
+            <li>
+              <a
+                href="https://python.langchain.com/docs/integrations/llms/azure_openai/"
+                target="_blank"
+                rel="noopener"
+                >Azure OpenAI with LangChain</a
+              >
+              &mdash; using Azure OpenAI as the LLM provider
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/langchain-ai/langchain"
+                target="_blank"
+                rel="noopener"
+                >langchain-ai/langchain</a
+              >
+            </li>
+          </ul>
+          <h3 class="sub-heading">AutoGen</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://microsoft.github.io/autogen/"
+                target="_blank"
+                rel="noopener"
+                >AutoGen documentation</a
+              >
+              &mdash; Microsoft Research framework for multi-agent conversation and orchestration
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/microsoft/autogen"
+                target="_blank"
+                rel="noopener"
+                >microsoft/autogen</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ag2.ai"
+                target="_blank"
+                rel="noopener"
+                >AG2</a
+              >
+              &mdash; community-driven fork with continued active development
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/ag2ai/ag2"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+          <h3 class="sub-heading">CrewAI</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://docs.crewai.com"
+                target="_blank"
+                rel="noopener"
+                >CrewAI documentation</a
+              >
+              &mdash; role-based multi-agent framework; works with Azure OpenAI as the LLM provider
+            </li>
+            <li>
+              <a
+                href="https://docs.crewai.com/how-to/llm-connections"
+                target="_blank"
+                rel="noopener"
+                >LLM connections</a
+              >
+              &mdash; configuring Azure OpenAI with CrewAI
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/crewAIInc/crewAI"
+                target="_blank"
+                rel="noopener"
+                >crewAIInc/crewAI</a
+              >
+            </li>
+          </ul>
+          <h3 class="sub-heading">LlamaIndex</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://docs.llamaindex.ai"
+                target="_blank"
+                rel="noopener"
+                >LlamaIndex documentation</a
+              >
+              &mdash; data framework for LLM apps and agents; deep Azure AI Search and Azure OpenAI integration
+            </li>
+            <li>
+              <a
+                href="https://docs.llamaindex.ai/en/stable/examples/llm/azure_openai/"
+                target="_blank"
+                rel="noopener"
+                >Azure OpenAI with LlamaIndex</a
+              >
+            </li>
+            <li>
+              GitHub &mdash;
+              <a
+                href="https://github.com/run-llama/llama_index"
+                target="_blank"
+                rel="noopener"
+                >run-llama/llama_index</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SAMPLES & QUICKSTARTS -->
+      <div class="section-card" id="samples">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-samples">&#x1F4BB;</span>
+          <span class="section-title">Samples and quickstarts</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://github.com/Azure-Samples/azureai-samples"
+                target="_blank"
+                rel="noopener"
+                >Azure-Samples/azureai-samples</a
+              >
+              &mdash; official Azure AI Foundry and Azure AI Agent Service samples
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/semantic-kernel/tree/main/python/samples"
+                target="_blank"
+                rel="noopener"
+                >Semantic Kernel Python samples</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/semantic-kernel/tree/main/dotnet/samples"
+                target="_blank"
+                rel="noopener"
+                >Semantic Kernel .NET samples</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/Agent365-Samples"
+                target="_blank"
+                rel="noopener"
+                >microsoft/Agent365-Samples</a
+              >
+              &mdash; Agent 365 SDK sample applications
+            </li>
+            <li>
+              <a
+                href="https://github.com/OfficeDev/microsoft-365-agents-toolkit-samples"
+                target="_blank"
+                rel="noopener"
+                >OfficeDev/microsoft-365-agents-toolkit-samples</a
+              >
+              &mdash; M365 Agents Toolkit sample apps
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/agent-framework/tree/main/python/samples"
+                target="_blank"
+                rel="noopener"
+                >Microsoft Agent Framework Python samples</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/agent-framework/tree/main/dotnet/samples"
+                target="_blank"
+                rel="noopener"
+                >Microsoft Agent Framework C# samples</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/Agents/tree/main/samples"
+                target="_blank"
+                rel="noopener"
+                >M365 Agents SDK samples</a
+              >
+              &mdash; all three languages
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/autogen/tree/main/python/samples"
+                target="_blank"
+                rel="noopener"
+                >AutoGen samples</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/OfficeDev/Copilot-for-M365-Samples"
+                target="_blank"
+                rel="noopener"
+                >OfficeDev/Copilot-for-M365-Samples</a
+              >
+              &mdash; official Microsoft 365 Copilot extensibility samples (declarative agents, plugins, connectors)
+            </li>
+            <li>
+              <a
+                href="https://adoption.microsoft.com/sample-solution-gallery/?keyword=copilot"
+                target="_blank"
+                rel="noopener"
+                >Sample Solution Gallery</a
+              >
+              &mdash; community and Microsoft samples for Copilot and agent scenarios
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/CopilotStudioSamples/"
+                target="_blank"
+                rel="noopener"
+                >CopilotStudioSamples</a
+              >
+              &mdash; official Copilot Studio code samples and utilities
+            </li>
+            <li>
+              <a
+                href="https://github.com/pnp/copilot-connectors-samples"
+                target="_blank"
+                rel="noopener"
+                >pnp/copilot-connectors-samples</a
+              >
+              &mdash; community connector samples for Microsoft Copilot (PnP)
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/skills-for-copilot-studio"
+                target="_blank"
+                rel="noopener"
+                >microsoft/skills-for-copilot-studio</a
+              >
+              &mdash; YAML-based agent skill development for Copilot Studio
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- COMMUNITY -->
+      <div class="section-card" id="community">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-comm">&#x1F91D;</span>
+          <span class="section-title">Community and support</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              Azure AI Tech Community &mdash;
+              <a
+                href="https://techcommunity.microsoft.com/category/azure-ai"
+                target="_blank"
+                rel="noopener"
+                >blog and announcements</a
+              >
+            </li>
+            <li>
+              Semantic Kernel &mdash;
+              <a
+                href="https://github.com/microsoft/semantic-kernel/discussions"
+                target="_blank"
+                rel="noopener"
+                >GitHub Discussions</a
+              >
+            </li>
+            <li>
+              Azure AI Foundry &mdash;
+              <a
+                href="https://github.com/Azure/azure-sdk-for-python/discussions"
+                target="_blank"
+                rel="noopener"
+                >GitHub Discussions</a
+              >
+            </li>
+            <li>
+              AutoGen &mdash;
+              <a
+                href="https://github.com/microsoft/autogen/discussions"
+                target="_blank"
+                rel="noopener"
+                >GitHub Discussions</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://stackoverflow.com/questions/tagged/azure-openai"
+                target="_blank"
+                rel="noopener"
+                >Stack Overflow — azure-openai</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/mcs-labs/"
+                target="_blank"
+                rel="noopener"
+                >Copilot Studio Labs</a
+              >
+              &mdash; hands-on developer labs for Copilot Studio
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/mcscatblog/"
+                target="_blank"
+                rel="noopener"
+                >The Custom Engine blog</a
+              >
+              &mdash; deep technical articles on building custom engine agents with Copilot Studio
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- ── Footer ── -->
+    <footer>
+      <p>Created &amp; managed by <a href="https://www.linkedin.com/in/rstandefer/">Robert Standefer</a> and the <a href="https://aka.ms/wearecat">Microsoft Copilot Acceleration Team (CAT)</a></p>
+      <p class="copyright">© 2026 Microsoft. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
