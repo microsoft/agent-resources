@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Build AI Agents — Microsoft Developer Resources</title>
+    <title>Agent Developer Resources</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="favicon.ico" sizes="any" />
@@ -9,7 +9,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Build AI Agents — Microsoft Developer Resources" />
+    <meta property="og:title" content="Microsoft Agent Developer Resources" />
     <meta
       property="og:description"
       content="SDKs, frameworks, protocols, and samples for developers building AI agents on Microsoft platforms."
@@ -17,7 +17,7 @@
     <meta
       name="image"
       property="og:image"
-      content="https://microsoft.github.io/agent-resources/build-agents/images/og-image.png"
+      content="https://microsoft.github.io/agent-resources/agent-developer/images/og-image.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -25,14 +25,14 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Build AI Agents — Microsoft Developer Resources" />
+    <meta name="twitter:title" content="Microsoft Agent Developer Resources" />
     <meta
       name="twitter:description"
       content="SDKs, frameworks, protocols, and samples for developers building AI agents on Microsoft platforms."
     />
     <meta
       name="twitter:image"
-      content="https://microsoft.github.io/agent-resources/build-agents/images/og-image.png"
+      content="https://microsoft.github.io/agent-resources/agent-developer/images/og-image.png"
     />
     <!-- TODO: add Microsoft Clarity tag ID for this site -->
   </head>
@@ -43,9 +43,9 @@
         <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         Agent Resources
       </a>
-      <h1>Build AI Agents on Microsoft Platforms</h1>
+      <h1>Microsoft Agent Developer Resources</h1>
       <p>
-        SDKs, frameworks, protocols, and samples for developers<br>building agents with Microsoft tools and the ecosystem around them
+        SDKs, frameworks, protocols, tools, and samples for developers<br>building agents with Microsoft tools and the ecosystem around them
       </p>
       <div class="search-bar">
         <svg
@@ -69,6 +69,7 @@
     <!-- ── Sticky Nav ── -->
     <nav class="nav-strip" id="navStrip">
       <a href="#get-started">Get Started</a>
+      <a href="#extend-m365">Extend M365 Copilot</a>
       <a href="#microsoft-sdks">Microsoft SDKs</a>
       <a href="#protocols">Protocols &amp; Standards</a>
       <a href="#oss">OSS &amp; Third-party</a>
@@ -138,6 +139,109 @@
                 >Azure OpenAI Service</a
               >
               &mdash; foundation models powering most Microsoft agent scenarios
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EXTEND M365 COPILOT -->
+      <div class="section-card" id="extend-m365">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-dev">&#x2728;</span>
+          <span class="section-title">Extend Microsoft 365 Copilot</span>
+          <svg
+            class="chevron"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Overview</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+                target="_blank"
+                rel="noopener"
+                >Extend Microsoft 365 Copilot</a
+              >
+              &mdash; overview of all extensibility options: declarative agents, plugins, and connectors
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/copilot-camp/"
+                target="_blank"
+                rel="noopener"
+                >Copilot Developer Camp</a
+              >
+              &mdash; hands-on labs for building Microsoft 365 Copilot extensibility solutions
+            </li>
+            <li>
+              <a
+                href="https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/"
+                target="_blank"
+                rel="noopener"
+                >Introducing the Agent Store</a
+              >
+              &mdash; build, publish, and discover agents in Microsoft 365 Copilot
+            </li>
+          </ul>
+          <h3 class="sub-heading">Declarative agents</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent"
+                target="_blank"
+                rel="noopener"
+                >Declarative agents overview</a
+              >
+              &mdash; build focused, role-specific agents grounded in your data using JSON manifests
+            </li>
+          </ul>
+          <h3 class="sub-heading">Plugins</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-plugins"
+                target="_blank"
+                rel="noopener"
+                >Plugins overview</a
+              >
+              &mdash; extend Copilot with custom actions and API integrations
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-api-plugins"
+                target="_blank"
+                rel="noopener"
+                >API plugins</a
+              >
+              &mdash; connect Copilot to live data and actions via REST APIs
+            </li>
+          </ul>
+          <h3 class="sub-heading">Graph connectors</h3>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-graph-connector"
+                target="_blank"
+                rel="noopener"
+                >Microsoft Graph connectors for Copilot</a
+              >
+              &mdash; bring external content into Microsoft 365 for Copilot to reason over
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/graph/connecting-external-content-connectors-overview"
+                target="_blank"
+                rel="noopener"
+                >Build your own Graph connector</a
+              >
+              &mdash; index external data sources with the Microsoft Graph API
             </li>
           </ul>
         </div>
@@ -331,6 +435,15 @@
               &mdash; successor to Bot Framework; deploy agents across Teams, Microsoft 365 Copilot, Copilot Studio, webchat, and more from a single codebase; AI-stack agnostic (.NET GA, JS v1.4, Python v0.7)
             </li>
             <li>
+              <a
+                href="https://devblogs.microsoft.com/microsoft365dev/introducing-the-microsoft-365-agents-sdk/"
+                target="_blank"
+                rel="noopener"
+                >Introducing the Microsoft 365 Agents SDK</a
+              >
+              &mdash; announcement blog post
+            </li>
+            <li>
               Quickstarts &mdash;
               <a
                 href="https://learn.microsoft.com/microsoft-365/agents-sdk/quickstart-dotnet"
@@ -385,13 +498,56 @@
               >
             </li>
             <li>
+              Microsoft 365 Agents Toolkit &mdash;
               <a
                 href="https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension"
                 target="_blank"
                 rel="noopener"
-                >Microsoft 365 Agents Toolkit</a
+                >VS Code extension</a
               >
-              &mdash; VS Code extension with scaffolding templates, local playground for debugging, and one-click Azure deployment
+              <span class="link-sep">|</span>
+              <a
+                href="https://learn.microsoft.com/microsoftteams/platform/toolkit/teams-toolkit-fundamentals"
+                target="_blank"
+                rel="noopener"
+                >documentation</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/OfficeDev/microsoft-365-agents-toolkit"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+              &mdash; scaffolding templates, local playground for debugging, and one-click Azure deployment
+            </li>
+          </ul>
+          <h3 class="sub-heading">Copilot Studio developer tools</h3>
+          <ul class="link-list">
+            <li>
+              VS Code extension for Copilot Studio &mdash;
+              <a
+                href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/visual-studio-code-extension-install-configure"
+                target="_blank"
+                rel="noopener"
+                >documentation</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=ms-CopilotStudio.vscode-copilotstudio"
+                target="_blank"
+                rel="noopener"
+                >VS Code Marketplace</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction"
+                target="_blank"
+                rel="noopener"
+                >Power Platform CLI</a
+              >
+              &mdash; command-line tooling for building and managing Power Platform and Copilot Studio solutions
             </li>
           </ul>
           <h3 class="sub-heading">Agent 365 SDK</h3>
@@ -514,6 +670,29 @@
                 >MCP plugins in Semantic Kernel</a
               >
               &mdash; use MCP servers as SK plugins
+            </li>
+            <li>
+              Copilot Studio MCP &mdash;
+              <a
+                href="https://microsoft.github.io/pp-mcp/labs/mcs-mcp/"
+                target="_blank"
+                rel="noopener"
+                >labs &amp; samples</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/mcsmcp"
+                target="_blank"
+                rel="noopener"
+                >MCP Server lab (GitHub)</a
+              >
+              <span class="link-sep">|</span>
+              <a
+                href="https://github.com/microsoft/copilot-studio-mcp"
+                target="_blank"
+                rel="noopener"
+                >Power Platform MCP samples (GitHub)</a
+              >
             </li>
           </ul>
         </div>
@@ -757,6 +936,51 @@
                 >AutoGen samples</a
               >
             </li>
+            <li>
+              <a
+                href="https://github.com/OfficeDev/Copilot-for-M365-Samples"
+                target="_blank"
+                rel="noopener"
+                >OfficeDev/Copilot-for-M365-Samples</a
+              >
+              &mdash; official Microsoft 365 Copilot extensibility samples (declarative agents, plugins, connectors)
+            </li>
+            <li>
+              <a
+                href="https://adoption.microsoft.com/sample-solution-gallery/?keyword=copilot"
+                target="_blank"
+                rel="noopener"
+                >Sample Solution Gallery</a
+              >
+              &mdash; community and Microsoft samples for Copilot and agent scenarios
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/CopilotStudioSamples/"
+                target="_blank"
+                rel="noopener"
+                >CopilotStudioSamples</a
+              >
+              &mdash; official Copilot Studio code samples and utilities
+            </li>
+            <li>
+              <a
+                href="https://github.com/pnp/copilot-connectors-samples"
+                target="_blank"
+                rel="noopener"
+                >pnp/copilot-connectors-samples</a
+              >
+              &mdash; community connector samples for Microsoft Copilot (PnP)
+            </li>
+            <li>
+              <a
+                href="https://github.com/microsoft/skills-for-copilot-studio"
+                target="_blank"
+                rel="noopener"
+                >microsoft/skills-for-copilot-studio</a
+              >
+              &mdash; YAML-based agent skill development for Copilot Studio
+            </li>
           </ul>
         </div>
       </div>
@@ -821,6 +1045,24 @@
                 rel="noopener"
                 >Stack Overflow — azure-openai</a
               >
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/mcs-labs/"
+                target="_blank"
+                rel="noopener"
+                >Copilot Studio Labs</a
+              >
+              &mdash; hands-on developer labs for Copilot Studio
+            </li>
+            <li>
+              <a
+                href="https://microsoft.github.io/mcscatblog/"
+                target="_blank"
+                rel="noopener"
+                >The Custom Engine blog</a
+              >
+              &mdash; deep technical articles on building custom engine agents with Copilot Studio
             </li>
           </ul>
         </div>

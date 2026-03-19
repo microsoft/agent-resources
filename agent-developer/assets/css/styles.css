@@ -2,23 +2,23 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-	--brand-deep:   #052e16;
-	--brand-mid:    #166534;
-	--brand-accent: #16a34a;
-	--brand-light:  #86efac;
-	--teal-accent:  #14b8a6;
+	--brand-deep:   #1e1654;
+	--brand-mid:    #3a3182;
+	--brand-accent: #52489C;
+	--brand-light:  #a89ed4;
+	--teal-accent:  #59C3C3;
 	--surface:      #ffffff;
-	--surface-alt:  #f0fdf4;
-	--surface-hover:#dcfce7;
+	--surface-alt:  #f3f2fa;
+	--surface-hover:#e9e7f5;
 	--text:         #0d1117;
 	--text-muted:   #4a5568;
-	--text-on-dark: #d1fae5;
-	--border:       #bbf7d0;
+	--text-on-dark: #dddaf5;
+	--border:       #c9c5e8;
 	--radius:       12px;
 	--radius-lg:    20px;
-	--shadow-sm:    0 1px 3px rgba(5,46,22,.06);
-	--shadow-md:    0 4px 16px rgba(5,46,22,.08);
-	--shadow-lg:    0 8px 32px rgba(5,46,22,.12);
+	--shadow-sm:    0 1px 3px rgba(30,22,84,.06);
+	--shadow-md:    0 4px 16px rgba(30,22,84,.08);
+	--shadow-lg:    0 8px 32px rgba(30,22,84,.12);
 	--transition:   .2s cubic-bezier(.4,0,.2,1);
 }
 
@@ -41,9 +41,7 @@ a:hover { color: var(--brand-mid); }
 
 /* ── Hero ── */
 .hero {
-	background: linear-gradient(135deg,
-		#064e3b 0%, #065f46 30%, #047857 60%,
-		#059669 85%, #34d399 100%);
+	background: linear-gradient(135deg, #52489C 0%, #4062BB 33%, #59C3C3 66%, #EBEBEB 100%);
 	color: #ffffff;
 	padding: 2.75rem 2rem 2.5rem;
 	text-align: center;
@@ -55,8 +53,8 @@ a:hover { color: var(--brand-mid); }
 	position: absolute;
 	inset: 0;
 	background:
-		radial-gradient(ellipse 600px 400px at 20% 80%, rgba(6,95,70,.35) 0%, transparent 70%),
-		radial-gradient(ellipse 500px 350px at 80% 20%, rgba(52,211,153,.18) 0%, transparent 70%);
+		radial-gradient(ellipse 600px 400px at 20% 80%, rgba(82,72,156,.35) 0%, transparent 70%),
+		radial-gradient(ellipse 500px 350px at 80% 20%, rgba(89,195,195,.18) 0%, transparent 70%);
 	pointer-events: none;
 }
 .hero h1 {

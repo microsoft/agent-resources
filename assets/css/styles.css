@@ -158,7 +158,7 @@ main {
 .card-agent365::before       { background: linear-gradient(90deg, #3b5bdb, #6b8ef5); }
 .card-m365copilot::before    { background: linear-gradient(90deg, #0078d4, #00b7c3); }
 .card-copilot-studio::before { background: linear-gradient(90deg, #7c3aed, #c084fc); }
-.card-build-agents::before   { background: linear-gradient(90deg, #16a34a, #34d399); }
+.card-build-agents::before   { background: linear-gradient(90deg, #F45B69, #F45B69); }
 .card:hover::before { height: 5px; }
 
 .card-body {
@@ -202,7 +202,7 @@ main {
 .card-agent365       .card-eyebrow { color: #1d4ed8; }
 .card-m365copilot    .card-eyebrow { color: #0369a1; }
 .card-copilot-studio .card-eyebrow { color: #5b21b6; }
-.card-build-agents   .card-eyebrow { color: #166534; }
+.card-build-agents   .card-eyebrow { color: #c0392b; }
 
 .card-title {
   font-size: 1.2rem;
@@ -237,7 +237,7 @@ main {
 .card-agent365       .cta-link { color: #1d4ed8; }
 .card-m365copilot    .cta-link { color: var(--brand-accent); }
 .card-copilot-studio .cta-link { color: #5b21b6; }
-.card-build-agents   .cta-link { color: #166534; }
+.card-build-agents   .cta-link { color: #c0392b; }
 .card:hover .cta-link { gap: .7rem; }
 
 .cta-arrow {
@@ -256,7 +256,7 @@ main {
 .card-agent365       .cta-badge { background: #dbeafe; color: #1d4ed8; }
 .card-m365copilot    .cta-badge { background: #e0f2fe; color: #0369a1; }
 .card-copilot-studio .cta-badge { background: #ede9fe; color: #5b21b6; }
-.card-build-agents   .cta-badge { background: #dcfce7; color: #166534; }
+.card-build-agents   .cta-badge { background: #fde8ea; color: #c0392b; }
 
 /* ── Footer ── */
 footer {
