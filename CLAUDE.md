@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This repo contains four separate static sites, all published via GitHub Pages from `main` with no build step — edit files and push to deploy:
+This repo contains five separate static sites, all published via GitHub Pages from `main` with no build step — edit files and push to deploy:
 
 | Site | Directory | Short URL |
 |---|---|---|
@@ -12,8 +12,9 @@ This repo contains four separate static sites, all published via GitHub Pages fr
 | Microsoft 365 Copilot Resources | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
 | Copilot Studio Resources | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
 | Agent 365 Resources | `agent365/` | `https://aka.ms/agent365/resources` |
+| Build AI Agents | `build-agents/` | (no short URL yet; Clarity tag ID also still TODO) |
 
-Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`.
+Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`. The `main.js` across all child sites is identical — keep them in sync when making logic changes.
 
 ## Child Site Architecture
 
