@@ -91,7 +91,7 @@ a:hover { color: var(--brand-mid); }
 	color: #ffffff;
 	font-size: .78rem;
 	font-weight: 600;
-	text-decoration: none;
+	text-decoration: underline;
 	backdrop-filter: blur(4px);
 	transition: background var(--transition), transform var(--transition);
 	z-index: 1;
