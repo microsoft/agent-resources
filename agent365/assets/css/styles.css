@@ -380,3 +380,8 @@ footer .copyright {
 	.section-body { padding: 0 1.25rem 1.25rem; }
 	.session-grid { grid-template-columns: 1fr; }
 }
+
+@media (min-width: 641px) and (max-width: 1024px) {
+	.nav-strip { justify-content: flex-start; }
+	.session-grid { grid-template-columns: repeat(2, 1fr); }
+}
