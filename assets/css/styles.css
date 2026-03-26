@@ -277,7 +277,7 @@ footer {
   position: relative;
 }
 footer p { opacity: .65; font-size: .88rem; }
-footer a { color: var(--brand-light); }
+footer a { color: var(--brand-light); padding: .25rem 0; }
 footer a:hover { color: #fff; }
 footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 
