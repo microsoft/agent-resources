@@ -39,7 +39,13 @@ a {
 }
 a:hover { color: var(--brand-mid); }
 
-/* ── Hero ── */
+/* Focus-visible for keyboard navigation */
+a:focus-visible, button:focus-visible, input:focus-visible {
+	outline: 2px solid var(--brand-accent);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
 .hero {
 	background: linear-gradient(150deg,
 		#050014 0%, #0d47a1 22%, #006064 46%,
