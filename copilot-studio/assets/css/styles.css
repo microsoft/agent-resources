@@ -49,8 +49,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ── Hero ── */
 .hero {
-	background: linear-gradient(135deg, #e85d9a 0%, #f47a5b 15%, #f5a623 28%, #44d7b6 45%, #00b4d8 60%, #4f6de8 75%, #7b4fc8 88%, #a855c8 100%);
-	color: #1e1e2e;
+	background: linear-gradient(150deg,
+		#1a0a3e 0%, #3b1f8e 30%, #6344c5 60%,
+		#0099e0 85%, #00c4cc 100%);
+	color: #ffffff;
 	padding: 2.75rem 2rem 2.5rem;
 	text-align: center;
 	position: relative;
@@ -61,8 +63,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	position: absolute;
 	inset: 0;
 	background:
-		radial-gradient(ellipse 600px 400px at 20% 80%, rgba(68,215,182,.15) 0%, transparent 70%),
-		radial-gradient(ellipse 500px 350px at 80% 20%, rgba(232,93,154,.12) 0%, transparent 70%);
+		radial-gradient(ellipse 560px 320px at 82% 12%, rgba(99,68,197,.35) 0%, transparent 65%),
+		radial-gradient(ellipse 440px 280px at 18% 80%, rgba(0,153,224,.25) 0%, transparent 62%);
 	pointer-events: none;
 }
 .hero h1 {
@@ -71,17 +73,18 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	letter-spacing: -.02em;
 	margin-bottom: .5rem;
 	position: relative;
-	color: #333333;
+	color: #ffffff;
 }
 .hero p {
 	font-size: 1rem;
-	opacity: .85;
+	opacity: .9;
 	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
+	color: #ffffff;
 }
-.hero a { color: #1e1e2e; font-weight: 700; text-decoration: underline; }
-.hero a:hover { color: #000; }
+.hero a { color: #ffffff; font-weight: 700; text-decoration: underline; }
+.hero a:hover { color: #e2e8f0; }
 
 /* ── Back to Hub ── */
 .hero-back {
@@ -93,10 +96,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	align-items: center;
 	gap: .4rem;
 	padding: .35rem .8rem;
-	background: rgba(0,0,0,.15);
-	border: 1px solid rgba(0,0,0,.2);
+	background: rgba(255,255,255,.15);
+	border: 1px solid rgba(255,255,255,.3);
 	border-radius: 2rem;
-	color: #1e1e2e;
+	color: #ffffff;
 	font-size: .78rem;
 	font-weight: 600;
 	text-decoration: none;
@@ -105,8 +108,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	z-index: 1;
 }
 .hero-back:hover {
-	background: rgba(0,0,0,.25);
-	color: #1e1e2e;
+	background: rgba(255,255,255,.28);
+	color: #ffffff;
 	transform: translateX(-2px);
 }
 .hero-back svg {
@@ -129,18 +132,18 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .search-bar input {
 	width: 100%;
 	padding: .85rem 1.2rem .85rem 2.8rem;
-	border: 1.5px solid rgba(0,0,0,.15);
+	border: 1.5px solid rgba(255,255,255,.3);
 	border-radius: 50px;
-	background: rgba(255,255,255,.45);
-	color: #1e1e2e;
+	background: rgba(255,255,255,.2);
+	color: #ffffff;
 	font-size: 1rem;
 	backdrop-filter: blur(8px);
 	transition: border-color var(--transition), background var(--transition);
 }
-.search-bar input::placeholder { color: rgba(0,0,0,.4); }
+.search-bar input::placeholder { color: rgba(255,255,255,.6); }
 .search-bar input:focus {
-	border-color: rgba(0,0,0,.3);
-	background: rgba(255,255,255,.6);
+	border-color: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.3);
 }
 .search-bar svg {
 	position: absolute;
@@ -149,7 +152,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	transform: translateY(-50%);
 	width: 18px;
 	height: 18px;
-	stroke: rgba(0,0,0,.4);
+	stroke: rgba(255,255,255,.7);
 	fill: none;
 	pointer-events: none;
 }
