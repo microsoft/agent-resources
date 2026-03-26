@@ -68,8 +68,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   background-image: radial-gradient(circle, rgba(255,255,255,.11) 1px, transparent 1px);
   background-size: 26px 26px;
   color: #ffffff;
-  padding: 2.75rem 2rem 2.5rem;
-  text-align: center;
+  padding: 3.5rem 2rem 3rem;
+  text-align: left;
   position: relative;
   overflow: hidden;
 }
@@ -91,7 +91,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .hero-inner {
   position: relative;
   z-index: 1;
-  max-width: 720px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 .hero-eyebrow {
@@ -120,8 +120,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .hero p {
   font-size: var(--text-md);
   opacity: .88;
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 580px;
   color: #ffffff;
 }
 .hero a { color: #ffffff; text-decoration: underline; }

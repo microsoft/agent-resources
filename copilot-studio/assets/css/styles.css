@@ -254,15 +254,15 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	font-size: 1.3rem;
 	flex-shrink: 0;
 }
-.icon-start  { background: linear-gradient(135deg, #e8f5e9, #c8e6c9); color: #2e7d32; }
-.icon-news   { background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; }
-.icon-adopt  { background: linear-gradient(135deg, #fce4ec, #f8bbd0); color: #c62828; }
-.icon-train  { background: linear-gradient(135deg, #fff3e0, #ffe0b2); color: #e65100; }
-.icon-build  { background: linear-gradient(135deg, #ede7f6, #d1c4e9); color: #4527a0; }
-.icon-story  { background: linear-gradient(135deg, #e0f7fa, #b2ebf2); color: #00838f; }
-.icon-best   { background: linear-gradient(135deg, #f3e5f5, #e1bee7); color: #6a1b9a; }
-.icon-sample { background: linear-gradient(135deg, #e8eaf6, #c5cae9); color: #283593; }
-.icon-comm   { background: linear-gradient(135deg, #fff8e1, #ffecb3); color: #f57f17; }
+.icon-start  { background: #e8f5e9; color: #2e7d32; }
+.icon-news   { background: #e3f2fd; color: #1565c0; }
+.icon-adopt  { background: #fce4ec; color: #c62828; }
+.icon-train  { background: #fff3e0; color: #e65100; }
+.icon-build  { background: #ede7f6; color: #4527a0; }
+.icon-story  { background: #e0f7fa; color: #00838f; }
+.icon-best   { background: #f3e5f5; color: #6a1b9a; }
+.icon-sample { background: #e8eaf6; color: #283593; }
+.icon-comm   { background: #fff8e1; color: #f57f17; }
 
 .section-title {
 	font-size: var(--text-lg);
