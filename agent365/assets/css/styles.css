@@ -20,6 +20,23 @@
 	--shadow-md:    0 4px 16px rgba(0,61,115,.08);
 	--shadow-lg:    0 8px 32px rgba(0,61,115,.12);
 	--transition:   .2s cubic-bezier(.4,0,.2,1);
+	--space-1: .25rem;
+	--space-2: .5rem;
+	--space-3: .75rem;
+	--space-4: 1rem;
+	--space-5: 1.25rem;
+	--space-6: 1.5rem;
+	--space-7: 2rem;
+	--space-8: 2.5rem;
+	--space-9: 3rem;
+	--space-10: 4rem;
+	--text-xs: .7rem;
+	--text-sm: .8rem;
+	--text-base: .935rem;
+	--text-md: 1rem;
+	--text-lg: 1.1rem;
+	--text-xl: 1.2rem;
+	--text-2xl: 1.4rem;
 }
 
 html { scroll-behavior: smooth; }
@@ -69,12 +86,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	font-size: clamp(1.6rem, 4vw, 2.4rem);
 	font-weight: 700;
 	letter-spacing: -.02em;
-	margin-bottom: .5rem;
+	margin-bottom: var(--space-2);
 	position: relative;
 	color: #ffffff;
 }
 .hero p {
-	font-size: 1rem;
+	font-size: var(--text-md);
 	opacity: .9;
 	max-width: 620px;
 	margin: 0 auto;
@@ -134,7 +151,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	border-radius: 50px;
 	background: rgba(255,255,255,.35);
 	color: #1e1b4b;
-	font-size: 1rem;
+	font-size: var(--text-md);
 	backdrop-filter: blur(8px);
 	transition: border-color var(--transition), background var(--transition);
 }
@@ -165,7 +182,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	z-index: 100;
 	overflow-x: auto;
 	display: flex;
-	gap: .5rem;
+	gap: var(--space-2);
 	justify-content: center;
 	-webkit-overflow-scrolling: touch;
 }
@@ -193,12 +210,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .content-wrap {
 	max-width: 1080px;
 	margin: 0 auto;
-	padding: 3rem 2rem 4rem;
+	padding: var(--space-9) var(--space-7) var(--space-10);
 }
 
 /* ── Section Cards ── */
 .section-card {
-	margin-bottom: 2rem;
+	margin-bottom: var(--space-7);
 	border: 1px solid var(--border);
 	border-radius: var(--radius-lg);
 	background: var(--surface);
@@ -211,7 +228,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .section-header {
 	display: flex;
 	align-items: center;
-	gap: 1rem;
+	gap: var(--space-4);
 	padding: 1.25rem 1.5rem;
 	cursor: pointer;
 	user-select: none;
@@ -246,7 +263,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .icon-webinar  { background: linear-gradient(135deg,#eff6ff,#bfdbfe); color:#1d4ed8; }
 
 .section-title {
-	font-size: 1.1rem;
+	font-size: var(--text-lg);
 	font-weight: 600;
 	flex: 1;
 }
@@ -269,7 +286,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ── Sub-sections ── */
 .sub-heading {
-	font-size: .8rem;
+	font-size: var(--text-sm);
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .06em;
@@ -291,7 +308,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	padding: .5rem .75rem;
 	border-radius: var(--radius);
 	transition: background var(--transition);
-	font-size: .935rem;
+	font-size: var(--text-base);
 	line-height: 1.5;
 }
 .link-list li:hover { background: var(--surface-hover); }
@@ -308,7 +325,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .session-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	gap: .75rem;
+	gap: var(--space-3);
 	list-style: none;
 }
 .session-grid li {
@@ -324,7 +341,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .session-grid a {
 	display: flex;
 	align-items: center;
-	gap: .75rem;
+	gap: var(--space-3);
 	padding: .75rem 1rem;
 	color: var(--text);
 	font-weight: 500;
@@ -335,7 +352,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .session-grid a:hover { color: var(--brand-accent); }
 
 .session-badge {
-	font-size: .7rem;
+	font-size: var(--text-xs);
 	font-weight: 700;
 	background: var(--surface-alt);
 	color: var(--brand-accent);
@@ -352,7 +369,7 @@ footer {
 	text-align: center;
 	padding: 3rem 2rem 2rem;
 }
-footer h2 { font-size: 1.4rem; margin-bottom: .5rem; }
+footer h2 { font-size: var(--text-2xl); margin-bottom: var(--space-2); }
 footer p { opacity: .7; font-size: .95rem; margin-bottom: 1rem; }
 footer .btn {
 	display: inline-block;
@@ -367,14 +384,14 @@ footer .btn {
 footer .btn:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.6); }
 footer .copyright {
 	margin-top: 2.5rem;
-	font-size: .8rem;
+	font-size: var(--text-sm);
 	opacity: .45;
 }
 
 /* ── Responsive ── */
 @media (max-width: 640px) {
 	.hero { padding: 2rem 1.25rem 1.75rem; }
-	.content-wrap { padding: 2rem 1rem 3rem; }
+	.content-wrap { padding: var(--space-7) var(--space-4) var(--space-9); }
 	.nav-strip { justify-content: flex-start; padding: .75rem 1rem; }
 	.section-header { padding: 1rem 1.25rem; }
 	.section-body { padding: 0 1.25rem 1.25rem; }

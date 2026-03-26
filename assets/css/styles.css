@@ -20,6 +20,23 @@
   --shadow-md:     0 4px 16px rgba(0,61,115,.08);
   --shadow-lg:     0 8px 32px rgba(0,61,115,.14);
   --transition:    .2s cubic-bezier(.4,0,.2,1);
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 2rem;
+  --space-8: 2.5rem;
+  --space-9: 3rem;
+  --space-10: 4rem;
+  --text-xs: .7rem;
+  --text-sm: .8rem;
+  --text-base: .935rem;
+  --text-md: 1rem;
+  --text-lg: 1.1rem;
+  --text-xl: 1.2rem;
+  --text-2xl: 1.4rem;
 }
 
 html { scroll-behavior: smooth; }
@@ -101,7 +118,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   text-wrap: balance;
 }
 .hero p {
-  font-size: 1rem;
+  font-size: var(--text-md);
   opacity: .88;
   max-width: 700px;
   margin: 0 auto;
@@ -115,7 +132,7 @@ main {
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;
-  padding: 3rem 2rem 4rem;
+  padding: var(--space-9) var(--space-7) var(--space-10);
 }
 
 .section-label {
@@ -125,14 +142,14 @@ main {
   text-transform: uppercase;
   color: var(--text-muted);
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-7);
 }
 
 /* ── Resource Cards ── */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: var(--space-6);
 }
 
 .card {
@@ -174,13 +191,13 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--space-4);
 }
 
 .card-header {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
+  gap: var(--space-4);
 }
 
 .card-icon {
@@ -202,7 +219,7 @@ main {
   gap: .2rem;
 }
 .card-eyebrow {
-  font-size: .7rem;
+  font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: .09em;
   text-transform: uppercase;
@@ -213,7 +230,7 @@ main {
 .card-build-agents   .card-eyebrow { color: #c0392b; }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: var(--text-xl);
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -.01em;
@@ -250,7 +267,7 @@ main {
 
 .cta-arrow {
   display: inline-block;
-  font-size: 1rem;
+  font-size: var(--text-md);
   line-height: 1;
 }
 
@@ -284,7 +301,7 @@ footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .hero { padding: 2rem 1.25rem 1.75rem; }
-  main { padding: 2rem 1rem 3rem; }
+  main { padding: var(--space-7) var(--space-4) var(--space-9); }
   .cards { grid-template-columns: 1fr; }
 }
 
