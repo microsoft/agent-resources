@@ -86,6 +86,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ── Back to Hub ── */
 .hero-back {
+	min-height: 44px;
 	position: absolute;
 	top: 1rem;
 	left: 1.25rem;
@@ -170,6 +171,9 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 .nav-strip::-webkit-scrollbar { display: none; }
 .nav-strip a {
+	min-height: 44px;
+	display: inline-flex;
+	align-items: center;
 	white-space: nowrap;
 	padding: .45rem 1rem;
 	border-radius: 50px;
