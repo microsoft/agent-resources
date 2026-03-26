@@ -140,7 +140,6 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 .search-bar input::placeholder { color: rgba(255,255,255,.6); }
 .search-bar input:focus {
-	outline: none;
 	border-color: rgba(255,255,255,.5);
 	background: rgba(255,255,255,.3);
 }
