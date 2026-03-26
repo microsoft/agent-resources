@@ -91,7 +91,7 @@ a:hover { color: var(--brand-mid); }
   line-height: 1.15;
   margin-bottom: .85rem;
   color: #ffffff;
-  white-space: nowrap;
+  text-wrap: balance;
 }
 .hero p {
   font-size: 1rem;
