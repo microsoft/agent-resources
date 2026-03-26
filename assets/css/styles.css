@@ -289,5 +289,5 @@ footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 }
 
 @media (min-width: 1020px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
+  .cards { grid-template-columns: repeat(2, 1fr); }
 }
