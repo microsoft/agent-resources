@@ -185,6 +185,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	-webkit-overflow-scrolling: touch;
 }
 .nav-strip::-webkit-scrollbar { display: none; }
+.nav-strip {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	mask-image: linear-gradient(to right, transparent 0, black 1rem, black calc(100% - 2rem), transparent 100%);
+	-webkit-mask-image: linear-gradient(to right, transparent 0, black 1rem, black calc(100% - 2rem), transparent 100%);
+}
 .nav-strip a {
 	min-height: 44px;
 	display: inline-flex;
