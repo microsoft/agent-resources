@@ -266,8 +266,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .icon-comm     { background: #fefce8; color:#854d0e; }
 .icon-webinar  { background: #eff6ff; color:#1d4ed8; }
 .icon-proto    { background: #ccfbf1; color:#0f766e; }
-.icon-oss      { background: #fff7ed; color:#c2410c; }
-.icon-samples  { background: #ecfdf5; color:#047857; }
+.icon-oss      { background: #fef3c7; color:#92400e; }
+.icon-samples  { background: #e0f2fe; color:#075985; }
 
 .section-title {
 	font-size: var(--text-lg);
