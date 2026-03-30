@@ -198,7 +198,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	font-size: .85rem;
 	font-weight: 500;
 	color: var(--text-muted);
-	transition: all var(--transition);
+	transition: color var(--transition), background var(--transition), border-color var(--transition);
 	border: 1px solid transparent;
 }
 .nav-strip a:hover {
@@ -335,7 +335,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 	border: 1px solid var(--border);
 	border-radius: var(--radius);
 	overflow: hidden;
-	transition: all var(--transition);
+	transition: border-color var(--transition), box-shadow var(--transition);
 }
 .session-grid li:hover {
 	border-color: var(--brand-light);
@@ -382,7 +382,7 @@ footer .btn {
 	color: #fff;
 	font-weight: 600;
 	font-size: .9rem;
-	transition: all var(--transition);
+	transition: background var(--transition), border-color var(--transition);
 }
 footer .btn:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.6); }
 footer .copyright {
