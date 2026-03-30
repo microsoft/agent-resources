@@ -371,6 +371,7 @@ footer {
 	padding: 3rem 2rem 2rem;
 }
 footer p { opacity: .7; font-size: .95rem; margin-bottom: 1rem; }
+footer a { padding: .5rem .25rem; }
 footer .copyright {
 	margin-top: 2.5rem;
 	font-size: var(--text-sm);
