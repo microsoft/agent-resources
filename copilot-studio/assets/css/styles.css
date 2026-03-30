@@ -375,6 +375,7 @@ footer {
 }
 footer h2 { font-size: var(--text-2xl); margin-bottom: var(--space-2); }
 footer p { opacity: .7; font-size: .95rem; margin-bottom: 1rem; }
+footer a { padding: .5rem .25rem; }
 footer .btn {
 	display: inline-block;
 	padding: .65rem 1.8rem;

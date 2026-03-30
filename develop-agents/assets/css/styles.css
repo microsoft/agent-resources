@@ -383,7 +383,7 @@ footer .btn {
 	transition: background var(--transition), border-color var(--transition);
 }
 footer .btn:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.6); }
-footer a { color: var(--brand-light); }
+footer a { color: var(--brand-light); padding: .5rem .25rem; }
 footer a:hover { color: #fff; }
 footer .copyright {
 	margin-top: 2.5rem;
