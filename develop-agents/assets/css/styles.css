@@ -219,6 +219,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 
 /* ── Section Cards ── */
 .section-card {
+	scroll-margin-top: 4.5rem;
 	margin-bottom: var(--space-7);
 	border: 1px solid var(--border);
 	border-radius: var(--radius-lg);
