@@ -195,7 +195,72 @@
         </div>
       </div>
 
-      <!-- sections 5-11 added in subsequent tasks -->
+      <!-- ── BUILD WITH FOUNDRY ── -->
+      <div class="section-card" id="building">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-build" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+          <span class="section-title">Build with Microsoft Foundry</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Azure AI Agent Service</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-services/agents/overview" target="_blank" rel="noopener">What is Azure AI Agent Service?</a> &mdash; build production AI agents with tools and memory</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/agents/quickstart" target="_blank" rel="noopener">Quickstart: Create your first AI agent</a></li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/agents/how-to/tools/overview" target="_blank" rel="noopener">Agent tools overview</a> &mdash; code interpreter, file search, function calling, Bing grounding</li>
+          </ul>
+          <h3 class="sub-heading">Prompt Flow</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/prompt-flow" target="_blank" rel="noopener">Prompt Flow in Microsoft Foundry</a> &mdash; build and iterate on LLM-based flows</li>
+            <li><a href="https://microsoft.github.io/promptflow/" target="_blank" rel="noopener">Prompt Flow documentation</a> &mdash; open-source SDK and tooling</li>
+            <li><a href="https://github.com/microsoft/promptflow" target="_blank" rel="noopener">microsoft/promptflow</a> &mdash; GitHub repository</li>
+          </ul>
+          <h3 class="sub-heading">Foundry SDK &amp; development tools</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/develop/sdk-overview" target="_blank" rel="noopener">Microsoft Foundry SDK overview</a> &mdash; Python, JavaScript, and .NET</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/develop/trace-production-sdk" target="_blank" rel="noopener">Tracing and observability for AI apps</a> &mdash; distributed tracing in Foundry</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/tutorials/copilot-sdk-build-rag" target="_blank" rel="noopener">Tutorial: Build a RAG app with the Foundry SDK</a></li>
+            <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.aistudio" target="_blank" rel="noopener">Microsoft Foundry VS Code extension</a></li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/develop/langchain" target="_blank" rel="noopener">Use LangChain with Microsoft Foundry</a></li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/develop/semantic-kernel" target="_blank" rel="noopener">Use Semantic Kernel with Microsoft Foundry</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ── MODELS & SERVICES ── -->
+      <div class="section-card" id="models">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-models" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg></span>
+          <span class="section-title">Models and services</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Model catalog</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/model-catalog-overview" target="_blank" rel="noopener">Model catalog overview</a> &mdash; browse and compare hundreds of models from Microsoft, OpenAI, Meta, Mistral, and more</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/model-benchmarks" target="_blank" rel="noopener">Model benchmarks</a> &mdash; compare quality and performance metrics across models</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/deploy-models-serverless" target="_blank" rel="noopener">Serverless API deployments (MaaS)</a> &mdash; pay-per-token, no managed infrastructure</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/deploy-models-managed-compute" target="_blank" rel="noopener">Managed compute deployments (MaaP)</a> &mdash; dedicated compute with full control</li>
+          </ul>
+          <h3 class="sub-heading">Azure OpenAI Service</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/overview" target="_blank" rel="noopener">Azure OpenAI Service overview</a> &mdash; GPT-4o, o-series, DALL-E, Whisper, embeddings</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/models" target="_blank" rel="noopener">Azure OpenAI model reference</a> &mdash; all available models and versions</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/whats-new" target="_blank" rel="noopener">What's new in Azure OpenAI</a> &mdash; latest model releases and features</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/quotas-limits" target="_blank" rel="noopener">Quotas, limits, and regional availability</a></li>
+          </ul>
+          <h3 class="sub-heading">Azure AI Services</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-services/" target="_blank" rel="noopener">Azure AI Services documentation hub</a> &mdash; vision, speech, language, document intelligence, search</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/computer-vision/overview" target="_blank" rel="noopener">Azure AI Vision</a> &mdash; image analysis, OCR, face detection</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/speech-service/overview" target="_blank" rel="noopener">Azure AI Speech</a> &mdash; speech-to-text, text-to-speech, translation</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/language-service/overview" target="_blank" rel="noopener">Azure AI Language</a> &mdash; NLP, sentiment, entity recognition, summarization</li>
+            <li><a href="https://learn.microsoft.com/azure/search/search-what-is-azure-search" target="_blank" rel="noopener">Azure AI Search</a> &mdash; vector and hybrid search for RAG patterns</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- sections 7-11 added in subsequent tasks -->
     </main>
 
     <!-- ── Footer ── -->
