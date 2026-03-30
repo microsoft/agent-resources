@@ -260,7 +260,74 @@
         </div>
       </div>
 
-      <!-- sections 7-11 added in subsequent tasks -->
+      <!-- ── EVALUATE & IMPROVE ── -->
+      <div class="section-card" id="evaluate">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-evaluate" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
+          <span class="section-title">Evaluate and improve</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Evaluations</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/evaluate-generative-ai-app" target="_blank" rel="noopener">Evaluate your generative AI app in Microsoft Foundry</a> &mdash; built-in and custom evaluators</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/evaluate-sdk-code-only" target="_blank" rel="noopener">Azure AI Evaluation SDK</a> &mdash; run evaluations in code without the portal</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/concepts/evaluation-metrics-built-in" target="_blank" rel="noopener">Built-in evaluation metrics</a> &mdash; groundedness, relevance, coherence, fluency, similarity</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/monitor-deployments" target="_blank" rel="noopener">Monitor deployed models</a> &mdash; track quality, latency, and token usage in production</li>
+          </ul>
+          <h3 class="sub-heading">Fine-tuning</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/fine-tuning" target="_blank" rel="noopener">Fine-tune Azure OpenAI models</a> &mdash; customize GPT-4o, GPT-4o mini, and more</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/fine-tune-model-llama" target="_blank" rel="noopener">Fine-tune Meta Llama models in Microsoft Foundry</a></li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/fine-tune-phi-3" target="_blank" rel="noopener">Fine-tune Phi-3 models in Microsoft Foundry</a></li>
+          </ul>
+          <h3 class="sub-heading">Content safety and responsible AI</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/content-filter" target="_blank" rel="noopener">Content filtering in Azure OpenAI</a> &mdash; default and configurable safety layers</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/content-safety/overview" target="_blank" rel="noopener">Azure AI Content Safety</a> &mdash; detect harmful content across text and images</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/responsible-ai-overview" target="_blank" rel="noopener">Responsible AI tools in Microsoft Foundry</a> &mdash; safety evaluations, red-teaming, dashboards</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ── ARCHITECTURE & BEST PRACTICES ── -->
+      <div class="section-card" id="architecture">
+        <button class="section-header" aria-expanded="false">
+          <span class="section-icon icon-arch" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span>
+          <span class="section-title">Architecture and best practices</span>
+          <svg class="chevron" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+        </button>
+        <div class="section-body">
+          <h3 class="sub-heading">Cloud Adoption Framework (CAF)</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/" target="_blank" rel="noopener">AI adoption scenario</a> &mdash; strategy, planning, readiness, governance, and management for AI at scale</li>
+            <li><a href="https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/azure-ai-foundry-landing-zone" target="_blank" rel="noopener">Microsoft Foundry landing zone accelerator</a> &mdash; enterprise-ready reference implementation</li>
+            <li><a href="https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/ready" target="_blank" rel="noopener">Prepare your landing zone for AI workloads</a></li>
+            <li><a href="https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/ai/govern" target="_blank" rel="noopener">Govern AI workloads</a> &mdash; policies, controls, and compliance for AI in the enterprise</li>
+          </ul>
+          <h3 class="sub-heading">Well-Architected Framework (WAF)</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/well-architected/ai/" target="_blank" rel="noopener">AI workloads on Azure</a> &mdash; WAF guidance for reliability, security, cost, performance, and operations</li>
+            <li><a href="https://learn.microsoft.com/azure/well-architected/ai/get-started" target="_blank" rel="noopener">Get started with AI workload design</a></li>
+            <li><a href="https://learn.microsoft.com/azure/well-architected/ai/security" target="_blank" rel="noopener">Security for AI workloads</a> &mdash; WAF security pillar applied to AI</li>
+          </ul>
+          <h3 class="sub-heading">Reference architectures</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/architecture/ai-ml/architecture/rag-azure-ai-foundry-openai" target="_blank" rel="noopener">RAG baseline architecture with Microsoft Foundry</a> &mdash; production-ready retrieval-augmented generation</li>
+            <li><a href="https://learn.microsoft.com/azure/architecture/ai-ml/" target="_blank" rel="noopener">Azure Architecture Center: AI + Machine Learning</a> &mdash; patterns, guides, and reference architectures</li>
+            <li><a href="https://learn.microsoft.com/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat" target="_blank" rel="noopener">Baseline OpenAI end-to-end chat architecture</a></li>
+          </ul>
+          <h3 class="sub-heading">Security and networking</h3>
+          <ul class="link-list">
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/configure-private-link" target="_blank" rel="noopener">Configure private link for Microsoft Foundry</a> &mdash; network isolation with private endpoints</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/rbac-ai-foundry" target="_blank" rel="noopener">Role-based access control in Microsoft Foundry</a> &mdash; built-in roles and custom role assignments</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-foundry/how-to/troubleshoot-secure-connection-project" target="_blank" rel="noopener">Secure your Microsoft Foundry hub</a> &mdash; managed virtual networks and outbound rules</li>
+            <li><a href="https://learn.microsoft.com/azure/ai-services/openai/how-to/managed-identity" target="_blank" rel="noopener">Use managed identity with Azure OpenAI</a> &mdash; keyless authentication best practice</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- sections 9-11 added in subsequent tasks -->
     </main>
 
     <!-- ── Footer ── -->
