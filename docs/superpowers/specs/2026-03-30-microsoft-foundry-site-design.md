@@ -3,7 +3,7 @@ _Date: 2026-03-30_
 
 ## Overview
 
-Create a new child site at `microsoft-foundry/` following the established pattern of the other resource hubs (m365-copilot, copilot-studio, agent365, develop-agents). The site provides curated learning resources for Microsoft AI Foundry — the Azure-based platform for building, evaluating, and deploying AI models and agents.
+Create a new child site at `microsoft-foundry/` following the established pattern of the other resource hubs (m365-copilot, copilot-studio, agent365, develop-agents). The site provides curated learning resources for Microsoft Foundry — Microsoft's platform for building, evaluating, and deploying AI models and agents.
 
 The site is self-contained, published via GitHub Pages with no build step, and identical in structure to the other child sites. It is scoped similarly to the Copilot Studio site but expanded to reflect Foundry's greater product complexity.
 
@@ -35,7 +35,7 @@ No build step. Push to `main` to deploy.
 
 ## Color Identity
 
-Based on the Azure AI Foundry icon's warm orange-to-amber palette — clearly distinct from the cool blues (M365 Copilot), purples (develop-agents), and indigos (Agent 365).
+Based on the Microsoft Foundry icon's warm orange-to-amber palette — clearly distinct from the cool blues (M365 Copilot), purples (develop-agents), and indigos (Agent 365).
 
 | Token | Value | Usage |
 |-------|-------|-------|
@@ -64,15 +64,15 @@ Nav strip order matches section order.
 ### 1. Get Started
 **ID:** `get-started` | **Nav label:** Get Started
 
-What is Microsoft AI Foundry, where to find official docs, a quickstart, and an overview video. Mirrors the "I am new" framing from Copilot Studio but uses a direct title.
+What is Microsoft Foundry, where to find official docs, a quickstart, and an overview video. Mirrors the "I am new" framing from Copilot Studio but uses a direct title.
 
 Content:
-- What is Microsoft AI Foundry? (overview doc link)
+- What is Microsoft Foundry? (overview doc link)
 - Official documentation hub (`learn.microsoft.com/azure/ai-foundry`)
 - Quickstart: create a project in Foundry
 - Overview / intro video
 - Product page / marketing site
-- Azure AI Foundry in the Azure portal (direct link)
+- Microsoft Foundry in the Azure portal (direct link)
 - Key concepts: projects, hubs, connections, deployments
 
 ### 2. News & Announcements
@@ -82,7 +82,7 @@ Latest blog posts, feature releases, and conference announcements (Build, Ignite
 
 Content:
 - Azure AI Blog (`techcommunity.microsoft.com/category/azure-ai-services/blog/azure-ai-services-blog`)
-- What's new in Azure AI Foundry (release notes / changelog page)
+- What's new in Microsoft Foundry (release notes / changelog page)
 - Ignite and Build announcement blog posts (by date, most recent first)
 - Microsoft AI platform announcements section in Book of News where applicable
 
@@ -92,8 +92,8 @@ Content:
 Guidance and frameworks for organizations adopting Foundry at scale — change management, planning, CAF adoption scenarios.
 
 Content:
-- Cloud Adoption Framework: AI adoption scenario for Azure AI Foundry
-- Azure AI Foundry adoption guide / deployment accelerator (if available)
+- Cloud Adoption Framework: AI adoption scenario for Microsoft Foundry
+- Microsoft Foundry adoption guide / deployment accelerator (if available)
 - Planning and readiness resources
 - Organizational readiness for AI workloads
 
@@ -103,12 +103,12 @@ Content:
 Microsoft Learn paths, instructor-led training, hands-on labs, and formal certifications relevant to Foundry.
 
 Content:
-- **Learn paths:** "Get started with Azure AI Foundry", Azure AI Engineer path
+- **Learn paths:** "Get started with Microsoft Foundry", Azure AI Engineer path
 - **Certifications:**
   - AI-102: Designing and Implementing a Microsoft Azure AI Solution
   - DP-100: Designing and Implementing a Data Science Solution on Azure
   - AI-050: Develop Generative AI solutions (if applicable)
-- **Labs:** Applied Skills for Azure AI Foundry / generative AI
+- **Labs:** Applied Skills for Microsoft Foundry / generative AI
 - **Microsoft Learn sandbox** / guided exercises
 
 ### 5. Build with Foundry
@@ -120,7 +120,7 @@ Content:
 - Azure AI Agent Service documentation
 - Prompt Flow: getting started, authoring flows
 - Foundry SDK (Python, JavaScript, .NET) — reference and quickstart
-- Azure AI Foundry VS Code extension
+- Microsoft Foundry VS Code extension
 - MCP (Model Context Protocol) integration with Foundry
 - Evaluation SDK (developer-oriented evaluation tooling)
 - Tracing and observability for AI apps
@@ -132,7 +132,7 @@ Content:
 The model catalog, Azure OpenAI Service, and the broader AI services portfolio accessible from Foundry.
 
 Content:
-- **Model catalog:** browse and deploy models from Azure AI Foundry
+- **Model catalog:** browse and deploy models from Microsoft Foundry
 - **Azure OpenAI Service:** docs hub, model reference (GPT-4o, o-series, etc.)
 - **Azure AI Services:** vision, speech, language, document intelligence, content safety
 - Serverless API deployments (MaaS) vs. managed compute (MaaP)
@@ -145,7 +145,7 @@ Content:
 Resources for measuring, improving, and governing AI model and application quality — evaluations, fine-tuning, content safety, and monitoring.
 
 Content:
-- Evaluation in Azure AI Foundry (built-in evaluators, custom evaluators)
+- Evaluation in Microsoft Foundry (built-in evaluators, custom evaluators)
 - Azure AI Evaluation SDK
 - Fine-tuning models in Foundry
 - Distillation
@@ -159,11 +159,11 @@ Content:
 Cloud Adoption Framework, Well-Architected Framework, reference architectures, landing zones, and security/governance guidance for Foundry workloads.
 
 Content:
-- **CAF:** Azure AI Foundry adoption scenario in Cloud Adoption Framework
+- **CAF:** Microsoft Foundry adoption scenario in Cloud Adoption Framework
 - **WAF:** AI workload guidance in Azure Well-Architected Framework
-- Azure AI Foundry landing zone accelerator
-- Azure AI Foundry reference architectures (RAG baseline, multi-agent, etc.)
-- Security baseline for Azure AI Foundry
+- Microsoft Foundry landing zone accelerator
+- Microsoft Foundry reference architectures (RAG baseline, multi-agent, etc.)
+- Security baseline for Microsoft Foundry
 - Network isolation and private endpoints
 - Identity and access management for Foundry
 - Cost management and optimization
@@ -171,10 +171,10 @@ Content:
 ### 9. Real-World Customer Stories
 **ID:** `stories` | **Nav label:** Stories
 
-Published case studies, partner success stories, and customer showcases using Azure AI Foundry.
+Published case studies, partner success stories, and customer showcases using Microsoft Foundry.
 
 Content:
-- Azure customer stories filtered to AI Foundry
+- Azure customer stories filtered to Microsoft Foundry
 - Partner spotlights
 - Industry-specific implementations (healthcare, finance, retail, etc.)
 
@@ -185,12 +185,12 @@ GitHub repositories, solution accelerators, notebooks, and templates.
 
 Content:
 - `azure-samples/azureai-samples` — official samples repo
-- Azure AI Foundry solution accelerators
+- Microsoft Foundry solution accelerators
 - Prompt Flow sample flows gallery
 - Azure OpenAI samples
 - RAG solution accelerators
 - Multi-agent sample applications
-- Azure AI Foundry GitHub org overview
+- Microsoft Foundry GitHub org overview
 
 ### 11. Community & Support
 **ID:** `community` | **Nav label:** Community
@@ -199,18 +199,18 @@ Tech Community blog, GitHub Discussions, support channels, and office hours.
 
 Content:
 - Azure AI Tech Community (`techcommunity.microsoft.com/category/azure-ai-services`)
-- Azure AI Foundry GitHub Discussions
-- Azure AI Foundry feedback / UserVoice
+- Microsoft Foundry GitHub Discussions
+- Microsoft Foundry feedback / UserVoice
 - Azure support options
 - Office hours / live Q&A sessions (if recurring)
-- AI Foundry Discord or community channels (if applicable)
+- Microsoft Foundry Discord or community channels (if applicable)
 
 ---
 
 ## OG / Social Metadata
 
-- `og:title`: "Microsoft AI Foundry Resources"
-- `og:description`: "Curated learning materials to help you build, evaluate, and deploy AI models and agents with Microsoft AI Foundry — curated by the Microsoft Copilot Acceleration Team (CAT)."
+- `og:title`: "Microsoft Foundry Resources"
+- `og:description`: "Curated learning materials to help you build, evaluate, and deploy AI models and agents with Microsoft Foundry — curated by the Microsoft Copilot Acceleration Team (CAT)."
 - `og:image`: `microsoft-foundry/images/og-image.png` (1200×630, to be created)
 - Clarity tag ID: TBD (new tag needed for this site)
 
