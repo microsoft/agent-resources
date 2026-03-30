@@ -35,25 +35,25 @@ No build step. Push to `main` to deploy.
 
 ## Color Identity
 
-Based on the Microsoft Foundry icon's warm orange-to-amber palette — clearly distinct from the cool blues (M365 Copilot), purples (develop-agents), and indigos (Agent 365).
+Based on the Microsoft Foundry icon's cobalt blue palette — a saturated electric blue distinct from M365 Copilot's lighter sky blue (`#0078d4`), Agent 365's blue-indigo (`#3b5bdb`), and the purple tones of Copilot Studio / develop-agents.
 
 | Token | Value | Usage |
 |-------|-------|-------|
-| `--brand-deep` | `#7a2500` | Footer background, deep shadows |
-| `--brand-mid` | `#c84b0a` | Hover states |
-| `--brand-accent` | `#e07020` | Links, badges, focus rings |
-| `--brand-light` | `#f5a623` | Session grid hover borders |
-| `--teal-accent` | `#f5c842` | Accent highlights |
-| `--surface-alt` | `#fff8f0` | Section hover backgrounds |
-| `--surface-hover` | `#ffeedd` | Link list row hover |
-| `--border` | `#f5d9b8` | Card borders |
-| Shadow colors | `rgba(122,37,0,…)` | Replaces blue-tinted shadows |
+| `--brand-deep` | `#071e75` | Footer background, deep shadows |
+| `--brand-mid` | `#1038c8` | Hover states |
+| `--brand-accent` | `#1a4fe0` | Links, badges, focus rings |
+| `--brand-light` | `#4c80f5` | Session grid hover borders |
+| `--teal-accent` | `#3d6be0` | Accent highlights |
+| `--surface-alt` | `#eef2ff` | Section hover backgrounds |
+| `--surface-hover` | `#dce5ff` | Link list row hover |
+| `--border` | `#c0ccf5` | Card borders |
+| Shadow colors | `rgba(7,30,117,…)` | Replaces blue-tinted shadows |
 
-**Hero gradient:** `135deg, #c84b0a 0%, #e07020 30%, #f5a623 65%, #fcd385 100%`
+**Hero gradient:** `135deg, #071e75 0%, #1038c8 30%, #1a4fe0 65%, #3d6be0 100%`
 
-**Hero overlay radial gradients** (the `::before` ambient layer): two ellipses using the burnt-orange and amber values, mirroring the pattern from other sites.
+**Hero overlay radial gradients** (the `::before` ambient layer): two ellipses using the deep navy and cobalt blue values, mirroring the pattern from other sites.
 
-**Search bar text/placeholder colors:** warm dark (`#3d1500`) instead of the indigo dark used in agent365.
+**Search bar text/placeholder colors:** deep navy (`#071e75`) to maintain legibility on the blue gradient.
 
 ---
 
@@ -218,7 +218,7 @@ Content:
 
 ## Root Hub Update
 
-The root `index.html` will need a new card added for Foundry (`card-foundry` class with orange accent color), pointing to `microsoft-foundry/`. This is a separate task and not part of this spec.
+The root `index.html` card for Foundry (`card-foundry` class, cobalt blue accent) has been added as part of this work — it is not a separate task.
 
 ---
 
