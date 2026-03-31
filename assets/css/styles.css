@@ -177,11 +177,12 @@ main {
   width: 100%;
   transition: height var(--transition);
 }
-.card-agent365::before       { background: linear-gradient(90deg, #3b5bdb, #6b8ef5); }
-.card-m365copilot::before    { background: linear-gradient(90deg, #0078d4, #00b7c3); }
-.card-copilot-studio::before { background: linear-gradient(90deg, #7c3aed, #c084fc); }
-.card-build-agents::before   { background: linear-gradient(90deg, #F45B69, #F45B69); }
-.card-foundry::before        { background: linear-gradient(90deg, #1038c8, #3d6be0); }
+.card-agent365::before          { background: linear-gradient(90deg, #3b5bdb, #6b8ef5); }
+.card-m365copilot::before       { background: linear-gradient(90deg, #0078d4, #00b7c3); }
+.card-copilot-studio::before    { background: linear-gradient(90deg, #7c3aed, #c084fc); }
+.card-build-agents::before      { background: linear-gradient(90deg, #F45B69, #F45B69); }
+.card-foundry::before           { background: linear-gradient(90deg, #1038c8, #3d6be0); }
+.card-platform-advisor::before  { background: linear-gradient(90deg, #00897b, #26c6da); }
 .card:hover::before { height: 5px; }
 
 .card-body {
@@ -222,11 +223,12 @@ main {
   letter-spacing: .09em;
   text-transform: uppercase;
 }
-.card-agent365       .card-eyebrow { color: #1d4ed8; }
-.card-m365copilot    .card-eyebrow { color: #0369a1; }
-.card-copilot-studio .card-eyebrow { color: #5b21b6; }
-.card-build-agents   .card-eyebrow { color: #c0392b; }
-.card-foundry        .card-eyebrow { color: #1038c8; }
+.card-agent365          .card-eyebrow { color: #1d4ed8; }
+.card-m365copilot       .card-eyebrow { color: #0369a1; }
+.card-copilot-studio    .card-eyebrow { color: #5b21b6; }
+.card-build-agents      .card-eyebrow { color: #c0392b; }
+.card-foundry           .card-eyebrow { color: #1038c8; }
+.card-platform-advisor  .card-eyebrow { color: #00695c; }
 
 .card-title {
   font-size: var(--text-xl);
@@ -278,11 +280,13 @@ main {
   border-radius: 6px;
   letter-spacing: .02em;
 }
-.card-agent365       .cta-badge { background: #dbeafe; color: #1d4ed8; }
-.card-m365copilot    .cta-badge { background: #e0f2fe; color: #0369a1; }
-.card-copilot-studio .cta-badge { background: #ede9fe; color: #5b21b6; }
-.card-build-agents   .cta-badge { background: #fde8ea; color: #c0392b; }
-.card-foundry        .cta-badge { background: #dce5ff; color: #1038c8; }
+.card-agent365          .cta-badge { background: #dbeafe; color: #1d4ed8; }
+.card-m365copilot       .cta-badge { background: #e0f2fe; color: #0369a1; }
+.card-copilot-studio    .cta-badge { background: #ede9fe; color: #5b21b6; }
+.card-build-agents      .cta-badge { background: #fde8ea; color: #c0392b; }
+.card-foundry           .cta-badge { background: #dce5ff; color: #1038c8; }
+.card-platform-advisor  .cta-badge { background: #e0f2f1; color: #00695c; }
+.card-platform-advisor  .cta-badge { background: #e0f2f1; color: #00695c; }
 
 /* ── Footer ── */
 footer {
