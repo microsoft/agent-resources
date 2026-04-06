@@ -270,6 +270,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .icon-best   { background: #f3e5f5; color: #6a1b9a; }
 .icon-sample { background: #e8eaf6; color: #283593; }
 .icon-comm   { background: #fff8e1; color: #f57f17; }
+.icon-gov    { background: #eceff1; color: #37474f; }
 
 .section-title {
 	font-size: var(--text-lg);
