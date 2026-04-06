@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Track Changes
+
+Always update CHANGELOG.md with additions/removals from the sites.
+
 ## Repository Overview
 
 This repo contains five separate static sites, all published via GitHub Pages from `main` with no build step — edit files and push to deploy:

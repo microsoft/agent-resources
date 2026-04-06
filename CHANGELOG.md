@@ -4,6 +4,14 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ## 2026-04-06
 
+### m365-copilot/
+- **New section: Copilot Cowork** — added nav item and full section with four sub-headings:
+  - *Overview* — 4 documentation entries: Cowork overview, Get started, Use Cowork, FAQ
+  - *Official announcements* — 4 entries: "Now available in Frontier" blog, "A new way of getting work done" blog, Charles Lamanna LinkedIn demo post, Charles Lamanna TBPN Live LinkedIn post
+  - *MVP & community posts* — 4 entries: Rob Quickenden MVP walkthrough, Christian Buckley MVP/RD strategic analysis, Tom Arbuthnot MVP March 2026 roundup, C5 Insight plan-act-approve explainer
+  - *Videos* — Lisa Crosbie explainer, John Savill walkthrough
+- Moved Copilot Cowork out of the Agents → Frontier sub-section into its own dedicated section
+
 ### copilot-studio/
 - **New section: Governance and administration** — added nav item and full section with four sub-headings:
   - *Documentation* — 14 entries covering security/governance overview, governance architecture models, DLP policy config, zoned governance strategy, sharing controls, tenant-wide agent inventory, Purview audit logs, monitoring/compliance, licensing & capacity, ALM strategy, security maturity model, Copilot Studio Kit Compliance Hub, PPAC Copilot Hub, and Global Secure Access
