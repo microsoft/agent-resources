@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-04-06
+
+### copilot-studio/
+- **New section: Governance and administration** — added nav item and full section with four sub-headings:
+  - *Documentation* — 14 entries covering security/governance overview, governance architecture models, DLP policy config, zoned governance strategy, sharing controls, tenant-wide agent inventory, Purview audit logs, monitoring/compliance, licensing & capacity, ALM strategy, security maturity model, Copilot Studio Kit Compliance Hub, PPAC Copilot Hub, and Global Secure Access
+  - *Official blog posts* — 6 entries: Agent Governance Whitepaper, March 2025 managed governance launch, robust security for agents post, and three Ignite 2025 recaps (Copilot Control System, AI admin capabilities, security & governance innovations)
+  - *Build 2025 sessions* — BRK159: Secure and govern your enterprise-scale agents
+  - *Ignite 2025 sessions* — BRK293 (oversharing/oversight), BRK324 (Power Platform governance), PBRK307 (managed solutions), THR759 (Copilot Trust & Safety)
+  - *Community and MVP resources* — 4 entries: two Ragnar Heil MVP posts (governance best practices + DLP tips), Mikko Koskinen's governance checklist, powertricks.io complete admin reference
+
 ## 2026-03-31
 
 ### Root hub (/)
