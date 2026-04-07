@@ -2,6 +2,15 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-04-07
+
+### m365-copilot/
+- **News section** — added 3 Cowork entries: "Copilot Cowork: Now available in Frontier", "Copilot Cowork: A new way of getting work done", "What's New in Microsoft 365 Copilot — March 2026"
+- Swapped section order in nav and page: Training now appears before Adoption
+
+### copilot-studio/
+- Updated "Agent in a Day" links to short URL `https://aka.ms/AgIAD` in Get Started and Adoption sections
+
 ## 2026-04-06
 
 ### m365-copilot/
