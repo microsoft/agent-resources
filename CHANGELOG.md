@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-04-09
+
+### agent365/
+- **Get Started** — added "Introducing Microsoft Agent 365" video and "Use and collaborate with agents" end-user guide
+- **News** — added Microsoft Entra innovations at RSAC 2026 blog post and RSAC 2026 shadow AI protection announcement
+- **Developer** — added "Introduction to Agent 365 SDK" video
+- **Community** — added Agent 365 Discussions forum link and new "MVP and community blogs" sub-section with 8 entries: Jukka Niiranen FAQ site, Rob Quickenden GA deep-dive and Ignite recap, Simon Doy first-agent walkthrough, Steve Corey dashboard walkthrough video, Corsica Tech governance article, Devoteam expert view, IT PRO analyst overview
+
 ## 2026-04-07
 
 ### m365-copilot/
