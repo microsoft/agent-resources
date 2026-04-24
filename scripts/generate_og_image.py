@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 IMAGES = ROOT / "images"
-OUT = IMAGES / "og-image.png"
+OUT = IMAGES / "og-image-v2.png"
 
 W, H = 1200, 630
 
