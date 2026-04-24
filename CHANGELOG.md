@@ -2,6 +2,11 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-04-24
+
+### / (root)
+- **og-image** — regenerated `images/og-image.png` with a refreshed brand-aligned design showing all five product destinations (M365 Copilot, Copilot Studio, Microsoft Foundry, Agent Framework, Agent 365); added `scripts/generate_og_image.py` to make the image reproducible
+
 ## 2026-04-09
 
 ### agent365/
