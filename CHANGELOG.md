@@ -10,7 +10,9 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ### m365-copilot/
 - **News and announcements** — added 4 entries: Copilot's agentic capabilities in Word/Excel/PowerPoint now GA (Apr 22), "Bring your everyday business apps into the flow of work with agents" covering Adobe Express / Figma / Optimizely / Dynamics 365 (Apr 13), M365 Copilot readiness and resiliency with SharePoint + M365 Backup (Tech Community), ICYMI Frontier Transformation and Wave 3 recap (Tech Community)
-- **Copilot Cowork → MVP & community posts** — added Tom Arbuthnot's April 2026 Microsoft 365 AI Workplace Update (Cowork, Anthropic models, EU Flex routing, new SharePoint)
+- **Copilot Cowork → Official announcements** — added 2 entries: "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot" (Cowork + Studio + Excel) and Microsoft Mechanics blog "Claude + GPT: Multi-model intelligence in Copilot" covering Cowork, Work IQ, mid-run task injection, and Model Council
+- **Copilot Cowork → MVP & community posts** — added 2 entries: Tom Arbuthnot's April 2026 Microsoft 365 AI Workplace Update and Rob Quickenden's "How to create Custom Skills in Copilot Cowork" (markdown SKILL.md files in OneDrive)
+- **Copilot Cowork → Videos** — added Jeremy Chapman (Microsoft Mechanics) "Claude + GPT: Multi-model intelligence in Copilot" — Cowork briefing/deck/Excel generation, mid-run task injection, Work IQ auto-retrieval, Researcher Critique, Model Council
 - **Extensibility → Get started extending Copilot** — added Voitanos (Andrew Connell) deep-dive on April 2026 declarative agent upgrades: MCP Apps, embedded knowledge, Agents Toolkit plugin
 
 ### copilot-studio/
