@@ -5,6 +5,7 @@ All notable changes to the Agent Resources sites are documented in this file.
 ## 2026-04-24
 
 ### / (root)
+- **README.md** — rewrote from a single heading into a full project overview: what the hub is, per-site table with short URLs, feature list, local-preview instructions, contribution conventions (CHANGELOG, `main.js` sync, Clarity tag IDs, OG image regeneration), architecture diagram, credits, and license/policy links
 - **og-image** — regenerated as `images/og-image-v2.png` (renamed from `og-image.png` to bust LinkedIn/Facebook/Twitter OG caches) with a refreshed brand-aligned design showing all five product destinations (M365 Copilot, Copilot Studio, Microsoft Foundry, Agent Framework, Agent 365); updated `og:image` and `twitter:image` meta tags in `index.html`; added `scripts/generate_og_image.py` to make the image reproducible
 - Fixed front-door short URL reference in `CLAUDE.md` and `.github/copilot-instructions.md` (aka.ms/airesources → aka.ms/agentresources)
 
