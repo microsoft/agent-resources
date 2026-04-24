@@ -13,13 +13,17 @@ Five static sites published via GitHub Pages from `main` — no build step, no p
 | Build AI Agents | `develop-agents/` | *(no short URL yet)* |
 | Microsoft Foundry | `microsoft-foundry/` | *(no short URL yet)* |
 
+## Track Changes
+
+Always update CHANGELOG.md with additions/removals from the sites.
+
 ## Architecture
 
 ### Child sites (agent365/, copilot-studio/, m365-copilot/, develop-agents/, microsoft-foundry/)
 
-Each child site is self-contained with the same structure: `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`.
+Each child site is self-contained with the same structure: `index.html`, `assets/css/styles.css`, `images/`, and `favicon.ico`.
 
-**The `main.js` across all child sites is identical — when changing JS logic, update all copies.**
+**All five child sites share a single `assets/js/main.js` at the repo root** (referenced as `../assets/js/main.js`). Edit it once and every site picks up the change.
 
 The UI follows an accordion + search + deep-link pattern:
 
@@ -44,6 +48,6 @@ Content uses two list styles: `.link-list` for resource links and `.session-grid
 ## Key Conventions
 
 - **No build system.** Plain HTML/CSS/JS only — no bundlers, transpilers, or package managers.
-- **Keep `main.js` in sync.** All child sites share identical JS logic. After editing one, copy the file to the other child site directories.
+- **Shared `main.js`.** All five child sites reference a single `../assets/js/main.js` at the repo root. Edit that one file; do not reintroduce per-site copies.
 - **Each site has its own Clarity tag.** Don't reuse tag IDs across sites.
 - **Accordion state** is managed purely through the `open` class on `.section-card` — no hidden inputs or JS state objects.

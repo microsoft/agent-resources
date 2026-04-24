@@ -53,9 +53,9 @@ Every change to a site's content or design must be reflected in `CHANGELOG.md` w
 - ...
 ```
 
-### Keep `main.js` in sync across child sites
+### Shared `main.js` across child sites
 
-All five child sites share **identical** `assets/js/main.js` logic (accordion, search, deep-link). When you change one, copy the file to the other four directories.
+All five child sites reference a single `assets/js/main.js` at the repo root (via `../assets/js/main.js`). It powers the accordion, search, and deep-link behavior. **Edit that one file** — do not reintroduce per-site copies.
 
 ### Each site has its own Microsoft Clarity tag
 
@@ -77,17 +77,18 @@ If you refresh the image, bust social-media caches by renaming the file (e.g. `-
 /                            Front-door hub (product cards)
 ├── index.html               Hero + 6 product cards + footer
 ├── assets/
-│   ├── css/styles.css       Dark star-field + aurora overlay
-│   └── js/main.js           (hub is single-page; no accordion logic)
+│   ├── css/styles.css       Root hub styles (dark star-field + aurora)
+│   └── js/main.js           Shared accordion/search/deep-link logic
+│                            (referenced by every child as ../assets/js/main.js)
 ├── images/                  Shared product icons + og-image-v2.png
 ├── scripts/
 │   └── generate_og_image.py Regenerates the social share image
 │
 ├── m365-copilot/            ┐
 ├── copilot-studio/          │
-├── agent365/                │── Each child site: self-contained with
-├── develop-agents/          │   index.html, assets/css, assets/js, images/
-└── microsoft-foundry/       ┘   (main.js is identical across all five)
+├── agent365/                │── Each child site: index.html, assets/css/styles.css,
+├── develop-agents/          │   images/, favicon.ico — and reuses the shared main.js
+└── microsoft-foundry/       ┘
 ```
 
 See [`CLAUDE.md`](./CLAUDE.md) and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) for additional conventions when making changes with AI assistants.

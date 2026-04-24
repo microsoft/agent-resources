@@ -18,7 +18,7 @@ This repo contains five separate static sites, all published via GitHub Pages fr
 | Agent 365 Resources | `agent365/` | `https://aka.ms/agent365/resources` |
 | Build AI Agents | `develop-agents/` | (no short URL yet; Clarity tag ID also still TODO) |
 
-Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `assets/js/main.js`, `images/`, and `favicon.ico`. The `main.js` across all child sites is identical — keep them in sync when making logic changes.
+Each child site is self-contained with its own `index.html`, `assets/css/styles.css`, `images/`, and `favicon.ico`. All five child sites **share a single `assets/js/main.js` at the repo root** (referenced as `../assets/js/main.js`) — edit once, applies everywhere.
 
 ## Child Site Architecture
 
