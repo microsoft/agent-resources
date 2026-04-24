@@ -6,6 +6,31 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ### / (root)
 - **og-image** — regenerated as `images/og-image-v2.png` (renamed from `og-image.png` to bust LinkedIn/Facebook/Twitter OG caches) with a refreshed brand-aligned design showing all five product destinations (M365 Copilot, Copilot Studio, Microsoft Foundry, Agent Framework, Agent 365); updated `og:image` and `twitter:image` meta tags in `index.html`; added `scripts/generate_og_image.py` to make the image reproducible
+- Fixed front-door short URL reference in `CLAUDE.md` and `.github/copilot-instructions.md` (aka.ms/airesources → aka.ms/agentresources)
+
+### m365-copilot/
+- **News and announcements** — added 4 entries: Copilot's agentic capabilities in Word/Excel/PowerPoint now GA (Apr 22), "Bring your everyday business apps into the flow of work with agents" covering Adobe Express / Figma / Optimizely / Dynamics 365 (Apr 13), M365 Copilot readiness and resiliency with SharePoint + M365 Backup (Tech Community), ICYMI Frontier Transformation and Wave 3 recap (Tech Community)
+- **Copilot Cowork → MVP & community posts** — added Tom Arbuthnot's April 2026 Microsoft 365 AI Workplace Update (Cowork, Anthropic models, EU Flex routing, new SharePoint)
+- **Extensibility → Get started extending Copilot** — added Voitanos (Andrew Connell) deep-dive on April 2026 declarative agent upgrades: MCP Apps, embedded knowledge, Agents Toolkit plugin
+
+### copilot-studio/
+- **Stay up to date on news and features** — added 2 entries: "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration" (multi-agent GA across Fabric, M365 Agents SDK, A2A protocols) and the 2026 release wave 1 overview + planned features on Microsoft Learn
+- **Community and support** — added launch of the Copilot Studio Tech Community Blog (`aka.ms/MCSblog`) — dedicated space for builders/admins on templates, governance, extensibility, and production operations
+
+### agent365/
+- **News and announcements** — added "Save the date for Agent 365 Live AMA" (Tech Community, Apr 15) — official team announcement for the May 12 AMA
+- **Community and support → MVP and community blogs** — added Steve Corey's "Microsoft Agent 365: The Features Nobody Is Talking About (But Should Be)" (Apr 8) — deep-dive on MCP server interoperability, agentic authentication, and agent instancing
+
+### develop-agents/
+- **Microsoft SDKs → Microsoft Agent Framework** — added 2 entries: Microsoft Agent Framework **Version 1.0** release announcement (Apr 3) and Foundry **"From Local to Production"** developer journey post (Apr 22)
+- **Learning and videos → Blog posts & articles** — added 10 April 2026 entries: Agent Framework 1.0 announcement, Foundry "From Local to Production", "Introducing Toolboxes in Foundry", "Introducing the new hosted agents in Foundry Agent Service", "Agent Skills in .NET: Three Ways to Author", "Building a Real-Time Multi-Agent UI with AG-UI", "CodeAct in Agent Framework", "Chat History Storage Patterns in Microsoft Agent Framework", M365 Dev Blog "MCP Apps now available in Copilot chat", and Voitanos "What's new with M365 Copilot declarative agents — April 2026"
+
+### microsoft-foundry/
+- **News and announcements** — added 2 entries: "What's new in Microsoft Foundry | March 2026" monthly roundup (Apr 9) and "What's new in Foundry Labs | April 2026" (MAI-Transcribe-1, MAI-Voice-1, MAI-Image-2)
+- **Building with Foundry → Azure AI Agent Service** — added 2 entries: "Introducing hosted agents in Foundry Agent Service" (Apr 22) and "Introducing Toolboxes in Foundry" (Apr 22)
+- **Building with Foundry → Foundry Local** — added "Foundry Local is now Generally Available" (Apr 9)
+- **Building with Foundry → Microsoft Agent Framework** — added "From Local to Production: the complete developer journey for AI agents" (Apr 22) — Agent Framework v1.0 + Foundry Toolkit for VS Code GA
+- **Evaluations and fine-tuning → Fine-tuning blogs** — added "What's New in Microsoft Foundry Fine-Tuning | April 2026" (Apr 16) — Global Training for o4-mini, GPT-4.1 model graders, RFT best practices
 
 ## 2026-04-09
 
