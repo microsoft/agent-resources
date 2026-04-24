@@ -12,7 +12,7 @@ This repo contains five separate static sites, all published via GitHub Pages fr
 
 | Site | Directory | Short URL |
 |---|---|---|
-| Front-door hub | `/` (root) | `https://aka.ms/airesources` |
+| Front-door hub | `/` (root) | `https://aka.ms/agentresources` |
 | Microsoft 365 Copilot Resources | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
 | Copilot Studio Resources | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
 | Agent 365 Resources | `agent365/` | `https://aka.ms/agent365/resources` |

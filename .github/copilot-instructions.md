@@ -6,7 +6,7 @@ Five static sites published via GitHub Pages from `main` — no build step, no p
 
 | Site | Directory | URL |
 |---|---|---|
-| Front-door hub | `/` (root) | `https://aka.ms/airesources` |
+| Front-door hub | `/` (root) | `https://aka.ms/agentresources` |
 | Microsoft 365 Copilot | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
 | Copilot Studio | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
 | Agent 365 | `agent365/` | `https://aka.ms/agent365/resources` |
