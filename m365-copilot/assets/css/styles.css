@@ -272,6 +272,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .icon-security { background: #fee2e2; color:#b91c1c; }
 .icon-sessions { background: #fce7f3; color:#9d174d; }
 .icon-comm     { background: #fefce8; color:#854d0e; }
+.icon-stories  { background: #fef3c7; color:#92400e; }
 
 .section-title {
 	font-size: var(--text-lg);

@@ -2,6 +2,14 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-04-30
+
+### m365-copilot/
+- **Real-world customer stories** — added new "Stories" section with curated collections (`aka.ms/AgentStories`, AI transformation stories hub, full M365 Copilot customer index, AI customer stories), featured stories (JCB, ECE Group, Wipro, LTM), and Microsoft blog roundups (1,000+ stories Cloud blog post, Revolutionizing work / Eaton). Added `#stories` nav link and `.icon-stories` style.
+
+### copilot-studio/
+- **Real-world customer stories** — updated curated customer stories link from `aka.ms/CopilotAgentStories` to `aka.ms/AgentStories`
+
 ## 2026-04-24
 
 ### / (root)
