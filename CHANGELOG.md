@@ -2,6 +2,22 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-05
+
+### m365-copilot/
+- **News and announcements** — added 3 entries: "Word: Legal Agent in Frontier" (Tech Community, Apr 30), "Copilot in Outlook: New agentic experiences for email and calendar" (Tech Community, Apr 27), and TechCrunch coverage of 20M+ paid Copilot users (Apr 29)
+- **Copilot Cowork → Overview** — added 5 docs links: Add plugins in Copilot Cowork (`aka.ms/cowork-plugins`), Create plugins for Copilot Cowork (`aka.ms/cowork-build-plugins`), Manage plugins in Copilot Cowork (`aka.ms/cowork-manage-plugins`), FabricIQ overview (Microsoft Learn), and Agent 365 controls for Cowork (`aka.ms/agent365docs`)
+- **Copilot Cowork → Official announcements** — added 3 entries: "Cowork in progress" Tech Community blog post, Bence Orban's LinkedIn post on how Cowork is changing the way we work, and the new Dynamics 365 plugins for Cowork announcement (`aka.ms/WTI2026BizApps`)
+- **Copilot Cowork → MVP & community posts** — added 2 entries: Christian Buckley's "M365 Community Conference Highlights and Copilot Updates" (May 4, 2026) and Vlad Catrinescu's "Microsoft 365 Conference 2026 Recap: Top News"
+- **Administration and governance → Setup and management** — added Chris Menard's explainer on the May 16, 2026 Microsoft 365 Copilot Chat licensing changes for unlicensed users
+
+### agent365/
+- **News and announcements** — added 4 GA-related entries: official Microsoft Security Blog GA announcement (May 1), Tech Community Agent 365 blog "What's New in Agent 365: May 2026" (May 1), Tech Community Partner News "Now generally available: Microsoft 365 E7 and Agent 365" (May 1), and VentureBeat coverage of Agent 365 GA + shadow AI
+- **News and announcements** — updated the Agent 365 Live AMA link from `save-the-date-for-agent-365-live-ama/4511734` to the renamed `register-now-for-agent-365-live-ama-on-may-12/4511734`
+
+### microsoft-foundry/
+- **News and announcements** — added 5 Tech Community Foundry blog entries: "Bring Your Own Model to Foundry Agent Service is now Generally Available" (Apr 27), "OrganAIze — What happens when you let AI agents organize themselves?" (Apr 28), "Voice Live API now supports WebRTC (Preview)" (Apr 30), "Prompt Flow is being retired" (Apr 30), and "Introducing DeepSeek V4-Flash and V4-Pro in Microsoft Foundry" (May 1)
+
 ## 2026-04-30
 
 ### m365-copilot/
