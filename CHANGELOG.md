@@ -2,6 +2,11 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-14
+
+### m365-copilot/
+- **Copilot Cowork → Videos** — added Lisa Crosbie's "Copilot Cowork: Tutorial for Beginners"
+
 ## 2026-05-05
 
 ### m365-copilot/
