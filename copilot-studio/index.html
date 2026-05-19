@@ -21,6 +21,7 @@
 	<meta name="twitter:image"       content="https://microsoft.github.io/agent-resources/copilot-studio/images/og-image.png" />
 	<link rel="icon" href="favicon.ico" sizes="any">
 	<link rel="stylesheet" href="assets/css/styles.css" />
+	<script src="../assets/js/theme-toggle.js"></script>
 	<script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -31,6 +32,16 @@
 </head>
 
 <body>
+
+<!-- Theme Toggle -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">
+	<svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+		<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+	</svg>
+	<svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none">
+		<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+	</svg>
+</button>
 
 <!-- ── Hero ── -->
 <section class="hero">

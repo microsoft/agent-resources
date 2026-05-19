@@ -2,6 +2,26 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-19
+
+### / (root)
+- **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage.
+
+### m365-copilot/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### copilot-studio/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### agent365/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### develop-agents/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### microsoft-foundry/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
 ## 2026-05-14
 
 ### m365-copilot/
