@@ -16,6 +16,31 @@ All notable changes to the Agent Resources sites are documented in this file.
 ### develop-agents/
 - **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
 
+## 2026-05-19
+
+### / (root)
+- **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage.
+
+### m365-copilot/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### copilot-studio/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### agent365/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### develop-agents/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+### microsoft-foundry/
+- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+
+## 2026-05-14
+
+### m365-copilot/
+- **Copilot Cowork → Videos** — added Lisa Crosbie's "Copilot Cowork: Tutorial for Beginners"
+
 ## 2026-05-05
 
 ### m365-copilot/

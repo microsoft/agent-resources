@@ -303,6 +303,114 @@ footer a { color: var(--brand-light); padding: .25rem 0; }
 footer a:hover { color: #fff; }
 footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 
+/* ── Theme Toggle ── */
+.theme-toggle {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 1000;
+  background: rgba(13, 27, 53, .7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), transform var(--transition);
+  color: #ffffff;
+}
+.theme-toggle:hover {
+  background: rgba(13, 27, 53, .9);
+  border-color: rgba(255,255,255,.35);
+  transform: scale(1.05);
+}
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* ── Dark Mode ── */
+[data-theme="dark"] {
+  --surface:       #1a1a2e;
+  --surface-alt:   #16213e;
+  --surface-hover: #1f2b47;
+  --text:          #e2e8f0;
+  --text-muted:    #a0aec0;
+  --text-on-dark:  #e8f4fd;
+  --border:        #2d3748;
+  --shadow-sm:     0 1px 3px rgba(0,0,0,.2);
+  --shadow-md:     0 4px 16px rgba(0,0,0,.3);
+  --shadow-lg:     0 8px 32px rgba(0,0,0,.4);
+}
+
+[data-theme="dark"] body {
+  background: #0f0f1a;
+}
+
+[data-theme="dark"] a {
+  color: #60a5fa;
+}
+[data-theme="dark"] a:hover {
+  color: #93c5fd;
+}
+[data-theme="dark"] .hero a {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .card {
+  background: var(--surface);
+  border-color: var(--border);
+}
+[data-theme="dark"] .card:hover {
+  border-color: rgba(0,120,212,.5);
+}
+
+[data-theme="dark"] .card-title {
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .card-cta {
+  border-top-color: var(--border);
+}
+
+[data-theme="dark"] .card-agent365          .cta-badge { background: #1e3a5f; color: #93b5f5; }
+[data-theme="dark"] .card-m365copilot       .cta-badge { background: #0c3252; color: #7dd3fc; }
+[data-theme="dark"] .card-copilot-studio    .cta-badge { background: #0c3252; color: #7dd3fc; }
+[data-theme="dark"] .card-build-agents      .cta-badge { background: #3b1218; color: #fca5a5; }
+[data-theme="dark"] .card-foundry           .cta-badge { background: #172554; color: #93b5f5; }
+[data-theme="dark"] .card-platform-advisor  .cta-badge { background: #064e3b; color: #6ee7b7; }
+
+[data-theme="dark"] .card-agent365          .card-eyebrow { color: #93b5f5; }
+[data-theme="dark"] .card-m365copilot       .card-eyebrow { color: #7dd3fc; }
+[data-theme="dark"] .card-copilot-studio    .card-eyebrow { color: #7dd3fc; }
+[data-theme="dark"] .card-build-agents      .card-eyebrow { color: #fca5a5; }
+[data-theme="dark"] .card-foundry           .card-eyebrow { color: #93b5f5; }
+[data-theme="dark"] .card-platform-advisor  .card-eyebrow { color: #6ee7b7; }
+
+[data-theme="dark"] .theme-toggle {
+  background: rgba(0,0,0,.3);
+  border-color: rgba(255,255,255,.15);
+  color: #e2e8f0;
+}
+[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(0,0,0,.5);
+  border-color: rgba(255,255,255,.3);
+}
+
+[data-theme="dark"] .card-copilot-studio::before {
+  background: linear-gradient(90deg, #0078d4, #00b7c3);
+}
+
+[data-theme="dark"] .hero::before {
+  background:
+    radial-gradient(ellipse 65% 90% at 8%  50%, rgba(0,120,212,.32)  0%, transparent 60%),
+    radial-gradient(ellipse 55% 75% at 92% 35%, rgba(0,183,195,.28)  0%, transparent 60%),
+    radial-gradient(ellipse 60% 65% at 52% 98%, rgba(0,183,195,.2)   0%, transparent 58%);
+}
+
 /* ── Responsive ── */
 @media (max-width: 640px) {
   .hero { padding: 2rem 1.25rem 1.75rem; }
