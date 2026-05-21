@@ -16,6 +16,15 @@ All notable changes to the Agent Resources sites are documented in this file.
 ### develop-agents/
 - **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
 
+### copilot-studio/
+- **Stay up to date on news and features** — added 6 Tech Community entries: "Computer-using agents in Microsoft Copilot Studio are now generally available" (May 13), "4 ways to build a curated Agent Store and scale agent adoption" (May 12), "Administering and Governing Agents whitepaper v3.2" (May 11), "Read-only analytics access and custom metrics now available" (May 5), "Work IQ API public preview: Build Copilot-powered agents with A2A" (Apr 30), and "Automate agent evaluation with the Evaluation APIs" (Apr 29)
+
+### microsoft-foundry/
+- **News and announcements** — added 3 Tech Community Foundry entries: "Not available in your region isn't a dead end" (May 18), "Building an AI-powered contract price adjustment agent with Docusign MCP and Microsoft Foundry" (May 14), and "Open model inference at scale on Foundry: What's new with Fireworks AI" (May 14)
+
+### develop-agents/
+- **Learning → Blog posts & articles** — added 5 Agent Framework entries: FIDES prompt-injection defenses (May 20), Agent Governance Toolkit integration (May 14), handoff orchestration pattern (May 7), deploying Agent Framework agents with Foundry Hosted Agents (May 6), and A2A v1 support for .NET (Apr 28)
+
 ## 2026-05-19
 
 ### / (root)
