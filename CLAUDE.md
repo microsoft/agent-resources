@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Track Changes
 
-Always update CHANGELOG.md with additions/removals from the sites.
+Always update CHANGELOG.md with additions/removals from the sites. When updating CHANGELOG.md, make sure there is a newline between the header and the paragraph text.
 
 ## Repository Overview
 

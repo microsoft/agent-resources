@@ -4,46 +4,41 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ## 2026-05-21
 
+### copilot-studio/
+
+- **Stay up to date on news and features** — added "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" (Partner News, May 19, 2026), a decision framework for picking the right authoring surface
+
 ### m365-copilot/
+
+- **Create agents with Agent Builder** — added the same "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" decision-framework Partner News post (May 19, 2026)
+
+## 2026-05-21
+
+### m365-copilot/
+
 - **News and announcements** — added 7 entries: "Launched: Microsoft 365 Copilot Adoption Hub redesign" (Tech Community, May 18), "How Workday and Microsoft are redefining the agentic workplace" (May 13), "Available today: GPT-5.5 Instant in Microsoft 365 Copilot" (May 7), "Federated Copilot connectors" (May 5), "What's New in Microsoft 365 Copilot — April 2026" (Apr 30), "Copilot in OneNote now understands more of your notes" (Apr 29), and "GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot" (Apr 27)
 
 ### agent365/
+
 - **News and announcements** — added 4 entries: "Securing AI agents end-to-end: Connecting Purview, DSPM, Agent 365, and the AI Security Dashboard" (Microsoft Security Blog, May 19), "Microsoft 365 E7 + Agent 365: From where you are to enterprise AI at scale" (Tech Community Agent 365, May 15), "Agent 365: The identity-first control plane for scalable AI agents" (May 14), and "You asked — we answered: Inside the Agent 365 AMA" (May 13)
 
 ### microsoft-foundry/
+
 - **News and announcements** — added 11 entries: "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21), "What's new in Microsoft Foundry Labs – May 2026" (May 21), "Cohere Command A+ now available in Microsoft Foundry" (May 21), "Securing Azure AI applications against prompt injection – Part 2" (May 21), "Now in Foundry: Tongyi-MAI Z-Image-Turbo with FLUX.1-Schnell and SDXL Base 1.0" (May 18), "Designing AI-driven observability for trustworthy agentic AI systems" (May 15), "How to run evals for the model router" (Foundry DevBlog, May 19), "What's new in Microsoft Foundry | April 2026" (Foundry DevBlog, May 12), "Introducing Toolboxes in Foundry" (Apr 22), "From Local to Production: The Complete Developer Journey" (Apr 22), and "Introducing the new hosted agents in Foundry Agent Service" (Apr 22)
-
-### develop-agents/
-- **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
-
-### copilot-studio/
-- **Stay up to date on news and features** — added 6 Tech Community entries: "Computer-using agents in Microsoft Copilot Studio are now generally available" (May 13), "4 ways to build a curated Agent Store and scale agent adoption" (May 12), "Administering and Governing Agents whitepaper v3.2" (May 11), "Read-only analytics access and custom metrics now available" (May 5), "Work IQ API public preview: Build Copilot-powered agents with A2A" (Apr 30), and "Automate agent evaluation with the Evaluation APIs" (Apr 29)
-
-### microsoft-foundry/
 - **News and announcements** — added 3 Tech Community Foundry entries: "Not available in your region isn't a dead end" (May 18), "Building an AI-powered contract price adjustment agent with Docusign MCP and Microsoft Foundry" (May 14), and "Open model inference at scale on Foundry: What's new with Fireworks AI" (May 14)
 
+### copilot-studio/
+
+- **Stay up to date on news and features** — added 6 Tech Community entries: "Computer-using agents in Microsoft Copilot Studio are now generally available" (May 13), "4 ways to build a curated Agent Store and scale agent adoption" (May 12), "Administering and Governing Agents whitepaper v3.2" (May 11), "Read-only analytics access and custom metrics now available" (May 5), "Work IQ API public preview: Build Copilot-powered agents with A2A" (Apr 30), and "Automate agent evaluation with the Evaluation APIs" (Apr 29)
+
 ### develop-agents/
+
 - **Learning → Blog posts & articles** — added 5 Agent Framework entries: FIDES prompt-injection defenses (May 20), Agent Governance Toolkit integration (May 14), handoff orchestration pattern (May 7), deploying Agent Framework agents with Foundry Hosted Agents (May 6), and A2A v1 support for .NET (Apr 28)
+- - **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
 
 ## 2026-05-19
 
-### / (root)
-- **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage.
-
-### m365-copilot/
-- **Dark mode** — added dark mode toggle with shared theme-toggle.js
-
-### copilot-studio/
-- **Dark mode** — added dark mode toggle with shared theme-toggle.js
-
-### agent365/
-- **Dark mode** — added dark mode toggle with shared theme-toggle.js
-
-### develop-agents/
-- **Dark mode** — added dark mode toggle with shared theme-toggle.js
-
-### microsoft-foundry/
-- **Dark mode** — added dark mode toggle with shared theme-toggle.js
+- **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage
 
 ## 2026-05-14
 
@@ -90,18 +85,22 @@ All notable changes to the Agent Resources sites are documented in this file.
 - **Extensibility → Get started extending Copilot** — added Voitanos (Andrew Connell) deep-dive on April 2026 declarative agent upgrades: MCP Apps, embedded knowledge, Agents Toolkit plugin
 
 ### copilot-studio/
+
 - **Stay up to date on news and features** — added 2 entries: "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration" (multi-agent GA across Fabric, M365 Agents SDK, A2A protocols) and the 2026 release wave 1 overview + planned features on Microsoft Learn
 - **Community and support** — added launch of the Copilot Studio Tech Community Blog (`aka.ms/MCSblog`) — dedicated space for builders/admins on templates, governance, extensibility, and production operations
 
 ### agent365/
+
 - **News and announcements** — added "Save the date for Agent 365 Live AMA" (Tech Community, Apr 15) — official team announcement for the May 12 AMA
 - **Community and support → MVP and community blogs** — added Steve Corey's "Microsoft Agent 365: The Features Nobody Is Talking About (But Should Be)" (Apr 8) — deep-dive on MCP server interoperability, agentic authentication, and agent instancing
 
 ### develop-agents/
+
 - **Microsoft SDKs → Microsoft Agent Framework** — added 2 entries: Microsoft Agent Framework **Version 1.0** release announcement (Apr 3) and Foundry **"From Local to Production"** developer journey post (Apr 22)
 - **Learning and videos → Blog posts & articles** — added 10 April 2026 entries: Agent Framework 1.0 announcement, Foundry "From Local to Production", "Introducing Toolboxes in Foundry", "Introducing the new hosted agents in Foundry Agent Service", "Agent Skills in .NET: Three Ways to Author", "Building a Real-Time Multi-Agent UI with AG-UI", "CodeAct in Agent Framework", "Chat History Storage Patterns in Microsoft Agent Framework", M365 Dev Blog "MCP Apps now available in Copilot chat", and Voitanos "What's new with M365 Copilot declarative agents — April 2026"
 
 ### microsoft-foundry/
+
 - **News and announcements** — added 2 entries: "What's new in Microsoft Foundry | March 2026" monthly roundup (Apr 9) and "What's new in Foundry Labs | April 2026" (MAI-Transcribe-1, MAI-Voice-1, MAI-Image-2)
 - **Building with Foundry → Azure AI Agent Service** — added 2 entries: "Introducing hosted agents in Foundry Agent Service" (Apr 22) and "Introducing Toolboxes in Foundry" (Apr 22)
 - **Building with Foundry → Foundry Local** — added "Foundry Local is now Generally Available" (Apr 9)
@@ -111,6 +110,7 @@ All notable changes to the Agent Resources sites are documented in this file.
 ## 2026-04-09
 
 ### agent365/
+
 - **Get Started** — added "Introducing Microsoft Agent 365" video and "Use and collaborate with agents" end-user guide
 - **Get Started** — updated "Agent 365 Overview" entry to credit John Savill's Technical Training
 - **News** — added Microsoft Entra innovations at RSAC 2026 blog post and RSAC 2026 shadow AI protection announcement
@@ -120,15 +120,18 @@ All notable changes to the Agent Resources sites are documented in this file.
 ## 2026-04-07
 
 ### m365-copilot/
+
 - **News section** — added 3 Cowork entries: "Copilot Cowork: Now available in Frontier", "Copilot Cowork: A new way of getting work done", "What's New in Microsoft 365 Copilot — March 2026"
 - Swapped section order in nav and page: Training now appears before Adoption
 
 ### copilot-studio/
+
 - Updated "Agent in a Day" links to short URL `https://aka.ms/AgIAD` in Get Started and Adoption sections
 
 ## 2026-04-06
 
 ### m365-copilot/
+
 - **New section: Copilot Cowork** — added nav item and full section with four sub-headings:
   - *Overview* — 4 documentation entries: Cowork overview, Get started, Use Cowork, FAQ
   - *Official announcements* — 4 entries: "Now available in Frontier" blog, "A new way of getting work done" blog, Charles Lamanna LinkedIn demo post, Charles Lamanna TBPN Live LinkedIn post
@@ -137,6 +140,7 @@ All notable changes to the Agent Resources sites are documented in this file.
 - Moved Copilot Cowork out of the Agents → Frontier sub-section into its own dedicated section
 
 ### copilot-studio/
+
 - **New section: Governance and administration** — added nav item and full section with four sub-headings:
   - *Documentation* — 14 entries covering security/governance overview, governance architecture models, DLP policy config, zoned governance strategy, sharing controls, tenant-wide agent inventory, Purview audit logs, monitoring/compliance, licensing & capacity, ALM strategy, security maturity model, Copilot Studio Kit Compliance Hub, PPAC Copilot Hub, and Global Secure Access
   - *Official blog posts* — 6 entries: Agent Governance Whitepaper, March 2025 managed governance launch, robust security for agents post, and three Ignite 2025 recaps (Copilot Control System, AI admin capabilities, security & governance innovations)
