@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-21
+
+### m365-copilot/
+- **News and announcements** — added 7 entries: "Launched: Microsoft 365 Copilot Adoption Hub redesign" (Tech Community, May 18), "How Workday and Microsoft are redefining the agentic workplace" (May 13), "Available today: GPT-5.5 Instant in Microsoft 365 Copilot" (May 7), "Federated Copilot connectors" (May 5), "What's New in Microsoft 365 Copilot — April 2026" (Apr 30), "Copilot in OneNote now understands more of your notes" (Apr 29), and "GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot" (Apr 27)
+
+### agent365/
+- **News and announcements** — added 4 entries: "Securing AI agents end-to-end: Connecting Purview, DSPM, Agent 365, and the AI Security Dashboard" (Microsoft Security Blog, May 19), "Microsoft 365 E7 + Agent 365: From where you are to enterprise AI at scale" (Tech Community Agent 365, May 15), "Agent 365: The identity-first control plane for scalable AI agents" (May 14), and "You asked — we answered: Inside the Agent 365 AMA" (May 13)
+
+### microsoft-foundry/
+- **News and announcements** — added 11 entries: "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21), "What's new in Microsoft Foundry Labs – May 2026" (May 21), "Cohere Command A+ now available in Microsoft Foundry" (May 21), "Securing Azure AI applications against prompt injection – Part 2" (May 21), "Now in Foundry: Tongyi-MAI Z-Image-Turbo with FLUX.1-Schnell and SDXL Base 1.0" (May 18), "Designing AI-driven observability for trustworthy agentic AI systems" (May 15), "How to run evals for the model router" (Foundry DevBlog, May 19), "What's new in Microsoft Foundry | April 2026" (Foundry DevBlog, May 12), "Introducing Toolboxes in Foundry" (Apr 22), "From Local to Production: The Complete Developer Journey" (Apr 22), and "Introducing the new hosted agents in Foundry Agent Service" (Apr 22)
+
+### develop-agents/
+- **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
+
 ## 2026-05-05
 
 ### m365-copilot/
