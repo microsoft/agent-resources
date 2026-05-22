@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-22
+
+### microsoft-foundry/
+
+- **News and announcements** — added "Foundry IQ as a shared knowledge brain for multiple AI agents" (Tech Community, May 22, 2026)
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added "Agent Skills for Python: File, Code, and Class - Composed in One Provider" (Agent Framework blog, May 22, 2026) and "Foundry IQ as a shared knowledge brain for multiple AI agents" (Tech Community, May 22, 2026)
+
 ## 2026-05-21
 
 ### copilot-studio/
