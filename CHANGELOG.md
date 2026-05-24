@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-24
+
+### microsoft-foundry/
+
+- **News and announcements** — added "Monitoring & Observability in Microsoft Foundry" (Tech Community, May 22, 2026)
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added "Monitoring & Observability in Microsoft Foundry" (Tech Community, May 22, 2026)
+
 ## 2026-05-22
 
 ### microsoft-foundry/
