@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-26
+
+### m365-copilot/
+
+- **News and announcements** — added "What's new in Notebooks — May 2026" (Tech Community, May 26, 2026)
+
+### microsoft-foundry/
+
+- **News and announcements** — added "Deploying existing agentic services to Microsoft 365 Copilot via gateway and OBO access" (Tech Community, May 25, 2026)
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added "Deploying existing agentic services to Microsoft 365 Copilot via gateway and OBO access" (Tech Community, May 25, 2026)
+
 ## 2026-05-24
 
 ### microsoft-foundry/
