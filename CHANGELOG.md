@@ -2,6 +2,20 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-05-29
+
+### copilot-studio/
+
+- **Stay up to date on news and features** — added "Use cases for the Agent Feed" (Tech Community, May 28, 2026)
+
+### microsoft-foundry/
+
+- **News and announcements** — added 4 Tech Community entries: "AI Observability Starter Kit for Microsoft Foundry Agents" (May 29), "Load testing hosted MCP servers with Locust and Azure Load Testing" (May 29), "Extending the Vercel AI SDK to Microsoft Foundry: TypeScript" (May 28), and "Claude Opus 4.8 is now available in Microsoft Foundry" (May 28)
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added "Introducing Agent Framework Dev UI" (Agent Framework blog, May 28, 2026) plus Foundry posts on AI observability, hosted MCP server load testing, and Vercel AI SDK integration
+
 ## 2026-05-26
 
 ### m365-copilot/
