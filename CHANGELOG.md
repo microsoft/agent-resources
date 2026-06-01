@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-01
+
+### microsoft-foundry/
+
+- **News and announcements** — added 3 Tech Community entries from May 29: "What's new in Azure Language in Foundry Tools", "GPT Realtime in production: Which context strategy should you actually use?", and "Migrating to GPT-5.x without breaking GPT-4"
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added Foundry posts on production GPT Realtime context strategies and backward-compatible GPT-5.x migration
+
 ## 2026-05-29
 
 ### copilot-studio/
