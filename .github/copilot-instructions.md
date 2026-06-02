@@ -15,7 +15,7 @@ Five static sites published via GitHub Pages from `main` — no build step, no p
 
 ## Track Changes
 
-Always update CHANGELOG.md with additions/removals from the sites.
+Always update CHANGELOG.md with additions/removals from the sites. When updating CHANGELOG.md, make sure there is a newline between the header and the paragraph text.
 
 ## Architecture
 
