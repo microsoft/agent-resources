@@ -13,8 +13,8 @@ A collection of five static sites, published together via GitHub Pages from `mai
 | **Front-door hub** | [`/`](./index.html) | [aka.ms/agentresources](https://aka.ms/agentresources) |
 | **Microsoft 365 Copilot** — adopt, deploy & extend | [`m365-copilot/`](./m365-copilot/) | [aka.ms/m365copilot/resources](https://aka.ms/m365copilot/resources) |
 | **Copilot Studio** — create, customize & launch agents | [`copilot-studio/`](./copilot-studio/) | [aka.ms/copilotstudio/resources](https://aka.ms/copilotstudio/resources) |
-| **Microsoft Foundry** — build & deploy AI models and agents | [`microsoft-foundry/`](./microsoft-foundry/) | *(no short URL yet)* |
-| **Agent Development** — build agents with SDKs & code | [`develop-agents/`](./develop-agents/) | *(no short URL yet)* |
+| **Microsoft Foundry** — build & deploy AI models and agents | [`microsoft-foundry/`](./microsoft-foundry/) | [aka.ms/foundry/resources](https://aka.ms/foundry/resources) |
+| **Agent Development** — build agents with SDKs & code | [`develop-agents/`](./develop-agents/) | [aka.ms/agent-development/resources](https://aka.ms/agent-development/resources) |
 | **Agent 365** — manage agents at enterprise scale | [`agent365/`](./agent365/) | [aka.ms/agent365/resources](https://aka.ms/agent365/resources) |
 
 ## Features
