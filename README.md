@@ -27,16 +27,6 @@ Each child site supports:
 - **Deep linking** — any section is linkable via `#fragment`; the page opens the card on load.
 - **Keyboard + screen reader accessible** — `aria-expanded` state, semantic headings, reduced-motion support.
 
-## Running locally
-
-No build step, no package manager. Any static server works:
-
-```bash
-# from the repo root
-python3 -m http.server 8000
-# then open http://localhost:8000/
-```
-
 ## Contributing
 
 ### Always update `CHANGELOG.md`
@@ -56,10 +46,6 @@ Every change to a site's content or design must be reflected in `CHANGELOG.md` w
 ### Shared `main.js` across child sites
 
 All five child sites reference a single `assets/js/main.js` at the repo root (via `../assets/js/main.js`). It powers the accordion, search, and deep-link behavior. **Edit that one file** — do not reintroduce per-site copies.
-
-### Each site has its own Microsoft Clarity tag
-
-Don't reuse Clarity tag IDs across sites — each has a unique one in the inline `<script>` in `<head>`.
 
 ### Images and OG previews
 
@@ -91,7 +77,7 @@ If you refresh the image, bust social-media caches by renaming the file (e.g. `-
 └── microsoft-foundry/       ┘
 ```
 
-See [`CLAUDE.md`](./CLAUDE.md) and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) for additional conventions when making changes with AI assistants.
+See [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) for additional conventions when making changes with AI assistants.
 
 ## Credits
 
