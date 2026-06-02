@@ -56,3 +56,23 @@ searchInput.addEventListener("input", () => {
     }
   });
 });
+
+/* ── Hamburger Menu ── */
+(function() {
+  var btn = document.getElementById('menu-toggle');
+  var menu = document.getElementById('site-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function() {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !open);
+    menu.setAttribute('aria-hidden', open);
+    menu.classList.toggle('open');
+  });
+  document.addEventListener('click', function(e) {
+    if (!btn.contains(e.target) && !menu.contains(e.target)) {
+      btn.setAttribute('aria-expanded', 'false');
+      menu.setAttribute('aria-hidden', 'true');
+      menu.classList.remove('open');
+    }
+  });
+})();

@@ -37,15 +37,26 @@
 </head>
 <body>
 
-  <!-- Theme Toggle -->
-  <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">
-    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
-    </svg>
-    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
-    </svg>
-  </button>
+  <!-- Site Controls (theme toggle + menu) -->
+  <div class="site-controls">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+      </svg>
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:none">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m8.66-13.66l-.71.71M4.05 19.95l-.71.71M21 12h-1M4 12H3m16.66 7.66l-.71-.71M4.05 4.05l-.71-.71M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+      </svg>
+    </button>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <nav id="site-menu" class="site-menu" aria-hidden="true">
+      <a href="https://github.com/microsoft/agent-resources/blob/main/README.md" target="_blank" rel="noopener">README</a>
+      <a href="https://github.com/microsoft/agent-resources/blob/main/CHANGELOG.md" target="_blank" rel="noopener">CHANGELOG</a>
+    </nav>
+  </div>
 
   <!-- Hero -->
   <header class="hero">
@@ -191,6 +202,26 @@ Microsoft 365 Copilot across your organization.
     <p>Created & managed by <a href="https://www.linkedin.com/in/rstandefer/">Robert Standefer</a> and the <a href="https://aka.ms/wearecat">Microsoft Copilot Acceleration Team (CAT)</a></p>
     <p class="copyright">© 2026 Microsoft. All rights reserved.</p>
   </footer>
+
+  <script>
+    (function() {
+      var btn = document.getElementById('menu-toggle');
+      var menu = document.getElementById('site-menu');
+      btn.addEventListener('click', function() {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', !open);
+        menu.setAttribute('aria-hidden', open);
+        menu.classList.toggle('open');
+      });
+      document.addEventListener('click', function(e) {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+          btn.setAttribute('aria-expanded', 'false');
+          menu.setAttribute('aria-hidden', 'true');
+          menu.classList.remove('open');
+        }
+      });
+    })();
+  </script>
 
 </body>
 </html>
