@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-03
+
+### All sites
+
+- **Site chrome** — created per-site CHANGELOG.md files for all 5 child sites by extracting relevant entries from the root CHANGELOG; updated hamburger menu CHANGELOG links to point to each site's own changelog
+
 ## 2026-06-02
 
 ### m365-copilot/

@@ -4,18 +4,18 @@
 
 Five static sites published via GitHub Pages from `main` — no build step, no package manager. Edit and push to deploy.
 
-| Site | Directory | URL |
-|---|---|---|
-| Front-door hub | `/` (root) | `https://aka.ms/agentresources` |
-| Microsoft 365 Copilot | `m365-copilot/` | `https://aka.ms/m365copilot/resources` |
-| Copilot Studio | `copilot-studio/` | `https://aka.ms/copilotstudio/resources` |
-| Agent 365 | `agent365/` | `https://aka.ms/agent365/resources` |
-| Build AI Agents | `develop-agents/` | *(no short URL yet)* |
-| Microsoft Foundry | `microsoft-foundry/` | *(no short URL yet)* |
+| Site                  | Directory            | URL                                      |
+| --------------------- | -------------------- | ---------------------------------------- |
+| Front-door hub        | `/` (root)           | `https://aka.ms/agentresources`          |
+| Microsoft 365 Copilot | `m365-copilot/`      | `https://aka.ms/m365copilot/resources`   |
+| Copilot Studio        | `copilot-studio/`    | `https://aka.ms/copilotstudio/resources` |
+| Agent 365             | `agent365/`          | `https://aka.ms/agent365/resources`      |
+| Build AI Agents       | `develop-agents/`    | `https://aka.ms/agent-development/resources`                     |
+| Microsoft Foundry     | `microsoft-foundry/` | `https://aka.ms/foundry/resources`                   |
 
 ## Track Changes
 
-Always update CHANGELOG.md with additions/removals from the sites. When updating CHANGELOG.md, make sure there is a newline between the header and the paragraph text.
+Always update CHANGELOG.md with additions/removals from the sites. When updating CHANGELOG.md, make sure there is a newline between the header and the paragraph text. Each site has its own CHANGELOG.md file to track its changes, with all changes for all sites aggregated into the root CHANGELOG.md with dated entries grouped by site directory.
 
 ## Architecture
 

@@ -1,0 +1,69 @@
+# Changelog
+
+All notable changes to the Copilot Studio Resources site.
+
+## 2026-06-02
+
+- **Site chrome** — added a shared hamburger menu beside the theme toggle with README and CHANGELOG links
+- **Stay up to date on news and features** — added 8 official Microsoft Copilot Studio blog entries from March–May 2026 covering Mistral, monthly updates, voice agents, workflows, evals, and OWASP guidance; removed 5 superseded 2025 update entries
+- **Training and workshops** — added Learn docs for computer use, real-time voice agents, agent nodes in workflows, and custom metrics
+- **Resources for building agents** — added the Tech Community post announcing agent evaluation GA
+- **Governance and administration** — added the OWASP Top 10 for Agentic AI governance mapping post
+
+## 2026-05-29
+
+- **Stay up to date on news and features** — added "Use cases for the Agent Feed" (Tech Community, May 28, 2026)
+
+## 2026-05-21
+
+- **Stay up to date on news and features** — added "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" (Partner News, May 19, 2026)
+- **Stay up to date on news and features** — added 6 Tech Community entries: "Computer-using agents in Copilot Studio are now generally available" (May 13), "4 ways to build a curated Agent Store" (May 12), "Administering and Governing Agents whitepaper v3.2" (May 11), "Read-only analytics access and custom metrics" (May 5), "Work IQ API public preview: Build Copilot-powered agents with A2A" (Apr 30), and "Automate agent evaluation with the Evaluation APIs" (Apr 29)
+
+## 2026-05-19
+
+- **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage
+
+## 2026-04-30
+
+- **Real-world customer stories** — updated curated customer stories link from `aka.ms/CopilotAgentStories` to `aka.ms/AgentStories`
+
+## 2026-04-24
+
+- **Stay up to date on news and features** — added 2 entries: "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration" and the 2026 release wave 1 overview + planned features on Microsoft Learn
+- **Community and support** — added launch of the Copilot Studio Tech Community Blog (`aka.ms/MCSblog`)
+
+## 2026-04-07
+
+- Updated "Agent in a Day" links to short URL `https://aka.ms/AgIAD` in Get Started and Adoption sections
+
+## 2026-04-06
+
+- **New section: Governance and administration** — added full section with four sub-headings: Documentation (14 entries), Official blog posts (6 entries), Build 2025 sessions, Ignite 2025 sessions, Community and MVP resources
+
+## 2026-03-31
+
+- **Building section** — added "Autonomous agents & advanced capabilities" sub-heading with 6 entries
+- **News section** — added 4 entries: March 2025 recap, autonomous agents blog, agent flows blog, Build 2025 multi-agent orchestration blog
+- **Community section** — added 2 entries: Power Platform community walkthrough, Agent Academy
+- Fixed MCS Labs link
+
+## 2026-03-30
+
+- Design and accessibility improvements: explicit transition properties, `prefers-reduced-motion` support, larger touch targets, 16px minimum body text, scroll fade on nav strip, differentiated icon colors
+- Fixed hash nav scrolling behind sticky nav
+
+## 2026-03-26
+
+- Design and accessibility improvements: fixed H1 overflow, semantic headings, `focus-visible` styles, standardized layout
+
+## 2026-03-25
+
+- Updates for clarity across content
+
+## 2026-03-19
+
+- Fixed subheader
+
+## 2026-03-17
+
+- Merged M365 Copilot, Copilot Studio, and Agent 365 sites into one repository; added home button navigation; standardized site structure
