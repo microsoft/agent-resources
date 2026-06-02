@@ -10,7 +10,7 @@ Scour the web for resources and add them to the appropriate resource sites:
 - Agent 365
 - Agent Development
 
-When you have completed adding resources, commit the change with a commit message in this format: "Scheduled update YYYY-MM-DD" where YYYY-MM-DD is the date.
+When you have completed adding resources, commit the change with a commit message in this format: "Scheduled update YYYY-MM-DD" where YYYY-MM-DD is the date. Push the change up to GitHub.
 
 Strategy:
 
