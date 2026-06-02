@@ -2,6 +2,37 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-02
+
+### m365-copilot/
+
+- **News and announcements** — added Build 2026 news hub, Learning Agent GA, What's New May 2026 roundup, new Copilot design, Claude Opus 4.8, M365 Business with Copilot SKUs, ISO 42001 recertification, Finance Agent expansion, and updated Notebooks entry
+- **Learn about Copilot Cowork** — added Cowork mobile+skills+plugins expansion blog (May 5, 2026)
+- **Adoption and change management** — added 2026 Work Trend Index Annual Report
+- **Training and workshops** — added Lisa Crosbie "Copilot's New Edit Mode" video
+- **Security, compliance, and data protection** — added ISO/IEC 42001:2023 recertification entry
+
+### copilot-studio/
+
+- **Stay up to date on news and features** — added 8 official Microsoft Copilot Studio blog entries from March-May 2026 covering Mistral, monthly updates, voice agents, workflows, evals, and OWASP guidance; removed 5 superseded 2025 update entries
+- **Training and workshops** — added Learn docs for computer use, real-time voice agents, agent nodes in workflows, and custom metrics
+- **Resources for building agents** — added the Tech Community post announcing agent evaluation GA
+- **Governance and administration** — added the OWASP Top 10 for Agentic AI governance mapping post
+
+### develop-agents/
+
+- **Microsoft SDKs** — added a new Microsoft Agent Framework sub-section with the 1.0 GA announcement, docs/GitHub links, and the "From Local to Production" developer journey post
+- **Learning and videos → Courses & curricula** — added AI-3026 certification for building agents with Microsoft Foundry
+
+### microsoft-foundry/
+
+- **News and announcements** — added "What's new in Microsoft Foundry | May 2026" and the hybrid local/cloud Python agents post; replaced the Build section with Build 2026 hub/live-blog links and removed the outdated Ignite 2024 session block
+
+### agent365/
+
+- **Get started with Agent 365** — added a Microsoft Build 2026 session block with curated hub and live-blog links
+- **News and announcements** — added the Microsoft Build 2026 live blog to the top of the list
+
 ## 2026-06-01
 
 ### microsoft-foundry/

@@ -1,6 +1,8 @@
 # Resource update prompt
 
-Scour the web for new resources and add them to the appropriate resource sites:
+Tasks:
+
+Scour the web for resources and add them to the appropriate resource sites:
 
 - M365 Copilot
 - Copilot Studio
@@ -8,17 +10,21 @@ Scour the web for new resources and add them to the appropriate resource sites:
 - Agent 365
 - Agent Development
 
-Tasks:
+When you have completed adding resources, commit the change with a commit message in this format: "Scheduled update YYYY-MM-DD" where YYYY-MM-DD is the date.
+
+Strategy:
 
 - Focus on official resources from Microsoft and resources created by MVPs as much as possible.
 - Provide the most up to date and relevant resources for each product, organized in sections.
 - Emphasize high-value content that will be useful to the reader
 - Remove resources that are out of date, deprecated, or superseded by new content
+- Be sure to prioritize adding new documentation articles from Microsoft Learn
+- When you add content from conferences, remove the entries from the previous event. For example, when you add content from Build 2026, remove the content from Build 2025. Ditto for Ignite.
 
 Sources:
 
+- Microsoft Learn documentation
 - Blogs (official, MVP, and/or popular)
-- Documentation (Microsoft Learn)
 - YouTube
 - Press releases
 - News announcements
