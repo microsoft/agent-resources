@@ -2,6 +2,11 @@
 
 All notable changes to the Agent 365 Resources site.
 
+## 2026-06-03
+
+- **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)
+- **Developer resources** — added Agent 365 SDK enterprise-readiness primer
+
 ## 2026-06-02
 
 - **Site chrome** — added a shared hamburger menu beside the theme toggle with README and CHANGELOG links

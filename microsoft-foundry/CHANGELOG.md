@@ -2,6 +2,12 @@
 
 All notable changes to the Microsoft Foundry Resources site.
 
+## 2026-06-03
+
+- **News and announcements** — added Build 2026 Foundry DevBlog posts covering What's New Build Edition, build-and-run agents at scale, Agent Optimizer, production-ready memory, Toolboxes and Routines, enterprise agent distribution, and Azure Content Understanding
+- **Build with Microsoft Foundry** — added Build 2026 agent scale and Toolboxes/Routines posts to Azure AI Agent Service resources
+- **Evaluate and improve** — added Agent Optimizer as an automated improvement-loop resource for hosted agents
+
 ## 2026-06-02
 
 - **Site chrome** — added a shared hamburger menu beside the theme toggle with README and CHANGELOG links

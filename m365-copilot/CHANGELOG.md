@@ -4,7 +4,9 @@ All notable changes to the Microsoft 365 Copilot Resources site.
 
 ## 2026-06-03
 
+- **News and announcements** — added Work IQ production-readiness and Frontier Tuning posts from the Microsoft 365 Developer Blog
 - **News and announcements** — added Build 2026 sessions sub-section with KEY01 (Opening Keynote) and BRK241 (From prototype to production: build and run agents at scale)
+- **News and announcements** — added Microsoft Scout: announcement blog, Learn overview doc, and Learn get-started doc
 
 ## 2026-06-02
 

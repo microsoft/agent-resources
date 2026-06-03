@@ -4,25 +4,37 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ## 2026-06-03
 
-### All sites
-
-- **Site chrome** — created per-site CHANGELOG.md files for all 5 child sites by extracting relevant entries from the root CHANGELOG; updated hamburger menu CHANGELOG links to point to each site's own changelog
-
 ### copilot-studio/
 
+- **Stay up to date on news and features** — added "Frontier Tuning: Teaching AI to work the way you do" (Jun 2, 2026)
 - **Stay up to date on news and features** — replaced Build 2025 multi-agent announcement blog with Build 2026 news hub link
 - **Resources for building agents — Autonomous agents** — replaced Build 2025 multi-agent orchestration blog with Build 2026 "Be yourself at work" keynote blog
 - **Resources for building agents — Build sessions** — replaced 11 Build 2025 sessions (BRK140, BRK128, BRK158, BRK161, BRK162, BRK176, BRK157, BRK159, BRK130, BRK165, CUA) with 3 Build 2026 sessions: BRK431, LTG423, LTG450
 - **Governance and administration — Build sessions** — replaced Build 2025 session BRK159 with Build 2026 session BRK250
 
+### microsoft-foundry/
+
+- **News and announcements** — added Build 2026 Foundry DevBlog posts covering What's New Build Edition, build-and-run agents at scale, Agent Optimizer, production-ready memory, Toolboxes and Routines, enterprise agent distribution, and Azure Content Understanding
+- **Build with Microsoft Foundry** — added Build 2026 agent scale and Toolboxes/Routines posts to Azure AI Agent Service resources
+- **Evaluate and improve** — added Agent Optimizer as an automated improvement-loop resource for hosted agents
+
+### agent365/
+
+- **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)
+- **Developer resources** — added Agent 365 SDK enterprise-readiness primer
+
 ### develop-agents/
 
+- **Extend Microsoft 365 Copilot** — added Work IQ and collaborative agent development posts from the Microsoft 365 Developer Blog
+- **Microsoft SDKs** — added Build 2026 Foundry agent scale post and Work IQ guidance for custom agents
 - **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
 - **Learning and videos** — removed Voitanos Build 2025 recap
 
 ### m365-copilot/
 
+- **News and announcements** — added Work IQ production-readiness and Frontier Tuning posts from the Microsoft 365 Developer Blog
 - **News and announcements** — added Build 2026 sessions sub-section with KEY01 (Opening Keynote) and BRK241
+- **News and announcements** — added Microsoft Scout: announcement blog, Learn overview doc, and Learn get-started doc
 
 ## 2026-06-02
 

@@ -4,6 +4,8 @@ All notable changes to the Build AI Agents Resources site.
 
 ## 2026-06-03
 
+- **Extend Microsoft 365 Copilot** — added Work IQ and collaborative agent development posts from the Microsoft 365 Developer Blog
+- **Microsoft SDKs** — added Build 2026 Foundry agent scale post and Work IQ guidance for custom agents
 - **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries: Agent Framework session, Foundry session, keynote blog, YouTube playlist, Book of News) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
 - **Learning and videos** — removed Voitanos Build 2025 recap (M365 Full-Stack Developer's Recap to Build 2025)
 
