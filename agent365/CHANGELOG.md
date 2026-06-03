@@ -6,6 +6,8 @@ All notable changes to the Agent 365 Resources site.
 
 - **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)
 - **Developer resources** — added Agent 365 SDK enterprise-readiness primer
+- **Get started — Onboarding guides** — added "Get started with Agent 365", "Connect existing agents to Agent 365", and "Use third-party agents in Agent 365" from learn.microsoft.com/microsoft-agent-365
+- **Administration and governance — Monitor and observe** — added "Observe agent activity in Microsoft Teams" and "Observe agent activity in Microsoft 365 Copilot" from learn.microsoft.com/microsoft-agent-365
 
 ## 2026-06-02
 

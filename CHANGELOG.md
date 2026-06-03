@@ -14,17 +14,25 @@ All notable changes to the Agent Resources sites are documented in this file.
 - **Get started — Learn** — added Agents hub (learn.microsoft.com/agents/)
 - **Best practices and common use cases** — added Architecting agent solutions, Design guidelines for agents, Agent archetype framework, and agent evaluation guidance from learn.microsoft.com/agents
 - **Successful adoption** — added Agentic AI adoption maturity model
+- **Best practices — Plan and design** — added "Before you build your agent" (guidance/plan-overview) and "Agent Design Canvas" (guidance/agent-design-canvas-overview)
+- **Best practices — Build** — added topic authoring best practices, RAG enhancement guidance, and agent tools guidance
+- **Best practices — Measure and improve** — added agent performance analytics guidance
+- **Best practices — Tools and extensions** — added Copilot Studio Kit overview and Agent Library overview
+- **Best practices — Reference architectures** — added Copilot Studio reference architectures (power-platform/architecture/products/copilot-studio)
 
 ### microsoft-foundry/
 
 - **News and announcements** — added Build 2026 Foundry DevBlog posts covering What's New Build Edition, build-and-run agents at scale, Agent Optimizer, production-ready memory, Toolboxes and Routines, enterprise agent distribution, and Azure Content Understanding
 - **Build with Microsoft Foundry** — added Build 2026 agent scale and Toolboxes/Routines posts to Azure AI Agent Service resources
 - **Evaluate and improve** — added Agent Optimizer as an automated improvement-loop resource for hosted agents
+- **Build with Microsoft Foundry — Azure AI Agent Service** — added "What is Microsoft Foundry Agent Service?" (azure/foundry/agents/overview) covering Prompt agents vs. Hosted agents
 
 ### agent365/
 
 - **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)
 - **Developer resources** — added Agent 365 SDK enterprise-readiness primer
+- **Get started — Onboarding guides** — added "Get started with Agent 365", "Connect existing agents to Agent 365", and "Use third-party agents in Agent 365" from learn.microsoft.com/microsoft-agent-365
+- **Administration and governance — Monitor and observe** — added "Observe agent activity in Microsoft Teams" and "Observe agent activity in Microsoft 365 Copilot" from learn.microsoft.com/microsoft-agent-365
 
 ### develop-agents/
 

@@ -12,6 +12,11 @@ All notable changes to the Copilot Studio Resources site.
 - **Get started — Learn** — added Agents hub (learn.microsoft.com/agents/)
 - **Best practices and common use cases** — added Architecting agent solutions, Design guidelines for agents, Agent archetype framework, and agent evaluation guidance from learn.microsoft.com/agents
 - **Successful adoption** — added Agentic AI adoption maturity model
+- **Best practices — Plan and design** — added "Before you build your agent" (guidance/plan-overview) and "Agent Design Canvas" (guidance/agent-design-canvas-overview)
+- **Best practices — Build** — added topic authoring best practices, RAG enhancement guidance, and agent tools guidance
+- **Best practices — Measure and improve** — added agent performance analytics guidance
+- **Best practices — Tools and extensions** — added Copilot Studio Kit overview and Agent Library overview
+- **Best practices — Reference architectures** — added Copilot Studio reference architectures (power-platform/architecture/products/copilot-studio)
 
 ## 2026-06-02
 
