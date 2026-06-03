@@ -31,6 +31,7 @@ Sources:
   - https://learn.microsoft.com/en-us/microsoft-agent-365/
   - https://learn.microsoft.com/en-us/azure/foundry/
   - https://learn.microsoft.com/en-us/agent-framework/
+  - https://learn.microsoft.com/en-us/copilot/
 - Blogs (official, MVP, and/or popular)
 - YouTube
 - Press releases
