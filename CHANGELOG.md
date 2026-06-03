@@ -29,6 +29,7 @@ All notable changes to the Agent Resources sites are documented in this file.
 - **Microsoft SDKs** — added Build 2026 Foundry agent scale post and Work IQ guidance for custom agents
 - **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
 - **Learning and videos** — removed Voitanos Build 2025 recap
+- **Get started building agents** — added Agent archetype framework (3Cs model: categories, capabilities, components)
 
 ### m365-copilot/
 
