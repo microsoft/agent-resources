@@ -9,6 +9,8 @@ All notable changes to the Build AI Agents Resources site.
 - **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries: Agent Framework session, Foundry session, keynote blog, YouTube playlist, Book of News) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
 - **Learning and videos** — removed Voitanos Build 2025 recap (M365 Full-Stack Developer's Recap to Build 2025)
 - **Get started building agents** — added Agent archetype framework (3Cs model: categories, capabilities, components)
+- **Get started building agents** — added Agents hub, Architecting agent solutions, and Design guidelines for agents from learn.microsoft.com/agents
+- **Learning and videos** — added "Design and adoption guidance" sub-section with Agentic AI adoption maturity model and agent evaluation guidance
 
 ## 2026-06-02
 

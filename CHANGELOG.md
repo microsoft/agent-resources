@@ -11,6 +11,9 @@ All notable changes to the Agent Resources sites are documented in this file.
 - **Resources for building agents — Autonomous agents** — replaced Build 2025 multi-agent orchestration blog with Build 2026 "Be yourself at work" keynote blog
 - **Resources for building agents — Build sessions** — replaced 11 Build 2025 sessions (BRK140, BRK128, BRK158, BRK161, BRK162, BRK176, BRK157, BRK159, BRK130, BRK165, CUA) with 3 Build 2026 sessions: BRK431, LTG423, LTG450
 - **Governance and administration — Build sessions** — replaced Build 2025 session BRK159 with Build 2026 session BRK250
+- **Get started — Learn** — added Agents hub (learn.microsoft.com/agents/)
+- **Best practices and common use cases** — added Architecting agent solutions, Design guidelines for agents, Agent archetype framework, and agent evaluation guidance from learn.microsoft.com/agents
+- **Successful adoption** — added Agentic AI adoption maturity model
 
 ### microsoft-foundry/
 
@@ -29,7 +32,8 @@ All notable changes to the Agent Resources sites are documented in this file.
 - **Microsoft SDKs** — added Build 2026 Foundry agent scale post and Work IQ guidance for custom agents
 - **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
 - **Learning and videos** — removed Voitanos Build 2025 recap
-- **Get started building agents** — added Agent archetype framework (3Cs model: categories, capabilities, components)
+- **Get started building agents** — added Agents hub, Architecting agent solutions, Design guidelines for agents, and Agent archetype framework from learn.microsoft.com/agents
+- **Learning and videos** — added "Design and adoption guidance" sub-section with Agentic AI adoption maturity model and agent evaluation guidance
 
 ### m365-copilot/
 

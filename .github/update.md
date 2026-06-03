@@ -24,6 +24,13 @@ Strategy:
 Sources:
 
 - Microsoft Learn documentation
+  - https://learn.microsoft.com/agents
+  - https://learn.microsoft.com/microsoft-copilot-studio/guidance/
+  - https://learn.microsoft.com/power-platform/architecture/
+  - https://learn.microsoft.com/en-us/microsoft-copilot-studio/
+  - https://learn.microsoft.com/en-us/microsoft-agent-365/
+  - https://learn.microsoft.com/en-us/azure/foundry/
+  - https://learn.microsoft.com/en-us/agent-framework/
 - Blogs (official, MVP, and/or popular)
 - YouTube
 - Press releases
