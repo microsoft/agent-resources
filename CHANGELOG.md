@@ -4,6 +4,10 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ## 2026-06-03
 
+### / (root)
+
+- Fixed Agent Development card icon displaying a white background in dark mode by switching from `agent-framework-icon.webp` (opaque background) to `agent-framework-icon.png` (transparent background)
+
 ### copilot-studio/
 
 - **Stay up to date on news and features** — added "Frontier Tuning: Teaching AI to work the way you do" (Jun 2, 2026)
