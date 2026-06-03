@@ -35,7 +35,7 @@ Guidelines:
 
 - You are not required to limit resources to official sources.
 - When you find YouTube videos, focus on channels with high numbers of subscribers, or created by Microsoft, or created by MVPs.
-- Specific YouTube channels to focus on include:
+- Specific YouTube channels to focus on include, but are not limited to:
   - Lisa Crosbie
   - Power Platform
   - John Savill

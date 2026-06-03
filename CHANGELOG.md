@@ -8,6 +8,22 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 - **Site chrome** — created per-site CHANGELOG.md files for all 5 child sites by extracting relevant entries from the root CHANGELOG; updated hamburger menu CHANGELOG links to point to each site's own changelog
 
+### copilot-studio/
+
+- **Stay up to date on news and features** — replaced Build 2025 multi-agent announcement blog with Build 2026 news hub link
+- **Resources for building agents — Autonomous agents** — replaced Build 2025 multi-agent orchestration blog with Build 2026 "Be yourself at work" keynote blog
+- **Resources for building agents — Build sessions** — replaced 11 Build 2025 sessions (BRK140, BRK128, BRK158, BRK161, BRK162, BRK176, BRK157, BRK159, BRK130, BRK165, CUA) with 3 Build 2026 sessions: BRK431, LTG423, LTG450
+- **Governance and administration — Build sessions** — replaced Build 2025 session BRK159 with Build 2026 session BRK250
+
+### develop-agents/
+
+- **Conferences — Microsoft Build** — replaced Microsoft Build 2025 section (5 entries) with Microsoft Build 2026 section (6 entries: Agent Framework at Build 2026 blog, keynote blog, news hub, opening keynote YouTube, BRK241, BRK242)
+- **Learning and videos** — removed Voitanos Build 2025 recap
+
+### m365-copilot/
+
+- **News and announcements** — added Build 2026 sessions sub-section with KEY01 (Opening Keynote) and BRK241
+
 ## 2026-06-02
 
 ### m365-copilot/

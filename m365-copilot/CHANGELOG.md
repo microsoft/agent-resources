@@ -2,6 +2,10 @@
 
 All notable changes to the Microsoft 365 Copilot Resources site.
 
+## 2026-06-03
+
+- **News and announcements** — added Build 2026 sessions sub-section with KEY01 (Opening Keynote) and BRK241 (From prototype to production: build and run agents at scale)
+
 ## 2026-06-02
 
 - **Site chrome** — added a shared hamburger menu beside the theme toggle with README and CHANGELOG links
