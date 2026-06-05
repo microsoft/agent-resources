@@ -204,13 +204,13 @@ main {
   width: 52px;
   height: 52px;
   border-radius: var(--radius);
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
   flex-shrink: 0;
 }
-.card-icon { background: none; }
 .card-icon img { width: 100%; height: 100%; object-fit: contain; }
 
 .card-title-group {
@@ -287,7 +287,6 @@ main {
 .card-copilot-studio    .cta-badge { background: #ede9fe; color: #5b21b6; }
 .card-build-agents      .cta-badge { background: #fde8ea; color: #c0392b; }
 .card-foundry           .cta-badge { background: #dce5ff; color: #1038c8; }
-.card-platform-advisor  .cta-badge { background: #e0f2f1; color: #00695c; }
 .card-platform-advisor  .cta-badge { background: #e0f2f1; color: #00695c; }
 
 /* ── Footer ── */
