@@ -239,7 +239,7 @@ main {
 }
 
 .card-desc {
-  font-size: .92rem;
+  font-size: 1rem;
   color: var(--text-muted);
   line-height: 1.65;
 }
