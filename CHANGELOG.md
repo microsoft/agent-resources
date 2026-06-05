@@ -2,6 +2,12 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-05
+
+### / (root)
+
+- **Design review fixes** — raised card description text from 14.72px to 16px (body text minimum), increased theme/menu toggle touch targets from 40px to 44px (accessibility minimum), added `prefers-reduced-motion` support for the aurora animation and card transitions, restored Copilot Studio purple brand identity in dark mode (eyebrow, badge, and top accent border were incorrectly overriding to the M365 Copilot blue), added `text-wrap: balance` to hero H1 and card titles, removed duplicate CSS rules for `.card-platform-advisor .cta-badge` and `.card-icon`
+
 ## 2026-06-03
 
 ### / (root)
