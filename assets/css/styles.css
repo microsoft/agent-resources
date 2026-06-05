@@ -115,6 +115,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   line-height: 1.15;
   margin-bottom: .85rem;
   color: #ffffff;
+  text-wrap: balance;
 }
 .hero p {
   font-size: var(--text-md);
@@ -236,6 +237,7 @@ main {
   line-height: 1.25;
   letter-spacing: -.01em;
   color: var(--text);
+  text-wrap: balance;
 }
 
 .card-desc {
