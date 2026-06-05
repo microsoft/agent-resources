@@ -40,9 +40,16 @@ Content uses two list styles: `.link-list` for resource links and `.session-grid
 
 ## Design System
 
+**Always read `DESIGN.md` before making any visual or UI decisions.**
+All font choices, colors, spacing, and aesthetic direction are defined there.
+Do not deviate without explicit user approval. In QA mode, flag any code that doesn't match `DESIGN.md`.
+
 - Brand colors: `--brand-deep` (#003d73), `--brand-mid` (#0061a4), `--brand-accent` (#0078d4)
-- Per-card color identities: blue (#0078d4) for M365 Copilot, purple for Copilot Studio, indigo for Agent 365
-- Font stack: `'Aptos', 'Segoe UI', system-ui`
+- Per-product color identities: M365 blue, Studio purple, Agent 365 teal-green, Develop Agents steel blue, Foundry plum — each site sets its own `--brand-deep/mid/accent` tokens in `:root`
+- Display/heading font: `'Plus Jakarta Sans'` (Google Fonts, weights 600/700/800) — loaded via CDN, falls back to Aptos
+- Body font stack: `'Aptos', 'Segoe UI', system-ui`
+- Monospace font: `'Geist Mono'` (Google Fonts) — for URLs, code, and data
+- Child site surface color: `#fafaf8` (warm neutral, not pure white)
 - CSS custom properties defined in `:root` for colors, spacing, radii, shadows, transitions, and font sizes
 
 ## Key Conventions

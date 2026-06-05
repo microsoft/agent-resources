@@ -4,6 +4,10 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ## 2026-06-05
 
+### Design System (DESIGN.md)
+
+- **Created DESIGN.md** — initial design system for all five sites. Establishes: Plus Jakarta Sans as the display/heading font (Google Fonts, weights 600–800), Aptos/Segoe UI for body, Geist Mono for code/URLs, warm neutral `#fafaf8` as child-site surface color, per-product color token system (5 products × 4 tokens: deep/mid/accent/light), flat dark hero pattern replacing gradient heroes, and editorial/utilitarian aesthetic direction. Updated `.github/copilot-instructions.md` to reference DESIGN.md.
+
 ### / (root)
 
 - **Design review fixes** — raised card description text from 14.72px to 16px (body text minimum), increased theme/menu toggle touch targets from 40px to 44px (accessibility minimum), added `prefers-reduced-motion` support for the aurora animation and card transitions, restored Copilot Studio purple brand identity in dark mode (eyebrow, badge, and top accent border were incorrectly overriding to the M365 Copilot blue), added `text-wrap: balance` to hero H1 and card titles, removed duplicate CSS rules for `.card-platform-advisor .cta-badge` and `.card-icon`
