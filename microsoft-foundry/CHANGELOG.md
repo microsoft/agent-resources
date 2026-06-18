@@ -2,6 +2,11 @@
 
 All notable changes to the Microsoft Foundry Resources site.
 
+## 2026-06-18
+
+- **Get started and build** — added the Foundry control-plane overview and refreshed Agent Service coverage with current Build 2026 scale, Toolbox, and optimization resources
+- **Lifecycle cleanup** — replaced Prompt Flow build guidance with retirement/migration guidance, added the Build 2026 demos repo, and removed superseded Ignite 2025 / Build 2025 content
+
 ## 2026-06-03
 
 - **News and announcements** — added Build 2026 Foundry DevBlog posts covering What's New Build Edition, build-and-run agents at scale, Agent Optimizer, production-ready memory, Toolboxes and Routines, enterprise agent distribution, and Azure Content Understanding

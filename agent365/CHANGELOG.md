@@ -2,6 +2,10 @@
 
 All notable changes to the Agent 365 Resources site.
 
+## 2026-06-18
+
+- **News and announcements** — added the Agent 365 GA announcement, Build 2026 security coverage, Windows platform security for AI agents, and the Microsoft Agent 365 product page; removed outdated Ignite 2025 items
+- **Administration, security, and developer resources** — added observe-in-Teams / observe-in-Copilot docs and the Agent 365 SDK enterprise-readiness primer
 ## 2026-06-03
 
 - **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)

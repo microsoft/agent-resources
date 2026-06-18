@@ -2,6 +2,33 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-18
+
+### m365-copilot/
+
+- **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, and Frontier Tuning; removed superseded Ignite 2025 news and session links
+- **Training and learning** — removed the lingering Ignite 2025 adoption session so the section now focuses on current evergreen rollout guidance
+
+### copilot-studio/
+
+- **Stay up to date on news and features** — updated the What's new link to the live Learn page and kept current 2026 workflow, evaluation, and computer-use resources
+- **Best practices and governance** — added agent inventory schema, readiness/issues, prompt node, Microsoft 365 Copilot node, and other current Learn guidance; removed lingering Ignite 2025 governance links
+
+### agent365/
+
+- **News and announcements** — added the Agent 365 GA announcement, Build 2026 security coverage, Windows platform security for AI agents, and the Microsoft Agent 365 product page; removed outdated Ignite 2025 items
+- **Administration, security, and developer resources** — added observe-in-Teams / observe-in-Copilot docs and the Agent 365 SDK enterprise-readiness primer
+
+### develop-agents/
+
+- **Microsoft SDKs and samples** — added current Microsoft Agent Framework docs for workflows, memory, A2A, and Dev UI plus the official Build 2026 demos repo
+- **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 sample and article links so the site now emphasizes current Build 2026 and evergreen guidance
+
+### microsoft-foundry/
+
+- **Get started and build** — added the Foundry control-plane overview and refreshed Agent Service coverage with current Build 2026 scale, Toolbox, and optimization resources
+- **Lifecycle cleanup** — replaced Prompt Flow build guidance with retirement/migration guidance, added the Build 2026 demos repo, and removed superseded Ignite 2025 / Build 2025 content
+
 ## 2026-06-05
 
 ### Design System (DESIGN.md)

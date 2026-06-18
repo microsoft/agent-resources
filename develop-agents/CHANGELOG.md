@@ -2,6 +2,11 @@
 
 All notable changes to the Build AI Agents Resources site.
 
+## 2026-06-18
+
+- **Microsoft SDKs and samples** — added current Microsoft Agent Framework docs for workflows, memory, A2A, and Dev UI plus the official Build 2026 demos repo
+- **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 sample and article links so the site now emphasizes current Build 2026 and evergreen guidance
+
 ## 2026-06-03
 
 - **Extend Microsoft 365 Copilot** — added Work IQ and collaborative agent development posts from the Microsoft 365 Developer Blog

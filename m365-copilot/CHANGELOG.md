@@ -2,6 +2,11 @@
 
 All notable changes to the Microsoft 365 Copilot Resources site.
 
+## 2026-06-18
+
+- **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, and Frontier Tuning; removed superseded Ignite 2025 news and session links
+- **Training and learning** — removed the lingering Ignite 2025 adoption session so the section now focuses on current evergreen rollout guidance
+
 ## 2026-06-03
 
 - **News and announcements** — added Work IQ production-readiness and Frontier Tuning posts from the Microsoft 365 Developer Blog
