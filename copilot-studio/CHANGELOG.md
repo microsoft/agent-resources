@@ -4,6 +4,7 @@ All notable changes to the Copilot Studio Resources site.
 
 ## 2026-06-18
 
+- **Stay up to date on news and features** — added "Meet the new Copilot Studio: rebuilt for more complex, multi-step work" (Jun 9, 2026) — redesigned authoring experience with rebuilt orchestrator, unified canvas, and markdown skills now GA
 - **Best practices and governance** — added June 2026 Learn guidance for AI agent ROI/business value and for planning throughput/rate limits in production deployments
 
 - **Stay up to date on news and features** — updated the What's new link to the live Learn page and kept current 2026 workflow, evaluation, and computer-use resources
