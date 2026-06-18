@@ -4,6 +4,8 @@ All notable changes to the Microsoft Foundry Resources site.
 
 ## 2026-06-18
 
+- **Models and services** — replaced the older community Model Router article with Microsoft's official model-router evaluation guidance to keep the section current and source-first
+
 - **Get started and build** — added the Foundry control-plane overview and refreshed Agent Service coverage with current Build 2026 scale, Toolbox, and optimization resources
 - **Lifecycle cleanup** — replaced Prompt Flow build guidance with retirement/migration guidance, added the Build 2026 demos repo, and removed superseded Ignite 2025 / Build 2025 content
 

@@ -4,6 +4,8 @@ All notable changes to the Build AI Agents Resources site.
 
 ## 2026-06-18
 
+- **Microsoft Agent Framework** — corrected the official docs/repo links, added the GitHub releases feed, and removed stale 2025 tutorial/update entries in favor of current 2026 resources
+
 - **Microsoft SDKs and samples** — added current Microsoft Agent Framework docs for workflows, memory, A2A, and Dev UI plus the official Build 2026 demos repo
 - **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 sample and article links so the site now emphasizes current Build 2026 and evergreen guidance
 

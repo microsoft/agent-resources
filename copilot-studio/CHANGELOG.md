@@ -4,6 +4,8 @@ All notable changes to the Copilot Studio Resources site.
 
 ## 2026-06-18
 
+- **Best practices and governance** — added June 2026 Learn guidance for AI agent ROI/business value and for planning throughput/rate limits in production deployments
+
 - **Stay up to date on news and features** — updated the What's new link to the live Learn page and kept current 2026 workflow, evaluation, and computer-use resources
 - **Best practices and governance** — added agent inventory schema, readiness/issues, prompt node, Microsoft 365 Copilot node, and other current Learn guidance; removed lingering Ignite 2025 governance links
 ## 2026-06-03
