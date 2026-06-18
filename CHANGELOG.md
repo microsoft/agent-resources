@@ -7,18 +7,26 @@ All notable changes to the Agent Resources sites are documented in this file.
 ### m365-copilot/
 
 - **News and announcements** — added the Claude Fable 5 availability update for Microsoft 365 Copilot
+- **Build 2026 sessions** — added DEM332 (Teams agent live), DEM334 (agents in Teams chats/channels/meetings)
 
 ### copilot-studio/
 
 - **Stay up to date on news and features** — added the June 2026 Tech Community post introducing the rebuilt Copilot Studio authoring experience for complex multi-step work
+- **Build 2026 sessions** — added BRK240 (context-aware agents), BRK242 (tools/APIs/documents), DEM332 (Teams agent), BRK247 (Scott & Mark), DEM361 (observability & evals)
 
 ### microsoft-foundry/
 
 - **News and announcements** — added June 2026 Tech Community resources for auto-generated rubric evaluators, USR-8 user-simulator scoring, Routines-based SLA risk agents, and Foundry Benchmarks preview
+- **Build 2026 sessions** — added BRK240, BRK241, BRK243 (Claw & Agent Harness), DEM333 (open-source frameworks), LAB532 (Foundry IQ), OD836 (Foundry Portal tour)
 
 ### develop-agents/
 
 - **Learning → Blog posts & articles** — added current Agent Framework Build 2026 / layered SDK posts and Foundry agent evaluation/Routines examples
+- **Build 2026 sessions** — expanded from 2 to 13 sessions including BRK240, BRK243, BRK247, BRK250, DEM331, DEM332, DEM333, DEM334, DEM361, LAB530, LAB532
+
+### agent365/
+
+- **Build 2026 sessions** — added BRK250 (agent governance), BRK241 (agents at scale), BRK247 (Scott & Mark)
 
 ## 2026-06-18
 
