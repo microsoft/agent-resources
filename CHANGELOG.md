@@ -6,64 +6,39 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ### m365-copilot/
 
-- **News and announcements** — added the Claude Fable 5 availability update for Microsoft 365 Copilot
-- **Build 2026 sessions** — added DEM332 (Teams agent live), DEM334 (agents in Teams chats/channels/meetings)
+- **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, Frontier Tuning, and the Claude Fable 5 availability update; removed superseded Ignite 2025 news and session links
+- **Copilot Cowork** — added the Copilot Cowork GA announcement and refreshed Notebooks coverage to June 2026
+- **Training and learning** — removed the lingering Ignite 2025 adoption session so the section now focuses on current evergreen rollout guidance
+- **Build 2026 sessions** — added KEY01, BRK241, DEM332 (Teams agent live), DEM334 (agents in Teams chats/channels/meetings)
 
 ### copilot-studio/
 
-- **Stay up to date on news and features** — added the June 2026 Tech Community post introducing the rebuilt Copilot Studio authoring experience for complex multi-step work
+- **Stay up to date on news and features** — added the rebuilt Copilot Studio authoring experience announcement (Jun 9, 2026); updated the What's new link to the live Learn page
+- **Best practices and governance** — added June 2026 Learn guidance for AI agent ROI/business value, throughput/rate limits, agent inventory schema, readiness/issues, prompt node, and Microsoft 365 Copilot node; removed lingering Ignite 2025 governance links
 - **Build 2026 sessions** — added BRK240 (context-aware agents), BRK242 (tools/APIs/documents), DEM332 (Teams agent), BRK247 (Scott & Mark), DEM361 (observability & evals)
 
 ### microsoft-foundry/
 
 - **News and announcements** — added June 2026 Tech Community resources for auto-generated rubric evaluators, USR-8 user-simulator scoring, Routines-based SLA risk agents, and Foundry Benchmarks preview
+- **Get started and build** — added the Foundry control-plane overview and refreshed Agent Service coverage with current Build 2026 scale, Toolbox, and optimization resources
+- **Models and services** — replaced the older community Model Router article with Microsoft's official model-router evaluation guidance
+- **Lifecycle cleanup** — replaced Prompt Flow build guidance with retirement/migration guidance, added the Build 2026 demos repo, and removed superseded Ignite 2025 / Build 2025 content
 - **Build 2026 sessions** — added BRK240, BRK241, BRK243 (Claw & Agent Harness), DEM333 (open-source frameworks), LAB532 (Foundry IQ), OD836 (Foundry Portal tour)
 
-### develop-agents/
-
-- **Learning → Blog posts & articles** — added current Agent Framework Build 2026 / layered SDK posts and Foundry agent evaluation/Routines examples
-- **Build 2026 sessions** — expanded from 2 to 13 sessions including BRK240, BRK243, BRK247, BRK250, DEM331, DEM332, DEM333, DEM334, DEM361, LAB530, LAB532
-
 ### agent365/
-
-- **Build 2026 sessions** — added BRK250 (agent governance), BRK241 (agents at scale), BRK247 (Scott & Mark)
-
-## 2026-06-18
-
-### m365-copilot/
-
-- **Copilot Cowork and news** — added the Copilot Cowork GA announcement and refreshed Notebooks coverage from May to June so the site reflects the latest shipping experience
-
-- **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, and Frontier Tuning; removed superseded Ignite 2025 news and session links
-- **Training and learning** — removed the lingering Ignite 2025 adoption session so the section now focuses on current evergreen rollout guidance
-
-### copilot-studio/
-
-- **Best practices and governance** — added June 2026 Learn guidance for AI agent ROI/business value and for planning throughput/rate limits in production deployments
-
-- **Stay up to date on news and features** — updated the What's new link to the live Learn page and kept current 2026 workflow, evaluation, and computer-use resources
-- **Best practices and governance** — added agent inventory schema, readiness/issues, prompt node, Microsoft 365 Copilot node, and other current Learn guidance; removed lingering Ignite 2025 governance links
-
-### agent365/
-
-- **Community and announcements** — replaced the pre-event AMA registration link with the replay so readers land on the enduring post-event resource instead of an expired event page
 
 - **News and announcements** — added the Agent 365 GA announcement, Build 2026 security coverage, Windows platform security for AI agents, and the Microsoft Agent 365 product page; removed outdated Ignite 2025 items
+- **Community and announcements** — replaced the pre-event AMA registration link with the replay
 - **Administration, security, and developer resources** — added observe-in-Teams / observe-in-Copilot docs and the Agent 365 SDK enterprise-readiness primer
+- **Build 2026 sessions** — added BRK250 (agent governance), BRK241 (agents at scale), BRK247 (Scott & Mark)
 
 ### develop-agents/
 
-- **Microsoft Agent Framework** — corrected the official docs/repo links, added the GitHub releases feed, and removed stale 2025 tutorial/update entries in favor of current 2026 resources
-
-- **Microsoft SDKs and samples** — added current Microsoft Agent Framework docs for workflows, memory, A2A, and Dev UI plus the official Build 2026 demos repo
-- **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 sample and article links so the site now emphasizes current Build 2026 and evergreen guidance
-
-### microsoft-foundry/
-
-- **Models and services** — replaced the older community Model Router article with Microsoft's official model-router evaluation guidance to keep the section current and source-first
-
-- **Get started and build** — added the Foundry control-plane overview and refreshed Agent Service coverage with current Build 2026 scale, Toolbox, and optimization resources
-- **Lifecycle cleanup** — replaced Prompt Flow build guidance with retirement/migration guidance, added the Build 2026 demos repo, and removed superseded Ignite 2025 / Build 2025 content
+- **Microsoft Agent Framework** — corrected official docs/repo links, added the GitHub releases feed, and removed stale 2025 entries
+- **Microsoft SDKs and samples** — added current Agent Framework docs for workflows, memory, A2A, and Dev UI plus the official Build 2026 demos repo
+- **Learning → Blog posts & articles** — added current Agent Framework Build 2026 / layered SDK posts and Foundry agent evaluation/Routines examples
+- **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 links in favor of current Build 2026 and evergreen guidance
+- **Build 2026 sessions** — expanded from 2 to 13 sessions including BRK240, BRK243, BRK247, BRK250, DEM331, DEM332, DEM333, DEM334, DEM361, LAB530, LAB532
 
 ## 2026-06-05
 
