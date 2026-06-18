@@ -6,6 +6,24 @@ All notable changes to the Agent Resources sites are documented in this file.
 
 ### m365-copilot/
 
+- **News and announcements** — added the Claude Fable 5 availability update for Microsoft 365 Copilot
+
+### copilot-studio/
+
+- **Stay up to date on news and features** — added the June 2026 Tech Community post introducing the rebuilt Copilot Studio authoring experience for complex multi-step work
+
+### microsoft-foundry/
+
+- **News and announcements** — added June 2026 Tech Community resources for auto-generated rubric evaluators, USR-8 user-simulator scoring, Routines-based SLA risk agents, and Foundry Benchmarks preview
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added current Agent Framework Build 2026 / layered SDK posts and Foundry agent evaluation/Routines examples
+
+## 2026-06-18
+
+### m365-copilot/
+
 - **Copilot Cowork and news** — added the Copilot Cowork GA announcement and refreshed Notebooks coverage from May to June so the site reflects the latest shipping experience
 
 - **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, and Frontier Tuning; removed superseded Ignite 2025 news and session links
