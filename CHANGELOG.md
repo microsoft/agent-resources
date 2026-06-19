@@ -2,6 +2,16 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-06-19
+
+### microsoft-foundry/
+
+- **News and announcements** — added "Cross-region model connectivity options in Microsoft Foundry: supported patterns" (Tech Community, Jun 19, 2026)
+
+### develop-agents/
+
+- **Learning → Blog posts & articles** — added the cross-region Microsoft Foundry connectivity patterns post for developers designing multi-region model and Agent Service architectures
+
 ## 2026-06-18
 
 ### m365-copilot/
