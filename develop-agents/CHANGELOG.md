@@ -2,6 +2,11 @@
 
 All notable changes to the Build AI Agents Resources site.
 
+## 2026-07-09
+
+- **Extend Microsoft 365 Copilot — Overview** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)
+- **Community and support** — added "Agents League Hackathon 2026 — Enterprise Agents" (Jun 10, 2026)
+
 ## 2026-06-18
 
 - **Microsoft Agent Framework** — corrected the official docs/repo links, added the GitHub releases feed, and removed stale 2025 tutorial/update entries in favor of current 2026 resources

@@ -2,6 +2,11 @@
 
 All notable changes to the Agent 365 Resources site.
 
+## 2026-07-09
+
+- **News and announcements** — added "KPMG and Microsoft scale trusted, enterprise AI agents globally through Agent 365" press release (Jun 2026)
+- **Security — Agent 365 security documentation** — added "Transition Copilot Studio and Microsoft Foundry agent security to Agent 365" (learn.microsoft.com/defender-xdr), noting these security capabilities require a Microsoft Agent 365 license from Jul 1, 2026
+
 ## 2026-06-18
 
 - **Community and announcements** — replaced the pre-event AMA registration link with the replay so readers land on the enduring post-event resource instead of an expired event page

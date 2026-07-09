@@ -2,6 +2,10 @@
 
 All notable changes to the Microsoft Foundry Resources site.
 
+## 2026-07-09
+
+- **News and announcements** — added "What's New in Microsoft Foundry | June 2026" monthly roundup, "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry", "Accelerate Edge AI Development with Foundry Local", "Announcing Foundry Managed Compute", and "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval"
+
 ## 2026-06-18
 
 - **Models and services** — replaced the older community Model Router article with Microsoft's official model-router evaluation guidance to keep the section current and source-first

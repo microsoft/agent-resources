@@ -2,6 +2,11 @@
 
 All notable changes to the Microsoft 365 Copilot Resources site.
 
+## 2026-07-09
+
+- **News and announcements** — added "SharePoint Copilot Apps now in public preview" (Jul 9, 2026)
+- **Extensibility and development — Get started extending Copilot** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)
+
 ## 2026-06-18
 
 - **Copilot Cowork and news** — added the Copilot Cowork GA announcement and refreshed Notebooks coverage from May to June so the site reflects the latest shipping experience

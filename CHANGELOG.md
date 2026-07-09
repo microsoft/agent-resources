@@ -2,6 +2,27 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-07-09
+
+### microsoft-foundry/
+
+- **News and announcements** — added "What's New in Microsoft Foundry | June 2026" monthly roundup, "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry", "Accelerate Edge AI Development with Foundry Local", "Announcing Foundry Managed Compute", and "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval"
+
+### agent365/
+
+- **News and announcements** — added "KPMG and Microsoft scale trusted, enterprise AI agents globally through Agent 365" press release (Jun 2026)
+- **Security — Agent 365 security documentation** — added "Transition Copilot Studio and Microsoft Foundry agent security to Agent 365" (learn.microsoft.com/defender-xdr), noting these security capabilities require a Microsoft Agent 365 license from Jul 1, 2026
+
+### m365-copilot/
+
+- **News and announcements** — added "SharePoint Copilot Apps now in public preview" (Jul 9, 2026)
+- **Extensibility and development — Get started extending Copilot** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)
+
+### develop-agents/
+
+- **Extend Microsoft 365 Copilot — Overview** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)
+- **Community and support** — added "Agents League Hackathon 2026 — Enterprise Agents" (Jun 10, 2026)
+
 ## 2026-06-19
 
 ### microsoft-foundry/
