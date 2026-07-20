@@ -5,9 +5,7 @@ All notable changes to the Agent Resources sites are documented in this file.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
-## [Unreleased]
-
-## [2026-07-20] - 2026-07-20
+## [2026-07-20]
 
 ### Added
 
@@ -44,7 +42,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **News and announcements** — removed a stale Microsoft Learn release-notes link that now returns 404
 
-## [2026-07-09] - 2026-07-09
+## [2026-07-09]
 
 ### Added
 
@@ -72,7 +70,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Security — Agent 365 security documentation** — added "Transition Copilot Studio and Microsoft Foundry agent security to Agent 365" (learn.microsoft.com/defender-xdr), noting these security capabilities require a Microsoft Agent 365 license from Jul 1, 2026
 
-## [2026-06-19] - 2026-06-19
+## [2026-06-19]
 
 ### Added
 
@@ -84,7 +82,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added the cross-region Microsoft Foundry connectivity patterns post for developers designing multi-region model and Agent Service architectures
 
-## [2026-06-18] - 2026-06-18
+## [2026-06-18]
 
 ### Added
 
@@ -158,7 +156,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Microsoft Agent Framework** — corrected official docs/repo links, added the GitHub releases feed, and removed stale 2025 entries
 - **Learning and conferences** — removed outdated Build 2025 / Ignite 2025 links in favor of current Build 2026 and evergreen guidance
 
-## [2026-06-05] - 2026-06-05
+## [2026-06-05]
 
 ### Changed
 
@@ -172,7 +170,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Design review fixes** — raised card description text from 14.72px to 16px (body text minimum), increased theme/menu toggle touch targets from 40px to 44px (accessibility minimum), added `prefers-reduced-motion` support for the aurora animation and card transitions, restored Copilot Studio purple brand identity in dark mode (eyebrow, badge, and top accent border were incorrectly overriding to the M365 Copilot blue), added `text-wrap: balance` to hero H1 and card titles, removed duplicate CSS rules for `.card-platform-advisor .cta-badge` and `.card-icon`
 
-## [2026-06-03] - 2026-06-03
+## [2026-06-03]
 
 ### Added
 
@@ -240,7 +238,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed Agent Development card icon displaying a white background in dark mode by switching from `agent-framework-icon.webp` (opaque background) to `agent-framework-icon.png` (transparent background)
 
-## [2026-06-02] - 2026-06-02
+## [2026-06-02]
 
 ### Added
 
@@ -291,7 +289,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **News and announcements** — added "What's new in Microsoft Foundry | May 2026" and the hybrid local/cloud Python agents post; replaced the Build section with Build 2026 hub/live-blog links and removed the outdated Ignite 2024 session block
 
-## [2026-06-01] - 2026-06-01
+## [2026-06-01]
 
 ### Added
 
@@ -303,7 +301,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added Foundry posts on production GPT Realtime context strategies and backward-compatible GPT-5.x migration
 
-## [2026-05-29] - 2026-05-29
+## [2026-05-29]
 
 ### Added
 
@@ -319,7 +317,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added "Introducing Agent Framework Dev UI" (Agent Framework blog, May 28, 2026) plus Foundry posts on AI observability, hosted MCP server load testing, and Vercel AI SDK integration
 
-## [2026-05-26] - 2026-05-26
+## [2026-05-26]
 
 ### Added
 
@@ -335,7 +333,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added "Deploying existing agentic services to Microsoft 365 Copilot via gateway and OBO access" (Tech Community, May 25, 2026)
 
-## [2026-05-24] - 2026-05-24
+## [2026-05-24]
 
 ### Added
 
@@ -347,7 +345,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added "Monitoring & Observability in Microsoft Foundry" (Tech Community, May 22, 2026)
 
-## [2026-05-22] - 2026-05-22
+## [2026-05-22]
 
 ### Added
 
@@ -359,7 +357,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Learning → Blog posts & articles** — added "Agent Skills for Python: File, Code, and Class - Composed in One Provider" (Agent Framework blog, May 22, 2026) and "Foundry IQ as a shared knowledge brain for multiple AI agents" (Tech Community, May 22, 2026)
 
-## [2026-05-21] - 2026-05-21
+## [2026-05-21]
 
 ### Added
 
@@ -371,7 +369,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Create agents with Agent Builder** — added the same "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" decision-framework Partner News post (May 19, 2026)
 
-## [2026-05-21] - 2026-05-21
+## [2026-05-21]
 
 ### Added
 
@@ -397,13 +395,13 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Learning → Blog posts & articles** — added 5 Agent Framework entries: FIDES prompt-injection defenses (May 20), Agent Governance Toolkit integration (May 14), handoff orchestration pattern (May 7), deploying Agent Framework agents with Foundry Hosted Agents (May 6), and A2A v1 support for .NET (Apr 28)
 - - **Learning → Blog posts & articles** — added 4 entries: "How to run evals for the model router" (Foundry blog, May 19), "What's new in Microsoft Foundry | April 2026" (May 12), "When AI should ask for help: Human-in-the-loop patterns in Microsoft Foundry" (May 21), and "Teaching AI to remember: Exploring Memory Store in Microsoft Foundry" (May 21)
 
-## [2026-05-19] - 2026-05-19
+## [2026-05-19]
 
 ### Fixed
 
 - **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage
 
-## [2026-05-14] - 2026-05-14
+## [2026-05-14]
 
 ### Added
 
@@ -411,7 +409,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Copilot Cowork → Videos** — added Lisa Crosbie's "Copilot Cowork: Tutorial for Beginners"
 
-## [2026-05-05] - 2026-05-05
+## [2026-05-05]
 
 ### Added
 
@@ -439,7 +437,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **News and announcements** — added 5 Tech Community Foundry blog entries: "Bring Your Own Model to Foundry Agent Service is now Generally Available" (Apr 27), "OrganAIze — What happens when you let AI agents organize themselves?" (Apr 28), "Voice Live API now supports WebRTC (Preview)" (Apr 30), "Prompt Flow is being retired" (Apr 30), and "Introducing DeepSeek V4-Flash and V4-Pro in Microsoft Foundry" (May 1)
 
-## [2026-04-30] - 2026-04-30
+## [2026-04-30]
 
 ### Added
 
@@ -453,7 +451,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Real-world customer stories** — updated curated customer stories link from `aka.ms/CopilotAgentStories` to `aka.ms/AgentStories`
 
-## [2026-04-24] - 2026-04-24
+## [2026-04-24]
 
 ### Added
 
@@ -505,7 +503,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed front-door short URL reference in `CLAUDE.md` and `.github/copilot-instructions.md` (aka.ms/airesources → aka.ms/agentresources)
 
-## [2026-04-09] - 2026-04-09
+## [2026-04-09]
 
 ### Added
 
@@ -522,7 +520,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Get Started** — updated "Agent 365 Overview" entry to credit John Savill's Technical Training
 
-## [2026-04-07] - 2026-04-07
+## [2026-04-07]
 
 ### Added
 
@@ -540,7 +538,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Updated "Agent in a Day" links to short URL `https://aka.ms/AgIAD` in Get Started and Adoption sections
 
-## [2026-04-06] - 2026-04-06
+## [2026-04-06]
 
 ### Added
 
@@ -567,7 +565,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Moved Copilot Cowork out of the Agents → Frontier sub-section into its own dedicated section
 
-## [2026-03-31] - 2026-03-31
+## [2026-03-31]
 
 ### Added
 
@@ -628,7 +626,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed MCS Labs link
 
-## [2026-03-30] - 2026-03-30
+## [2026-03-30]
 
 ### Added
 
@@ -678,7 +676,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed hash nav scrolling behind sticky nav (ISSUE-001)
 
-## [2026-03-26] - 2026-03-26
+## [2026-03-26]
 
 ### Added
 
@@ -722,7 +720,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed broken HTML in footer and hero elements
 
-## [2026-03-25] - 2026-03-25
+## [2026-03-25]
 
 ### Added
 
@@ -730,7 +728,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Updates for clarity across content
 
-## [2026-03-20] - 2026-03-20
+## [2026-03-20]
 
 ### Changed
 
@@ -738,7 +736,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Updated Agent 365 text
 
-## [2026-03-19] - 2026-03-19
+## [2026-03-19]
 
 ### Fixed
 
@@ -746,7 +744,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed subheader
 
-## [2026-03-18] - 2026-03-18
+## [2026-03-18]
 
 ### Added
 
@@ -774,7 +772,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Removed `en-us` locale from documentation URLs
 
-## [2026-03-17] - 2026-03-17
+## [2026-03-17]
 
 ### Added
 
@@ -784,7 +782,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - Added home button navigation between sites
 - Standardized site structure
 
-## [2026-03-16] - 2026-03-16
+## [2026-03-16]
 
 ### Added
 
@@ -793,7 +791,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - Initial site with hero, product cards, and footer
 - Added Open Graph metadata and footer
 
-## [2026-03-13] - 2026-03-13
+## [2026-03-13]
 
 ### Added
 

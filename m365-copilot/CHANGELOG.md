@@ -5,9 +5,7 @@ All notable changes to the Microsoft 365 Copilot Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
-## [Unreleased]
-
-## [2026-07-20] - 2026-07-20
+## [2026-07-20]
 
 ### Added
 
@@ -16,14 +14,14 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **News and announcements** — added official Microsoft 365 Copilot release notes covering July 2026 updates including Agent Builder submissions to the Agent Store, tenant-wide prompt publishing, MCP agents in Office apps, and Federated Copilot Connector management
 - **Create agents with Agent Builder — Share, manage & govern** — added "Submit agents from Agent Builder to your org catalog" for admin-reviewed publication to the Agent Store
 
-## [2026-07-09] - 2026-07-09
+## [2026-07-09]
 
 ### Added
 
 - **News and announcements** — added "SharePoint Copilot Apps now in public preview" (Jul 9, 2026)
 - **Extensibility and development — Get started extending Copilot** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)
 
-## [2026-06-18] - 2026-06-18
+## [2026-06-18]
 
 ### Changed
 
@@ -34,7 +32,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **News and announcements** — added Microsoft Scout overview/get-started docs, Work IQ, collaborative agents, release notes, and Frontier Tuning; removed superseded Ignite 2025 news and session links
 - **Training and learning** — removed the lingering Ignite 2025 adoption session so the section now focuses on current evergreen rollout guidance
 
-## [2026-06-03] - 2026-06-03
+## [2026-06-03]
 
 ### Added
 
@@ -42,7 +40,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **News and announcements** — added Build 2026 sessions sub-section with KEY01 (Opening Keynote) and BRK241 (From prototype to production: build and run agents at scale)
 - **News and announcements** — added Microsoft Scout: announcement blog, Learn overview doc, and Learn get-started doc
 
-## [2026-06-02] - 2026-06-02
+## [2026-06-02]
 
 ### Added
 
@@ -56,32 +54,32 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **News and announcements** — added Build 2026 news hub, Learning Agent GA, What's New May 2026 roundup, new Copilot design, Claude Opus 4.8, M365 Business with Copilot SKUs, ISO 42001 recertification, Finance Agent expansion, and updated Notebooks entry
 
-## [2026-05-26] - 2026-05-26
+## [2026-05-26]
 
 ### Added
 
 - **News and announcements** — added "What's new in Notebooks — May 2026" (Tech Community, May 26, 2026)
 
-## [2026-05-21] - 2026-05-21
+## [2026-05-21]
 
 ### Added
 
 - **Create agents with Agent Builder** — added "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" decision-framework Partner News post (May 19, 2026)
 - **News and announcements** — added 7 entries: "Launched: Microsoft 365 Copilot Adoption Hub redesign" (May 18), "How Workday and Microsoft are redefining the agentic workplace" (May 13), "Available today: GPT-5.5 Instant in Microsoft 365 Copilot" (May 7), "Federated Copilot connectors" (May 5), "What's New in Microsoft 365 Copilot — April 2026" (Apr 30), "Copilot in OneNote now understands more of your notes" (Apr 29), and "GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot" (Apr 27)
 
-## [2026-05-19] - 2026-05-19
+## [2026-05-19]
 
 ### Fixed
 
 - **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage
 
-## [2026-05-14] - 2026-05-14
+## [2026-05-14]
 
 ### Added
 
 - **Copilot Cowork → Videos** — added Lisa Crosbie's "Copilot Cowork: Tutorial for Beginners"
 
-## [2026-05-05] - 2026-05-05
+## [2026-05-05]
 
 ### Added
 
@@ -91,13 +89,13 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Copilot Cowork → MVP & community posts** — added Christian Buckley's M365CC Highlights (May 4) and Vlad Catrinescu's "Microsoft 365 Conference 2026 Recap"
 - **Administration and governance → Setup and management** — added explainer on May 16, 2026 M365 Copilot Chat licensing changes for unlicensed users
 
-## [2026-04-30] - 2026-04-30
+## [2026-04-30]
 
 ### Added
 
 - **Real-world customer stories** — added new "Stories" section with curated collections, featured stories (JCB, ECE Group, Wipro, LTM), and Microsoft blog roundups. Added `#stories` nav link.
 
-## [2026-04-24] - 2026-04-24
+## [2026-04-24]
 
 ### Added
 
@@ -107,7 +105,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Copilot Cowork → Videos** — added Jeremy Chapman "Claude + GPT: Multi-model intelligence in Copilot"
 - **Extensibility → Get started extending Copilot** — added Voitanos deep-dive on April 2026 declarative agent upgrades
 
-## [2026-04-07] - 2026-04-07
+## [2026-04-07]
 
 ### Added
 
@@ -117,19 +115,19 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Swapped section order: Training now appears before Adoption
 
-## [2026-04-06] - 2026-04-06
+## [2026-04-06]
 
 ### Added
 
 - **New section: Copilot Cowork** — added nav item and full section with four sub-headings: Overview, Official announcements, MVP & community posts, Videos
 
-## [2026-03-31] - 2026-03-31
+## [2026-03-31]
 
 ### Changed
 
 - **Agent Builder section** — expanded from 5 entries to 21 across 6 sub-headings: Get started, Templates & examples, Share/manage/govern, Videos & tutorials, Blog posts & articles
 
-## [2026-03-30] - 2026-03-30
+## [2026-03-30]
 
 ### Changed
 
@@ -139,19 +137,19 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed hash nav scrolling behind sticky nav
 
-## [2026-03-26] - 2026-03-26
+## [2026-03-26]
 
 ### Fixed
 
 - Design and accessibility improvements: fixed H1 overflow, replaced rainbow gradient with brand colors, fixed orphaned 4th card, added tablet breakpoint, design tokens, semantic headings, `focus-visible` styles
 
-## [2026-03-25] - 2026-03-25
+## [2026-03-25]
 
 ### Added
 
 - Updates for clarity across content
 
-## [2026-03-17] - 2026-03-17
+## [2026-03-17]
 
 ### Added
 

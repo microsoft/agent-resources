@@ -5,16 +5,14 @@ All notable changes to the Copilot Studio Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
-## [Unreleased]
-
-## [2026-07-20] - 2026-07-20
+## [2026-07-20]
 
 ### Added
 
 - **Stay up to date on news and features** — added the official "What's new in Copilot Studio" Learn roundup for June 2026 features including the new agent experience, Microsoft IQ, skills, memory, Windows 365 for Agents MCP server, Teams Phone Agent integration, Foundry IQ, and new model selection
 - **Best practices and common use cases** — added a new "New agent experience" sub-section with Learn docs for agents overview, skills, memory, Microsoft IQ, and Foundry IQ connection
 
-## [2026-06-18] - 2026-06-18
+## [2026-06-18]
 
 ### Added
 
@@ -29,7 +27,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Best practices and governance** — added agent inventory schema, readiness/issues, prompt node, Microsoft 365 Copilot node, and other current Learn guidance; removed lingering Ignite 2025 governance links
 
-## [2026-06-03] - 2026-06-03
+## [2026-06-03]
 
 ### Added
 
@@ -50,7 +48,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Resources for building agents — Build sessions** — replaced 11 Build 2025 sessions (BRK140, BRK128, BRK158, BRK161, BRK162, BRK176, BRK157, BRK159, BRK130, BRK165, CUA) with 3 Build 2026 sessions: BRK431, LTG423, LTG450
 - **Governance and administration — Build sessions** — replaced Build 2025 session BRK159 with Build 2026 session BRK250
 
-## [2026-06-02] - 2026-06-02
+## [2026-06-02]
 
 ### Added
 
@@ -63,51 +61,51 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Stay up to date on news and features** — added 8 official Microsoft Copilot Studio blog entries from March–May 2026 covering Mistral, monthly updates, voice agents, workflows, evals, and OWASP guidance; removed 5 superseded 2025 update entries
 
-## [2026-05-29] - 2026-05-29
+## [2026-05-29]
 
 ### Added
 
 - **Stay up to date on news and features** — added "Use cases for the Agent Feed" (Tech Community, May 28, 2026)
 
-## [2026-05-21] - 2026-05-21
+## [2026-05-21]
 
 ### Added
 
 - **Stay up to date on news and features** — added "Agent Builder, Copilot Studio, or Microsoft Foundry: How We Decide for Every Client" (Partner News, May 19, 2026)
 - **Stay up to date on news and features** — added 6 Tech Community entries: "Computer-using agents in Copilot Studio are now generally available" (May 13), "4 ways to build a curated Agent Store" (May 12), "Administering and Governing Agents whitepaper v3.2" (May 11), "Read-only analytics access and custom metrics" (May 5), "Work IQ API public preview: Build Copilot-powered agents with A2A" (Apr 30), and "Automate agent evaluation with the Evaluation APIs" (Apr 29)
 
-## [2026-05-19] - 2026-05-19
+## [2026-05-19]
 
 ### Fixed
 
 - **Dark mode** — added site-wide dark mode toggle (moon/sun icon, fixed top-right). Respects OS preference, persists choice in localStorage
 
-## [2026-04-30] - 2026-04-30
+## [2026-04-30]
 
 ### Changed
 
 - **Real-world customer stories** — updated curated customer stories link from `aka.ms/CopilotAgentStories` to `aka.ms/AgentStories`
 
-## [2026-04-24] - 2026-04-24
+## [2026-04-24]
 
 ### Added
 
 - **Stay up to date on news and features** — added 2 entries: "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration" and the 2026 release wave 1 overview + planned features on Microsoft Learn
 - **Community and support** — added launch of the Copilot Studio Tech Community Blog (`aka.ms/MCSblog`)
 
-## [2026-04-07] - 2026-04-07
+## [2026-04-07]
 
 ### Changed
 
 - Updated "Agent in a Day" links to short URL `https://aka.ms/AgIAD` in Get Started and Adoption sections
 
-## [2026-04-06] - 2026-04-06
+## [2026-04-06]
 
 ### Added
 
 - **New section: Governance and administration** — added full section with four sub-headings: Documentation (14 entries), Official blog posts (6 entries), Build 2025 sessions, Ignite 2025 sessions, Community and MVP resources
 
-## [2026-03-31] - 2026-03-31
+## [2026-03-31]
 
 ### Added
 
@@ -119,7 +117,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed MCS Labs link
 
-## [2026-03-30] - 2026-03-30
+## [2026-03-30]
 
 ### Changed
 
@@ -129,25 +127,25 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - Fixed hash nav scrolling behind sticky nav
 
-## [2026-03-26] - 2026-03-26
+## [2026-03-26]
 
 ### Fixed
 
 - Design and accessibility improvements: fixed H1 overflow, semantic headings, `focus-visible` styles, standardized layout
 
-## [2026-03-25] - 2026-03-25
+## [2026-03-25]
 
 ### Added
 
 - Updates for clarity across content
 
-## [2026-03-19] - 2026-03-19
+## [2026-03-19]
 
 ### Fixed
 
 - Fixed subheader
 
-## [2026-03-17] - 2026-03-17
+## [2026-03-17]
 
 ### Added
 
