@@ -4,6 +4,8 @@ All notable changes to the Microsoft 365 Copilot Resources site.
 
 ## 2026-07-20
 
+- **Explore Microsoft 365 Copilot agents** — added an "Autopilot agents" sub-section covering Microsoft Scout announcement, overview, and get-started documentation
+- **Learn about Copilot Cowork** — added the official "What's new in Copilot Cowork" update log to the Cowork overview resources
 - **News and announcements** — added official Microsoft 365 Copilot release notes covering July 2026 updates including Agent Builder submissions to the Agent Store, tenant-wide prompt publishing, MCP agents in Office apps, and Federated Copilot Connector management
 - **Create agents with Agent Builder — Share, manage & govern** — added "Submit agents from Agent Builder to your org catalog" for admin-reviewed publication to the Agent Store
 
