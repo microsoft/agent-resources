@@ -19,6 +19,7 @@ Strategy:
 - Emphasize high-value content that will be useful to the reader
 - Remove resources that are out of date, deprecated, or superseded by new content
 - Be sure to prioritize adding new documentation articles from Microsoft Learn
+- Include Cowork, Scout, and autopilot coverage in the Microsoft 365 Copilot resources
 - When you add content from conferences, remove the entries from the previous event. For example, when you add content from Build 2026, remove the content from Build 2025. Ditto for Ignite.
 
 Sources:
