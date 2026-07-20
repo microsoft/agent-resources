@@ -2,6 +2,12 @@
 
 All notable changes to the Microsoft Foundry Resources site.
 
+## 2026-07-20
+
+- **News and announcements** — removed a stale Microsoft Learn release-notes link that now returns 404
+- **Build with Microsoft Foundry — Azure AI Agent Service** — added official Learn guides for creating/deploying Foundry toolboxes and using centrally managed skills with Foundry agents
+- **Build with Microsoft Foundry — Microsoft Agent Framework** — added "Agent Skills for Python is now released" from the Agent Framework DevBlog
+
 ## 2026-07-09
 
 - **News and announcements** — added "What's New in Microsoft Foundry | June 2026" monthly roundup, "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry", "Accelerate Edge AI Development with Foundry Local", "Announcing Foundry Managed Compute", and "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval"

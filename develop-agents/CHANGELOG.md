@@ -2,6 +2,11 @@
 
 All notable changes to the Build AI Agents Resources site.
 
+## 2026-07-20
+
+- **Microsoft SDKs — Microsoft Agent Framework** — added "Agent Skills for Python is now released" for the stable production-ready Python skills API
+- **Learning → Blog posts & articles** — added recent Agent Framework posts covering production-ready Python skills and the Agent Harness pattern for skills, shell tools, CodeAct, and concurrent background agents
+
 ## 2026-07-09
 
 - **Extend Microsoft 365 Copilot — Overview** — added "Going beyond text: Introducing SharePoint Copilot Apps" (Jun 23, 2026)

@@ -2,6 +2,11 @@
 
 All notable changes to the Agent 365 Resources site.
 
+## 2026-07-20
+
+- **Get started with Agent 365** — added leadership guidance for why enterprises need Agent 365 and how to govern agents without slowing innovation
+- **Administration and governance — Monitor and observe** — added Agent Registry and Agent 365 admin-center governance docs for discovering, observing, onboarding, and governing agents
+
 ## 2026-07-09
 
 - **News and announcements** — added "KPMG and Microsoft scale trusted, enterprise AI agents globally through Agent 365" press release (Jun 2026)
@@ -13,6 +18,7 @@ All notable changes to the Agent 365 Resources site.
 
 - **News and announcements** — added the Agent 365 GA announcement, Build 2026 security coverage, Windows platform security for AI agents, and the Microsoft Agent 365 product page; removed outdated Ignite 2025 items
 - **Administration, security, and developer resources** — added observe-in-Teams / observe-in-Copilot docs and the Agent 365 SDK enterprise-readiness primer
+
 ## 2026-06-03
 
 - **News and announcements** — added "Make any agent enterprise-ready with the Agent 365 SDK" (Jun 2, 2026)

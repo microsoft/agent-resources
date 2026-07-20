@@ -2,6 +2,11 @@
 
 All notable changes to the Copilot Studio Resources site.
 
+## 2026-07-20
+
+- **Stay up to date on news and features** — added the official "What's new in Copilot Studio" Learn roundup for June 2026 features including the new agent experience, Microsoft IQ, skills, memory, Windows 365 for Agents MCP server, Teams Phone Agent integration, Foundry IQ, and new model selection
+- **Best practices and common use cases** — added a new "New agent experience" sub-section with Learn docs for agents overview, skills, memory, Microsoft IQ, and Foundry IQ connection
+
 ## 2026-06-18
 
 - **Stay up to date on news and features** — added "Meet the new Copilot Studio: rebuilt for more complex, multi-step work" (Jun 9, 2026) — redesigned authoring experience with rebuilt orchestrator, unified canvas, and markdown skills now GA
@@ -9,6 +14,7 @@ All notable changes to the Copilot Studio Resources site.
 
 - **Stay up to date on news and features** — updated the What's new link to the live Learn page and kept current 2026 workflow, evaluation, and computer-use resources
 - **Best practices and governance** — added agent inventory schema, readiness/issues, prompt node, Microsoft 365 Copilot node, and other current Learn guidance; removed lingering Ignite 2025 governance links
+
 ## 2026-06-03
 
 - **Stay up to date on news and features** — added "Frontier Tuning: Teaching AI to work the way you do" (Jun 2, 2026)

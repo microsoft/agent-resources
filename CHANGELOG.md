@@ -2,6 +2,34 @@
 
 All notable changes to the Agent Resources sites are documented in this file.
 
+## 2026-07-20
+
+### m365-copilot/
+
+- **News and announcements** — added official Microsoft 365 Copilot release notes covering July 2026 updates including Agent Builder submissions to the Agent Store, tenant-wide prompt publishing, MCP agents in Office apps, and Federated Copilot Connector management
+- **Create agents with Agent Builder — Share, manage & govern** — added "Submit agents from Agent Builder to your org catalog" for admin-reviewed publication to the Agent Store
+
+### copilot-studio/
+
+- **Stay up to date on news and features** — added the official "What's new in Copilot Studio" Learn roundup for June 2026 features including the new agent experience, Microsoft IQ, skills, memory, Windows 365 for Agents MCP server, Teams Phone Agent integration, Foundry IQ, and new model selection
+- **Best practices and common use cases** — added a new "New agent experience" sub-section with Learn docs for agents overview, skills, memory, Microsoft IQ, and Foundry IQ connection
+
+### microsoft-foundry/
+
+- **News and announcements** — removed a stale Microsoft Learn release-notes link that now returns 404
+- **Build with Microsoft Foundry — Azure AI Agent Service** — added official Learn guides for creating/deploying Foundry toolboxes and using centrally managed skills with Foundry agents
+- **Build with Microsoft Foundry — Microsoft Agent Framework** — added "Agent Skills for Python is now released" from the Agent Framework DevBlog
+
+### agent365/
+
+- **Get started with Agent 365** — added leadership guidance for why enterprises need Agent 365 and how to govern agents without slowing innovation
+- **Administration and governance — Monitor and observe** — added Agent Registry and Agent 365 admin-center governance docs for discovering, observing, onboarding, and governing agents
+
+### develop-agents/
+
+- **Microsoft SDKs — Microsoft Agent Framework** — added "Agent Skills for Python is now released" for the stable production-ready Python skills API
+- **Learning → Blog posts & articles** — added recent Agent Framework posts covering production-ready Python skills and the Agent Harness pattern for skills, shell tools, CodeAct, and concurrent background agents
+
 ## 2026-07-09
 
 ### microsoft-foundry/
@@ -80,7 +108,6 @@ All notable changes to the Agent Resources sites are documented in this file.
 ### / (root)
 
 - **Design review fixes** — raised card description text from 14.72px to 16px (body text minimum), increased theme/menu toggle touch targets from 40px to 44px (accessibility minimum), added `prefers-reduced-motion` support for the aurora animation and card transitions, restored Copilot Studio purple brand identity in dark mode (eyebrow, badge, and top accent border were incorrectly overriding to the M365 Copilot blue), added `text-wrap: balance` to hero H1 and card titles, removed duplicate CSS rules for `.card-platform-advisor .cta-badge` and `.card-icon`
-
 ## 2026-06-03
 
 ### / (root)
