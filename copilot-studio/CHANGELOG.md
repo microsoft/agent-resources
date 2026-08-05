@@ -12,6 +12,8 @@ This project uses dated release entries rather than Semantic Versioning because 
 - **Stay up to date** — added the Copilot Studio guidance-hub changelog and the announcement that future feature updates now live on the Microsoft 365 Roadmap
 - **Copilot Agent Kit** — added Agent Debugger, Agent Insights Hub, Power Shield, and Agent Review Pipeline guidance
 - **Customer stories** — added the Grupo Bimbo global audit case study
+- **Resources for building agents** — added a new "The new engine: harnesses" sub-section covering the multi-harness platform (Choose a harness, GitHub Copilot harness build overview, and the standard/GitHub Copilot harness migration guide) — the GitHub Copilot harness reached GA on Aug 3, 2026
+- **Governance and administration** — expanded licensing/capacity coverage with the Copilot Credits billing rate table, the new GitHub Copilot harness consumption billing model, the user licensing/access guide, and the official Copilot Studio Agent Usage Estimator tool
 
 ### Changed
 

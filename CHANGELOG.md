@@ -18,6 +18,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 - **Copilot Agent Kit** — added Agent Debugger, Agent Insights Hub, Power Shield, and Agent Review Pipeline guidance
 - **Stay up to date and customer stories** — added the guidance-hub changelog, roadmap migration announcement, and Grupo Bimbo case study
+- **The new engine and consumption billing** — added the new multi-harness platform docs (Choose a harness, GitHub Copilot harness build overview, harness migration guide — GA Aug 3, 2026) and expanded licensing coverage with the Copilot Credits rate table, GitHub Copilot harness consumption billing overview, user licensing guide, and the official usage estimator tool
 
 #### microsoft-foundry/
 
