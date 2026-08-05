@@ -5,6 +5,14 @@ All notable changes to the Microsoft 365 Copilot Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+- **Autopilot agents** — added Scout usage, admin access, and Intune policy documentation for end users and enterprise administrators
+- **Copilot Cowork** — added dedicated organization governance guidance for enablement, plugins, models, billing, cost controls, and DLP
+- **News and announcements** — added the official June and July 2026 Microsoft 365 Copilot monthly roundups
+
 ## [2026-07-20]
 
 ### Added

@@ -5,6 +5,18 @@ All notable changes to the Copilot Studio Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+- **Stay up to date** — added the Copilot Studio guidance-hub changelog and the announcement that future feature updates now live on the Microsoft 365 Roadmap
+- **Copilot Agent Kit** — added Agent Debugger, Agent Insights Hub, Power Shield, and Agent Review Pipeline guidance
+- **Customer stories** — added the Grupo Bimbo global audit case study
+
+### Changed
+
+- **Roadmap links** — removed the obsolete Release Planner shortcut, refreshed the What's New description, and renamed Copilot Studio Kit to Copilot Agent Kit
+
 ## [2026-07-20]
 
 ### Added

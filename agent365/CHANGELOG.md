@@ -5,6 +5,23 @@ All notable changes to the Agent 365 Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+- **News and announcements** — added the July 2026 Agent 365 roundup, Microsoft Security July roundup, and Project Perception announcement
+- **Get started** — added the Microsoft Learn Agent 365 solutions learning path
+- **Administration and governance** — added Agent Map, policy templates, and agent management roles and permissions
+- **Security and developer resources** — added Defender threat investigation, Work IQ MCP, and admin-center publishing guidance
+
+### Changed
+
+- **Microsoft Defender** — updated the agent inventory link to its current Defender XDR canonical path
+
+### Removed
+
+- **News and announcements** — removed a duplicate Agent 365 GA announcement
+
 ## [2026-07-20]
 
 ### Added

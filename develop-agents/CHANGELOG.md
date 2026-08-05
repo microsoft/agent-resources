@@ -5,6 +5,14 @@ All notable changes to the Build AI Agents Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+- **Microsoft Agent Framework** — added the stable Agent Harness, orchestration patterns 1.0, Declarative Workflows 1.0, and GitHub Copilot harness integration
+- **Microsoft Entra Agent ID** — added identity architecture, Conditional Access, governance, and Zero Trust documentation for agents
+- **Protocols and standards** — added Microsoft's Azure MCP guide, Agent Governance Toolkit, and Agent Control Specification
+
 ## [2026-07-20]
 
 ### Added

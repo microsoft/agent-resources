@@ -5,6 +5,53 @@ All notable changes to the Agent Resources sites are documented in this file.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+#### m365-copilot/
+
+- **Autopilot agents** — added Scout usage, admin access, and Intune policy documentation
+- **Copilot Cowork and news** — added organization governance guidance and the June and July 2026 monthly roundups
+
+#### copilot-studio/
+
+- **Copilot Agent Kit** — added Agent Debugger, Agent Insights Hub, Power Shield, and Agent Review Pipeline guidance
+- **Stay up to date and customer stories** — added the guidance-hub changelog, roadmap migration announcement, and Grupo Bimbo case study
+
+#### microsoft-foundry/
+
+- **News and announcements** — added current model, speech, Toolbox, and GitHub Copilot harness releases
+- **Agent Framework and evaluation** — added Agent Harness, Declarative Workflows, tracing, observability-to-ROI, ASSERT, and Agent Control Specification resources
+
+#### agent365/
+
+- **News, administration, security, and development** — added July updates, Project Perception, Agent Map, policy templates, roles, Defender threat investigation, Work IQ MCP, and publishing guidance
+
+#### develop-agents/
+
+- **Agent Framework, identity, and governance** — added current harness and orchestration releases, Entra Agent ID guidance, Azure MCP guidance, Agent Governance Toolkit, and Agent Control Specification
+
+### Changed
+
+#### copilot-studio/
+
+- **Roadmap and naming** — removed the obsolete Release Planner shortcut and renamed Copilot Studio Kit to Copilot Agent Kit
+
+#### microsoft-foundry/
+
+- **Fine-tuning** — removed a deprecated Foundry classic "overview" link; merged its guidance into the existing Fine-tuning considerations link
+
+#### agent365/
+
+- **Microsoft Defender** — updated agent inventory to its current canonical documentation path
+
+### Removed
+
+#### agent365/
+
+- **News and announcements** — removed a duplicate Agent 365 GA announcement
+
 ## [2026-07-20]
 
 ### Added

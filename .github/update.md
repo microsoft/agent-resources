@@ -15,6 +15,7 @@ When you have completed adding resources, commit the change with a commit messag
 Strategy:
 
 - Focus on official resources from Microsoft and resources created by MVPs as much as possible.
+- Only use public sources. Do not use any internal resources ever.
 - Provide the most up to date and relevant resources for each product, organized in sections.
 - Emphasize high-value content that will be useful to the reader
 - Remove resources that are out of date, broken, deprecated, or superseded by new content

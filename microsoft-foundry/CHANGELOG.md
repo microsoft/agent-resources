@@ -5,6 +5,18 @@ All notable changes to the Microsoft Foundry Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-05]
+
+### Added
+
+- **News and announcements** — added current Foundry releases for real-time multichannel speech, Kimi K3, Claude Opus 5, delegated Toolboxes, and GitHub Copilot harness integration
+- **Microsoft Agent Framework** — added the production Agent Harness and Declarative Workflows 1.0
+- **Evaluate and improve** — added agent tracing, cross-framework observability-to-ROI guidance, and the ASSERT/Agent Control Specification open trust stack
+
+### Changed
+
+- **Fine-tuning** — removed the deprecated Foundry classic "fine-tuning overview" link (its "when to use" content has been folded into the Fine-tuning considerations page) and merged the guidance into the existing Fine-tuning considerations link
+
 ## [2026-07-20]
 
 ### Added
