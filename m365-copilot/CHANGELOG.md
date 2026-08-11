@@ -5,6 +5,12 @@ All notable changes to the Microsoft 365 Copilot Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-11]
+
+### Added
+
+- **News and announcements** — added a practical 30-day Microsoft 365 Copilot adoption playbook for small and medium-sized businesses
+
 ## [2026-08-05]
 
 ### Added

@@ -5,6 +5,12 @@ All notable changes to the Agent 365 Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-11]
+
+### Added
+
+- **Onboarding guides** — added Microsoft Agent 365 FastTrack deployment guidance for registry, identity, security baselines, MCP-connected services, lifecycle workflows, monitoring, and network controls
+
 ## [2026-08-05]
 
 ### Added

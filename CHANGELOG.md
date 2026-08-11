@@ -5,6 +5,30 @@ All notable changes to the Agent Resources sites are documented in this file.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-11]
+
+### Added
+
+#### m365-copilot/
+
+- **News and announcements** — added a practical 30-day Microsoft 365 Copilot adoption playbook for small and medium-sized businesses
+
+#### copilot-studio/
+
+- **Best practices — Plan and design** — added Microsoft Learn guidance for managing the AI model lifecycle across discovery, evaluation, retirement, migration, and production monitoring
+
+#### microsoft-foundry/
+
+- **Microsoft Agent Framework** — added official guidance for direct Foundry model inference, service-managed agents, and running Foundry Local models through Agent Framework
+
+#### agent365/
+
+- **Onboarding guides** — added Microsoft Agent 365 FastTrack deployment guidance for registry, identity, security baselines, MCP-connected services, lifecycle workflows, monitoring, and network controls
+
+#### develop-agents/
+
+- **Microsoft Agent Framework** — added current Learn guidance for workflow event observability, direct Microsoft Foundry model inference, service-managed Foundry agents, and Foundry Local
+
 ## [2026-08-05]
 
 ### Added

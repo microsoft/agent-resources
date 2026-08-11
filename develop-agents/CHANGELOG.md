@@ -5,6 +5,12 @@ All notable changes to the Build AI Agents Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-11]
+
+### Added
+
+- **Microsoft Agent Framework** — added current Learn guidance for workflow event observability, direct Microsoft Foundry model inference, service-managed Foundry agents, and Foundry Local
+
 ## [2026-08-05]
 
 ### Added

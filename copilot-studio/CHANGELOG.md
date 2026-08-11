@@ -5,6 +5,12 @@ All notable changes to the Copilot Studio Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-11]
+
+### Added
+
+- **Best practices — Plan and design** — added Microsoft Learn guidance for managing AI model discovery, evaluation, retirement, migration, and production monitoring as an ongoing lifecycle
+
 ## [2026-08-05]
 
 ### Added
