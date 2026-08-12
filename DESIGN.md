@@ -248,3 +248,7 @@ Use semantic badge variants for resource type tagging. Never use color alone —
 | 2026-06-05 | Per-product color system systematized (5 products × 4 tokens) | Establishes consistent identity per site without shared stylesheet changes |
 | 2026-06-05 | Root hub dark aesthetic preserved | It's a differentiator from learn.microsoft.com — keep it |
 | 2026-06-05 | Initial design system created | /design-consultation based on codebase research + competitive analysis of 5 sites + user memorable-thing answer |
+| 2026-08-12 | Root hub card accent bars removed | Six competing gradient ramps in one viewport read as an AI UI kit; the product icon and eyebrow already carry identity |
+| 2026-08-12 | Decorative CTA pills replaced with directional text links | The pill was a non-clickable `<span>` restating the eyebrow above it; a text link signals clickability and costs one accent per card instead of two |
+| 2026-08-12 | Plus Jakarta Sans wired into the root hub | The root hub had never loaded the display face, so headings rendered in Aptos identical to body copy — zero typographic contrast |
+| 2026-08-12 | Agent Platform Advisor promoted out of the card grid | It is an interactive tool, not a curated link index; presenting it identically flattened the hierarchy and left the page with no starting point |

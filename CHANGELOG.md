@@ -7,6 +7,16 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 ## [2026-08-12]
 
+### Changed
+
+#### / (root hub)
+
+- **Design review** — removed the per-card gradient accent bars, replaced the decorative CTA pills with real directional link affordances, loaded Plus Jakarta Sans as the display typeface per `DESIGN.md`, rewrote the templated card descriptions, aligned the root design tokens (radius, border, shadow, max-width, transition, dark palette) to `DESIGN.md`, promoted the Agent Platform Advisor into its own labelled tier, and constrained the hero paragraph to a readable measure
+
+#### develop-agents/
+
+- **Microsoft Agent Framework** — consolidated duplicate SDK sub-sections, removed repeated resources, and updated preview-era status and installation guidance for the 1.0 GA release
+
 ### Added
 
 #### m365-copilot/
@@ -16,12 +26,6 @@ This project uses dated release entries rather than Semantic Versioning because 
 #### copilot-studio/
 
 - **Community and support** — expanded April Dunnam resources with the Agent Academy source repository, AI Agents Academy playlist, introductory Copilot Studio guide, Power Platform Developer Blog archive, and YouTube channel
-
-### Changed
-
-#### develop-agents/
-
-- **Microsoft Agent Framework** — consolidated duplicate SDK sub-sections, removed repeated resources, and updated preview-era status and installation guidance for the 1.0 GA release
 
 ## [2026-08-11]
 
