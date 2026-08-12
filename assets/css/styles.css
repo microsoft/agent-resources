@@ -180,6 +180,19 @@ main {
   color: var(--text);
 }
 
+.section-label-standalone {
+  margin-top: var(--space-9);
+}
+
+/* Wide card — for tools, not resource indexes */
+.card-wide .card-desc {
+  max-width: 60ch;
+}
+@media (min-width: 720px) {
+  .card-wide .card-header { align-items: center; }
+  .card-wide .card-icon { width: 44px; height: 44px; }
+}
+
 .card-body {
   padding: var(--space-6) var(--space-6) var(--space-5);
   flex: 1;
@@ -413,6 +426,9 @@ footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 
 @media (min-width: 1020px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
+  /* Odd card count would leave a hole; let the last one run the full width. */
+  .cards > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .cards > :last-child:nth-child(odd) .card-desc { max-width: 60ch; }
 }
 
 @media (prefers-reduced-motion: reduce) {
