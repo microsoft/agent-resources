@@ -170,22 +170,6 @@ main {
   color: var(--text);
 }
 
-/* Subtle top accent bar per card */
-.card::before {
-  content: '';
-  display: block;
-  height: 4px;
-  width: 100%;
-  transition: height var(--transition);
-}
-.card-agent365::before          { background: linear-gradient(90deg, #3b5bdb, #6b8ef5); }
-.card-m365copilot::before       { background: linear-gradient(90deg, #0078d4, #00b7c3); }
-.card-copilot-studio::before    { background: linear-gradient(90deg, #7c3aed, #c084fc); }
-.card-build-agents::before      { background: linear-gradient(90deg, #F45B69, #F45B69); }
-.card-foundry::before           { background: linear-gradient(90deg, #1038c8, #3d6be0); }
-.card-platform-advisor::before  { background: linear-gradient(90deg, #00897b, #26c6da); }
-.card:hover::before { height: 5px; }
-
 .card-body {
   padding: 1.75rem 1.75rem 1.25rem;
   flex: 1;
@@ -408,10 +392,6 @@ footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
 [data-theme="dark"] .theme-toggle:hover {
   background: rgba(0,0,0,.5);
   border-color: rgba(255,255,255,.3);
-}
-
-[data-theme="dark"] .card-copilot-studio::before {
-  background: linear-gradient(90deg, #7c3aed, #a855f7);
 }
 
 [data-theme="dark"] .hero::before {
