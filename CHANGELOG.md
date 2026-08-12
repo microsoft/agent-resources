@@ -5,6 +5,14 @@ All notable changes to the Agent Resources sites are documented in this file.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-12]
+
+### Changed
+
+#### develop-agents/
+
+- **Microsoft Agent Framework** — consolidated duplicate SDK sub-sections, removed repeated resources, and updated preview-era status and installation guidance for the 1.0 GA release
+
 ## [2026-08-11]
 
 ### Added
