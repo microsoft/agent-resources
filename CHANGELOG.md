@@ -7,6 +7,16 @@ This project uses dated release entries rather than Semantic Versioning because 
 
 ## [2026-08-12]
 
+### Added
+
+#### m365-copilot/
+
+- **Training and learning** — added April Dunnam&rsquo;s book, *The Copilot Compass*, and her official Microsoft AI and agent resource site
+
+#### copilot-studio/
+
+- **Community and support** — expanded April Dunnam resources with the Agent Academy source repository, AI Agents Academy playlist, introductory Copilot Studio guide, Power Platform Developer Blog archive, and YouTube channel
+
 ### Changed
 
 #### develop-agents/

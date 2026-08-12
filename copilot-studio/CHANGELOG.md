@@ -5,6 +5,12 @@ All notable changes to the Copilot Studio Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-08-12]
+
+### Added
+
+- **Community and support** — expanded April Dunnam resources with the Agent Academy source repository, AI Agents Academy playlist, introductory Copilot Studio guide, Power Platform Developer Blog archive, and YouTube channel
+
 ## [2026-08-11]
 
 ### Added
