@@ -251,6 +251,7 @@ main {
 .card-copilot-studio .cta-link { color: #5b21b6; }
 .card-build-agents   .cta-link { color: #c0392b; }
 .card-foundry        .cta-link { color: #1038c8; }
+.card-platform-advisor .cta-link { color: #00695c; }
 .card:hover .cta-link { gap: .7rem; }
 
 .cta-arrow {
@@ -258,20 +259,6 @@ main {
   font-size: var(--text-md);
   line-height: 1;
 }
-
-.cta-badge {
-  font-size: .7rem;
-  font-weight: 700;
-  padding: .45rem .75rem;
-  border-radius: 6px;
-  letter-spacing: .02em;
-}
-.card-agent365          .cta-badge { background: #dbeafe; color: #1d4ed8; }
-.card-m365copilot       .cta-badge { background: #e0f2fe; color: #0369a1; }
-.card-copilot-studio    .cta-badge { background: #ede9fe; color: #5b21b6; }
-.card-build-agents      .cta-badge { background: #fde8ea; color: #c0392b; }
-.card-foundry           .cta-badge { background: #dce5ff; color: #1038c8; }
-.card-platform-advisor  .cta-badge { background: #e0f2f1; color: #00695c; }
 
 /* ── Footer ── */
 footer {
@@ -370,12 +357,12 @@ footer .copyright { margin-top: 1rem; font-size: .78rem; opacity: .4; }
   border-top-color: var(--border);
 }
 
-[data-theme="dark"] .card-agent365          .cta-badge { background: #1e3a5f; color: #93b5f5; }
-[data-theme="dark"] .card-m365copilot       .cta-badge { background: #0c3252; color: #7dd3fc; }
-[data-theme="dark"] .card-copilot-studio    .cta-badge { background: #2e1065; color: #c4b5fd; }
-[data-theme="dark"] .card-build-agents      .cta-badge { background: #3b1218; color: #fca5a5; }
-[data-theme="dark"] .card-foundry           .cta-badge { background: #172554; color: #93b5f5; }
-[data-theme="dark"] .card-platform-advisor  .cta-badge { background: #064e3b; color: #6ee7b7; }
+[data-theme="dark"] .card-agent365          .cta-link { color: #93b5f5; }
+[data-theme="dark"] .card-m365copilot       .cta-link { color: #7dd3fc; }
+[data-theme="dark"] .card-copilot-studio    .cta-link { color: #c4b5fd; }
+[data-theme="dark"] .card-build-agents      .cta-link { color: #fca5a5; }
+[data-theme="dark"] .card-foundry           .cta-link { color: #93b5f5; }
+[data-theme="dark"] .card-platform-advisor  .cta-link { color: #6ee7b7; }
 
 [data-theme="dark"] .card-agent365          .card-eyebrow { color: #93b5f5; }
 [data-theme="dark"] .card-m365copilot       .card-eyebrow { color: #7dd3fc; }
