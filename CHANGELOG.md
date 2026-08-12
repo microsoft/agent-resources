@@ -12,6 +12,7 @@ This project uses dated release entries rather than Semantic Versioning because 
 #### / (root hub)
 
 - **Design review** — removed the per-card gradient accent bars, replaced the decorative CTA pills with real directional link affordances, loaded Plus Jakarta Sans as the display typeface per `DESIGN.md`, rewrote the templated card descriptions, aligned the root design tokens (radius, border, shadow, max-width, transition, dark palette) to `DESIGN.md`, promoted the Agent Platform Advisor into its own labelled tier, and constrained the hero paragraph to a readable measure
+- **Agent Platform Advisor** — replaced the generic gold sparkle glyph with the Agent Platform Advisor site&rsquo;s own robot mark, so the card matches the destination it links to
 
 #### develop-agents/
 
