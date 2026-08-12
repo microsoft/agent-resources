@@ -128,8 +128,10 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 .hero p {
   font-size: var(--text-md);
+  max-width: 68ch;
   opacity: .88;
   color: #ffffff;
+  text-wrap: pretty;
 }
 .hero a { color: #ffffff; text-decoration: underline; }
 
