@@ -45,11 +45,12 @@ Guidelines:
 
 - You are not required to limit resources to official sources.
 - When you find YouTube videos, focus on channels with high numbers of subscribers, or created by Microsoft, or created by MVPs.
-- Specific YouTube channels to focus on include, but are not limited to:
+- Specific YouTube channels to include, but are not limited to:
   - Lisa Crosbie
   - Power Platform
   - John Savill
   - Agent Dude (Dewain Robinson)
+  - April Dunnam
 - Avoid adding resources from curated collections, instead focusing on original source materials.
 - When you add links from microsoft.com with a locale in the URL, e.g., en-us, remove it.
 - Prefer adding resources to existing sections, but feel free to create new sections when appropriate.
