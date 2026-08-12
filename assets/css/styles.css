@@ -2,6 +2,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
+  --font-display: 'Plus Jakarta Sans', 'Aptos', 'Segoe UI', system-ui, sans-serif;
+  --font-body:    'Aptos', 'Segoe UI', system-ui, -apple-system, sans-serif;
   --brand-deep:    #003d73;
   --brand-mid:     #0061a4;
   --brand-accent:  #0078d4;
@@ -42,7 +44,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Aptos', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-body);
   color: var(--text);
   line-height: 1.6;
   background: var(--surface);
@@ -109,10 +111,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   color: rgba(255,255,255,.92);
 }
 .hero h1 {
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
-  font-weight: 700;
-  letter-spacing: -.025em;
-  line-height: 1.15;
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.08;
   margin-bottom: .85rem;
   color: #ffffff;
   text-wrap: balance;
@@ -134,13 +137,14 @@ main {
 }
 
 .section-label {
+  font-family: var(--font-display);
   font-size: .75rem;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--text-muted);
-  text-align: center;
-  margin-bottom: var(--space-7);
+  text-align: left;
+  margin-bottom: var(--space-5);
 }
 
 /* ── Resource Cards ── */
@@ -203,9 +207,10 @@ main {
   gap: .2rem;
 }
 .card-eyebrow {
+  font-family: var(--font-display);
   font-size: var(--text-xs);
   font-weight: 700;
-  letter-spacing: .09em;
+  letter-spacing: .06em;
   text-transform: uppercase;
 }
 .card-agent365          .card-eyebrow { color: #1d4ed8; }
@@ -216,6 +221,7 @@ main {
 .card-platform-advisor  .card-eyebrow { color: #00695c; }
 
 .card-title {
+  font-family: var(--font-display);
   font-size: var(--text-xl);
   font-weight: 700;
   line-height: 1.25;
@@ -239,6 +245,7 @@ main {
   border-top: 1px solid var(--border);
 }
 .cta-link {
+  font-family: var(--font-display);
   font-size: .9rem;
   font-weight: 600;
   display: flex;
