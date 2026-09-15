@@ -5,6 +5,12 @@ All notable changes to the Build AI Agents Resources site.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-09-15]
+
+### Added
+
+- **Code samples** — added Pushary's third-party Python example for customer phone approvals with native Agent Framework checkpoints, including its hosted-account requirement and account-free offline checks
+
 ## [2026-08-12]
 
 ### Changed
