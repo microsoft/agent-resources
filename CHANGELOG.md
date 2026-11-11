@@ -5,6 +5,14 @@ All notable changes to the Agent Resources sites are documented in this file.
 This changelog follows the guidance from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project uses dated release entries rather than Semantic Versioning because the static GitHub Pages sites deploy continuously from `main`.
 
+## [2026-10-08]
+
+### Added
+
+#### m365-copilot/
+
+- **Cowork community posts** — added a source-linked guide to Request access and Request more routing and approval ownership from Copilot Newsdesk.
+
 ## [2026-08-12]
 
 ### Changed
